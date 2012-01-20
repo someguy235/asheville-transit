@@ -45,13 +45,16 @@
           mapTypeId: google.maps.MapTypeId.ROADMAP
         };
         var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-        var kml_a = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/2011-07-18_1704.kml');
+        //var kml_a = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/2011-07-18_1704.kml');
+        //var kml_a = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r4.week.day.manual.kml');
+        var kml_a = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r4.week.day.pedometer.kml');
         //var kml_a = new.google.maps.KmlLayer('http://gmaps-samples.googlecode.com/svn/trunk/ggeoxml/cta.kml');
         kml_a.setMap(map);
       };
       
       function resizeMap(){
-        $('#map_canvas').height($(window).height()-($('#header').height()+2));
+        //$('#map_canvas').height($(window).height()-($('#header').height()+2));
+        $('#map_canvas').height($(window).height()-($('#navbar').height()+2));
       };
  
       function detectBrowser(){
@@ -71,16 +74,34 @@
   <body onload="initialize()">
     <div data-role="page" data-theme="b"id="main_page">
       
-      <div data-role="header" data-position="inline" id="header" > 
-          <select name="select-choice-1" id="routes" data-native-menu="true">
-            <option value="route-1">1</option>
-            <option value="route-2">2</option>
-            <option value="route-3">3</option>
-            <option value="route-4">4</option>
+<!--      <div data-role="header" data-position="inline" id="header" > -->
+      <div id="navbar" data-role="navbar" data-iconpos="right">
+        <ul>
+          <li>
+            <a href="" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+          </li>
+          <li>
+      
+          <select name="select-choice-1" id="routes" data-native-menu="true" data-icon="gear">
+            <option value="route-1">route 1</option>
+            <option value="route-2">route 2</option>
+            <option value="route-3">route 3</option>
+            <option value="route-4">route 4</option>
           </select>
-          <center>&nbsp;</center>
-          <a id="options" href="#options" data-role="button" data-rel="dialog"
-            data-transition="none" data-icon="gear" class="ui-btn-right">Options</a>
+          </li>
+          <li>
+          <select name="select-choice-2" id="times" data-native-menu="true" data-icon="gear" class="ui-btn-right">
+            <option value="week-day">week/day</option>
+            <option value="week-ngt">week/ngt</option>
+            <option value="wknd-day">wknd/day</option>
+            <option value="wknd-ngt">wknd/ngt</option>
+          </select>
+          </li>
+        </ul>
+          
+<!--          <center>&nbsp;</center>-->
+<!--          <a id="options" href="#options" data-role="button" data-rel="dialog"
+            data-transition="none" data-icon="gear" class="ui-btn-right">Options</a>-->
 <!--
         <a href="" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
         <h1>Google Maps Test Page</h1> 
