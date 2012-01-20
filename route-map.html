@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>map test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable=no" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+    <style type="text/css">
+      html { height: 100%; }
+      body { height: 100%; margin: 0; padding: 0; }
+      .main_page { height: 100%; width:100%; padding: 0; }
+      /*.main_page { width:100%; padding: 0; }*/
+      #header{ height:10%; }
+      #content{ height:90%; padding:0; }
+      #map_canvas { height: 100%; width:100%; padding:0; }
+    </style>
+    <script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?sensor=false">
+    </script>
+    <script type="text/javascript">
+      var center;
+      var map = null;
+
+      function initialize(){
+        resizeMap();
+        //$('.main_page').css({height:screen.height});
+        if(navigator.geolocation){
+          //detectBrowser();
+          navigator.geolocation.getCurrentPosition(function(position){
+            newMap(position.coords.latitude, position.coords.longitude);
+          });
+        }else{
+          //detectBrowser();
+          newMap(52,-1);
+        }
+      };
+
+      function newMap(lat,lng){
+        center = new google.maps.LatLng(lat,lng);
+        var myOptions = {
+          center: center,
+          zoom: 14,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+        var kml_a = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/2011-07-18_1704.kml');
+        //var kml_a = new.google.maps.KmlLayer('http://gmaps-samples.googlecode.com/svn/trunk/ggeoxml/cta.kml');
+        kml_a.setMap(map);
+      };
+      
+      function resizeMap(){
+        $('#map_canvas').height($(window).height()-($('#header').height()+2));
+      };
+ 
+      function detectBrowser(){
+        var useragent = navigator.userAgent;
+        var mapdivMap = document.getElementById("map_canvas");
+        if(useragent.indexOf('iPhone')!= -1 || useragent.indexOf('Android')!= -1){
+          mapdivMap.style.width = '100%';
+          mapdivMap.style.height = '100%';
+        }else{
+          mapdivMap.style.width = '600px';
+          mapdivMap.style.height = '800px';
+        }
+      };
+    </script>
+  </head>
+
+  <body onload="initialize()">
+    <div data-role="page" data-theme="b"id="main_page">
+      
+      <div data-role="header" data-position="inline" id="header" > 
+          <select name="select-choice-1" id="routes" data-native-menu="true">
+            <option value="route-1">1</option>
+            <option value="route-2">2</option>
+            <option value="route-3">3</option>
+            <option value="route-4">4</option>
+          </select>
+          <center>&nbsp;</center>
+          <a id="options" href="#options" data-role="button" data-rel="dialog"
+            data-transition="none" data-icon="gear" class="ui-btn-right">Options</a>
+<!--
+        <a href="" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+        <h1>Google Maps Test Page</h1> 
+        -->
+      </div>
+      
+      <div data-role="content" id="content">
+        <div id="map_canvas"></div>
+      </div>
+      <!--
+      <div data-role="footer" id="footer" data-position="fixed">
+        <h4>footer</h4>
+      </div>
+      -->
+    </div>
+  </body>
+
+</html>
