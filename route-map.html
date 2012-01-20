@@ -11,7 +11,6 @@
       html { height: 100%; }
       body { height: 100%; margin: 0; padding: 0; }
       .main_page { height: 100%; width:100%; padding: 0; }
-      /*.main_page { width:100%; padding: 0; }*/
       #header{ height:10%; }
       #content{ height:90%; padding:0; }
       #map_canvas { height: 100%; width:100%; padding:0; }
@@ -23,9 +22,13 @@
       var center;
       var map = null;
 
+      var kml_dict = {};
+      kml_dict["route-1"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r1.week.day.kml');
+      kml_dict["route-2"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r2.week.day.kml');
+      //kml_dict["route-4"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r4.week.day.pedometer.kml');
+
       function initialize(){
         resizeMap();
-        //$('.main_page').css({height:screen.height});
         if(navigator.geolocation){
           //detectBrowser();
           navigator.geolocation.getCurrentPosition(function(position){
@@ -44,16 +47,26 @@
           zoom: 14,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         };
-        var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-        //var kml_a = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/2011-07-18_1704.kml');
-        //var kml_a = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r4.week.day.manual.kml');
-        var kml_a = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r4.week.day.pedometer.kml');
-        //var kml_a = new.google.maps.KmlLayer('http://gmaps-samples.googlecode.com/svn/trunk/ggeoxml/cta.kml');
-        kml_a.setMap(map);
+        map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+        addRoutes("all-routes");
+        //addRoutes("route-2");
+      };
+
+      function addRoutes(routes){
+        if(routes==="all-routes"){
+          $.each(kml_dict, function(index, route){
+            route.setMap(map);
+          });
+        }else{
+          $.each(kml_dict, function(index, route){
+            route.setMap(null);
+          });
+          kml_dict[routes].setMap(map);
+        }
+        map.setCenter(center);
       };
       
       function resizeMap(){
-        //$('#map_canvas').height($(window).height()-($('#header').height()+2));
         $('#map_canvas').height($(window).height()-($('#navbar').height()+2));
       };
  
@@ -74,23 +87,39 @@
   <body onload="initialize()">
     <div data-role="page" data-theme="b"id="main_page">
       
-<!--      <div data-role="header" data-position="inline" id="header" > -->
       <div id="navbar" data-role="navbar" data-iconpos="right">
         <ul>
           <li>
             <a href="" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
           </li>
           <li>
-      
-          <select name="select-choice-1" id="routes" data-native-menu="true" data-icon="gear">
+          <select name="select-routes" id="routes" data-native-menu="true" data-icon="gear" onchange="addRoutes(this.value);">
+            <option value="all-routes">all routes</option>
             <option value="route-1">route 1</option>
             <option value="route-2">route 2</option>
-            <option value="route-3">route 3</option>
             <option value="route-4">route 4</option>
+            <option value="route-5">route 5</option>
+            <option value="route-6">route 6</option>
+            <option value="route-8">route 8</option>
+            <option value="route-9">route 9</option>
+            <option value="route-11">route 11</option>
+            <option value="route-12">route 12</option>
+            <option value="route-13">route 13</option>
+            <option value="route-15">route 15</option>
+            <option value="route-16">route 16</option>
+            <option value="route-18">route 18</option>
+            <option value="route-26">route 26</option>
+            <option value="route-36">route 36</option>
+            <option value="route-38">route 38</option>
+            <option value="route-41">route 41</option>
+            <option value="route-46">route 46</option>
+            <option value="route-51">route 51</option>
+            <option value="route-52">route 52</option>
+            <option value="route-170">route 170</option>
           </select>
           </li>
           <li>
-          <select name="select-choice-2" id="times" data-native-menu="true" data-icon="gear" class="ui-btn-right">
+          <select name="select-times" id="times" data-native-menu="true" data-icon="gear">
             <option value="week-day">week/day</option>
             <option value="week-ngt">week/ngt</option>
             <option value="wknd-day">wknd/day</option>
@@ -98,25 +127,12 @@
           </select>
           </li>
         </ul>
-          
-<!--          <center>&nbsp;</center>-->
-<!--          <a id="options" href="#options" data-role="button" data-rel="dialog"
-            data-transition="none" data-icon="gear" class="ui-btn-right">Options</a>-->
-<!--
-        <a href="" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
-        <h1>Google Maps Test Page</h1> 
-        -->
-      </div>
+      </div><!--navbar-->
       
       <div data-role="content" id="content">
         <div id="map_canvas"></div>
       </div>
-      <!--
-      <div data-role="footer" id="footer" data-position="fixed">
-        <h4>footer</h4>
-      </div>
-      -->
-    </div>
-  </body>
 
+    </div><!--data-role="page">
+  </body>
 </html>
