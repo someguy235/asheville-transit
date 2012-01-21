@@ -16,41 +16,6 @@
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style9">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style11">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style8">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style10">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style7">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
   <Style id="style1">
     <IconStyle>
       <Icon>
@@ -58,38 +23,8 @@
       </Icon>
     </IconStyle>
   </Style>
-  <Style id="style3">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style5">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style6">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
   <Placemark>
-    <name>Asheville Transit Center</name>
-    <Snippet></Snippet>
-    <description><![CDATA[]]></description>
-    <styleUrl>#style4</styleUrl>
-    <Point>
-      <coordinates>-82.555710,35.592793,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Route 2</name>
+    <name>Route 2 Week Day</name>
     <Snippet></Snippet>
     <description><![CDATA[]]></description>
     <styleUrl>#style2</styleUrl>
@@ -371,17 +306,9 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>Leave Transit Center</name>
-    <description><![CDATA[<div dir="ltr">6:00<br>7:00<br>8:00<br>9:00<br>10:00<br>11:00<br>12:00<br>1:00<br>2:00<br>3:00<br>4:00<br>5:00<br>6:00</div>]]></description>
-    <styleUrl>#style9</styleUrl>
-    <Point>
-      <coordinates>-82.556396,35.592972,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Claxton Elementary School (Northbound)</name>
     <description><![CDATA[<div dir="ltr">6:07<br>7:07<br>8:07<br>9:07<br>10:07<br>11:07<br>12:07<br>1:07<br>2:07<br>3:07<br>4:07<br>5:07<br>6:07</div>]]></description>
-    <styleUrl>#style11</styleUrl>
+    <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.553780,35.607433,0.000000</coordinates>
     </Point>
@@ -389,7 +316,7 @@
   <Placemark>
     <name>Zeis Bldg @ UNCA (Northbound)</name>
     <description><![CDATA[<div dir="ltr">6:12<br>7:12<br>8:12<br>9:12<br>10:12<br>11:12<br>12:12<br>1:12<br>2:12<br>3:12<br>4:12<br>5:12<br>6:12</div>]]></description>
-    <styleUrl>#style8</styleUrl>
+    <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.564529,35.616177,0.000000</coordinates>
     </Point>
@@ -397,7 +324,7 @@
   <Placemark>
     <name>Beaverdam Rd. (Northbound)</name>
     <description><![CDATA[<div dir="ltr">6:22<br>7:22<br>8:22<br>9:22<br>10:22<br>11:22<br>12:22<br>1:22<br>2:22<br>3:22<br>4:22<br>5:22<br>6:22</div>]]></description>
-    <styleUrl>#style10</styleUrl>
+    <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.552597,35.629204,0.000000</coordinates>
     </Point>
@@ -405,7 +332,7 @@
   <Placemark>
     <name>Dial-A-Ride only</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style7</styleUrl>
+    <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.562943,35.640507,0.000000</coordinates>
     </Point>
@@ -421,7 +348,7 @@
   <Placemark>
     <name>Merrimon Ave at Lakeshore Dr. (Southbound)</name>
     <description><![CDATA[<div dir="ltr">6:35<br>7:35<br>8:35<br>9:35<br>10:35<br>11:35<br>12:35<br>1:35<br>2:35<br>3:35<br>4:35<br>5:35<br>6:35</div>]]></description>
-    <styleUrl>#style3</styleUrl>
+    <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.553284,35.626987,0.000000</coordinates>
     </Point>
@@ -429,17 +356,9 @@
   <Placemark>
     <name>Claxton Elementary School (Southbound)</name>
     <description><![CDATA[<div dir="ltr">6:45<br>7:45<br>8:45<br>9:45<br>10:45<br>11:45<br>12:45<br>1:45<br>2:45<br>3:45<br>4:45<br>5:45<br>6:45</div>]]></description>
-    <styleUrl>#style5</styleUrl>
+    <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.554100,35.608219,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Arrive Transit Center</name>
-    <description><![CDATA[<div dir="ltr">6:56<br>7:56<br>8:56<br>9:56<br>10:56<br>11:56<br>12:56<br>1:56<br>2:56<br>3:56<br>4:56<br>5:56<br>6:56</div>]]></description>
-    <styleUrl>#style6</styleUrl>
-    <Point>
-      <coordinates>-82.555153,35.593216,0.000000</coordinates>
     </Point>
   </Placemark>
 </Document>

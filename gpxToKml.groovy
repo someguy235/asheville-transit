@@ -1,13 +1,16 @@
+def routeNum=8
+def routDesc="Biltmore Ave./Shiloh"
 def gpxFile = new File("C:\\Users\\ems\\workspace\\gmaps-pedometer.gpx")
+def kmlFile = new File("C:\\Users\\ems\\workspace\\r${routeNum}.week.day.kml")
 def gpx = new XmlSlurper().parse(gpxFile)
 
 //println gpx
-
+kmlFile.delete()
 def points = gpx.rte.rtept
-println('''<?xml version="1.0" encoding="UTF-8"?>
+kmlFile.append('''<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
 <Document>
-  <name>Route # Week Day</name>
+  <name>Route ${routeNum} (${routeDesc}) Mon.-Sat. Daytime</name>
   <description><![CDATA[]]></description>
   <Style id="style4">
     <IconStyle>
@@ -18,7 +21,7 @@ println('''<?xml version="1.0" encoding="UTF-8"?>
   </Style>
   <Style id="style2">
     <LineStyle>
-      <color>8527B8FD</color>
+      <color>85D2D00D</color>
       <width>5</width>
     </LineStyle>
   </Style>
@@ -30,27 +33,19 @@ println('''<?xml version="1.0" encoding="UTF-8"?>
     </IconStyle>
   </Style>
   <Placemark>
-    <name>Asheville Transit Center</name>
-    <Snippet></Snippet>
-    <description><![CDATA[]]></description>
-    <styleUrl>#style4</styleUrl>
-    <Point>
-      <coordinates>-82.555710,35.592793,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Route 2</name>
+    <name>Route ${routeNum} (${routeDesc}) Mon.-Sat. Daytime</name>
     <Snippet></Snippet>
     <description><![CDATA[]]></description>
     <styleUrl>#style2</styleUrl>
     <LineString>
       <tessellate>1</tessellate>
-      <coordinates>''')
+      <coordinates>
+''')
 points.each{
-	println "        "+ it.@lon.text() +","+ it.@lat.text() +","+ "0.000000"
+	kmlFile.append "        "+ it.@lon.text() +","+ it.@lat.text() +","+ "0.000000\n"
 }
 
-println('''      </coordinates>
+kmlFile.append('''      </coordinates>
     </LineString>
   </Placemark>
 </Document>

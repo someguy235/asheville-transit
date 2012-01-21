@@ -24,15 +24,6 @@
     </IconStyle>
   </Style>
   <Placemark>
-    <name>Asheville Transit Center</name>
-    <Snippet></Snippet>
-    <description><![CDATA[]]></description>
-    <styleUrl>#style4</styleUrl>
-    <Point>
-      <coordinates>-82.555710,35.592793,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Route 1 Week Day</name>
     <Snippet></Snippet>
     <description><![CDATA[]]></description>
