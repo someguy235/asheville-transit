@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
 <Document>
-  <name>Route ${routeNum} (${routeDesc}) Mon.-Sat. Daytime</name>
+  <name>Route 8 (Biltmore Ave./Shiloh) Mon.-Sat. Daytime</name>
   <description><![CDATA[]]></description>
   <Style id="style4">
     <IconStyle>
@@ -24,7 +24,7 @@
     </IconStyle>
   </Style>
   <Placemark>
-    <name>Route ${routeNum} (${routeDesc}) Mon.-Sat. Daytime</name>
+    <name>Route 8 (Biltmore Avi./Shiloh) Mon.-Sat. Daytime</name>
     <Snippet></Snippet>
     <description><![CDATA[]]></description>
     <styleUrl>#style2</styleUrl>

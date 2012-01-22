@@ -1,5 +1,8 @@
-def routeNum=8
-def routDesc="Biltmore Ave./Shiloh"
+def routeNum=170
+def routeDesc="Warren Wilson/Black Mountain"
+def rtColor="#FAB482"
+
+def gpxColor = rtColor[5..6] + rtColor[3..4] + rtColor[1..2]
 def gpxFile = new File("C:\\Users\\ems\\workspace\\gmaps-pedometer.gpx")
 def kmlFile = new File("C:\\Users\\ems\\workspace\\r${routeNum}.week.day.kml")
 def gpx = new XmlSlurper().parse(gpxFile)
@@ -7,7 +10,7 @@ def gpx = new XmlSlurper().parse(gpxFile)
 //println gpx
 kmlFile.delete()
 def points = gpx.rte.rtept
-kmlFile.append('''<?xml version="1.0" encoding="UTF-8"?>
+kmlFile.append("""<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
 <Document>
   <name>Route ${routeNum} (${routeDesc}) Mon.-Sat. Daytime</name>
@@ -21,7 +24,7 @@ kmlFile.append('''<?xml version="1.0" encoding="UTF-8"?>
   </Style>
   <Style id="style2">
     <LineStyle>
-      <color>85D2D00D</color>
+      <color>85${gpxColor}</color>
       <width>5</width>
     </LineStyle>
   </Style>
@@ -40,13 +43,13 @@ kmlFile.append('''<?xml version="1.0" encoding="UTF-8"?>
     <LineString>
       <tessellate>1</tessellate>
       <coordinates>
-''')
+""")
 points.each{
 	kmlFile.append "        "+ it.@lon.text() +","+ it.@lat.text() +","+ "0.000000\n"
 }
 
-kmlFile.append('''      </coordinates>
+kmlFile.append("""      </coordinates>
     </LineString>
   </Placemark>
 </Document>
-</kml>''')
+</kml>""")
