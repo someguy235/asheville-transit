@@ -44,12 +44,19 @@
         resizeMap();
         if(navigator.geolocation){
           //detectBrowser();
-          navigator.geolocation.getCurrentPosition(function(position){
-            newMap(position.coords.latitude, position.coords.longitude);
-          });
-        }else{
+          navigator.geolocation.getCurrentPosition(
+            //success callback
+            function(position){
+              newMap(position.coords.latitude, position.coords.longitude);
+            },
+            //error callback, usually because user declines geolocation
+            function(){
+              newMap(35.592793,-82.555710);
+            }
+          );
+        }else{ //user doesn't have geolocation
           //detectBrowser();
-          newMap(52,-1);
+          newMap(35.592793,-82.555710);
         }
         setRoutes("week-day");
       };
