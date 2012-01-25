@@ -3,10 +3,10 @@
 <Document>
   <name>Route 2 (Merrimon Ave.) Week Day</name>
   <description><![CDATA[]]></description>
-  <Style id="style4">
+  <Style id="style1">
     <IconStyle>
       <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/bus.png</href>
       </Icon>
     </IconStyle>
   </Style>
@@ -15,13 +15,6 @@
       <color>8527B8FD</color>
       <width>5</width>
     </LineStyle>
-  </Style>
-  <Style id="style1">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png</href>
-      </Icon>
-    </IconStyle>
   </Style>
   <Placemark>
     <name>Route 2 (Merrimon Ave.) Week Day</name>
@@ -306,60 +299,61 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>Claxton Elementary School (Northbound)</name>
-    <description><![CDATA[<div dir="ltr">6:07<br>7:07<br>8:07<br>9:07<br>10:07<br>11:07<br>12:07<br>1:07<br>2:07<br>3:07<br>4:07<br>5:07<br>6:07</div>]]></description>
+    <name>Route 2: Claxton Elementary School (Northbound)</name>
+    <description><![CDATA[<div dir="ltr">##:07 from 6:07am to 6:07pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
-      <coordinates>-82.553780,35.607433,0.000000</coordinates>
+      <coordinates>-82.55378,35.607679,0.000000</coordinates>
     </Point>
   </Placemark>
   <Placemark>
-    <name>Zeis Bldg @ UNCA (Northbound)</name>
-    <description><![CDATA[<div dir="ltr">6:12<br>7:12<br>8:12<br>9:12<br>10:12<br>11:12<br>12:12<br>1:12<br>2:12<br>3:12<br>4:12<br>5:12<br>6:12</div>]]></description>
+    <name>Route 2: Zeis Building at UNCA</name>
+    <description><![CDATA[<div dir="ltr">##:12 from 6:12am to 6:12pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
-      <coordinates>-82.564529,35.616177,0.000000</coordinates>
+      <coordinates>-82.564359,35.616419,0.000000</coordinates>
     </Point>
   </Placemark>
   <Placemark>
-    <name>Beaverdam Rd. (Northbound)</name>
-    <description><![CDATA[<div dir="ltr">6:22<br>7:22<br>8:22<br>9:22<br>10:22<br>11:22<br>12:22<br>1:22<br>2:22<br>3:22<br>4:22<br>5:22<br>6:22</div>]]></description>
+    <name>Route 2: Beaverdam Rd.</name>
+    <description><![CDATA[<div dir="ltr">##:22 from 6:22am to 6:22pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
-      <coordinates>-82.552597,35.629204,0.000000</coordinates>
+      <coordinates>-82.55275,35.629134,0.000000</coordinates>
     </Point>
   </Placemark>
   <Placemark>
-    <name>Dial-A-Ride only</name>
-    <description><![CDATA[]]></description>
+    <name>Route 2: Elkwood Rd. at Merrimon Ave.</name>
+    <description><![CDATA[<div dir="ltr">##:30 from 6:30am to 6:30pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
-      <coordinates>-82.562943,35.640507,0.000000</coordinates>
+      <coordinates>-82.574809,35.637261,0.000000</coordinates>
     </Point>
   </Placemark>
   <Placemark>
-    <name>Elkwood Rd at Merrimon Ave.</name>
-    <description><![CDATA[<div dir="ltr">6:30<br>7:30<br>8:30<br>9:30<br>10:30<br>11:30<br>12:30<br>1:30<br>2:30<br>3:30<br>4:30<br>5:30<br>6:30</div>]]></description>
+    <name>Route 2: Merrimon Ave. at Lakeshore Dr.</name>
+    <description><![CDATA[<div dir="ltr">##:35 from 6:35am to 6:35pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
-      <coordinates>-82.574806,35.637260,0.000000</coordinates>
+      <coordinates>-82.553587,35.627094,0.000000</coordinates>
     </Point>
   </Placemark>
   <Placemark>
-    <name>Merrimon Ave at Lakeshore Dr. (Southbound)</name>
-    <description><![CDATA[<div dir="ltr">6:35<br>7:35<br>8:35<br>9:35<br>10:35<br>11:35<br>12:35<br>1:35<br>2:35<br>3:35<br>4:35<br>5:35<br>6:35</div>]]></description>
+    <name>Route 2: Claxton Elementary School(Southbound)</name>
+    <description><![CDATA[<div dir="ltr">##:45 from 6:45am to 6:45pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
-      <coordinates>-82.553284,35.626987,0.000000</coordinates>
+      <coordinates>-82.554123,35.608342,0.000000</coordinates>
     </Point>
   </Placemark>
   <Placemark>
-    <name>Claxton Elementary School (Southbound)</name>
-    <description><![CDATA[<div dir="ltr">6:45<br>7:45<br>8:45<br>9:45<br>10:45<br>11:45<br>12:45<br>1:45<br>2:45<br>3:45<br>4:45<br>5:45<br>6:45</div>]]></description>
+    <name>Route 2: Midland Rd. Dial-A-Ride Service </name>
+    <description><![CDATA[<div dir="ltr">Dial-A-Ride only<br><br>Call 253-5691 for pick-up</div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
-      <coordinates>-82.554100,35.608219,0.000000</coordinates>
+      <coordinates>-82.562664,35.640505,0.000000</coordinates>
     </Point>
   </Placemark>
+  
 </Document>
 </kml>
