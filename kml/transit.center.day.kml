@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Asheville Transit Center - Daytime Routes</name>
+  <description><![CDATA[]]></description>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Asheville Transit Center - Daytime Routes</name>
+    <Snippet></Snippet>
+    <description><![CDATA[]]></description>
+    <description><![CDATA[<div dir="ltr">Route 1:<br>depart xx:00 from 6:00am to 6:00pm<br>arrive xx:56 from 5:56am to 6:56pm<br><br>Route 2:<br>depart xx:00 from 6:00am to 6:00pm<br>arrive xx:56 from 6:56am to 6:56pm<br><br>Route 4:<br>depart xx:00 from 6:00am to 6:00pm<br>arrive xx:56 from 6:56am to 6:56pm<br><br>Route 5:<br>depart xx:30 from 6:30am to 5:30pm<br>arrive xx:56 from 6:56am to 6:56pm<br><br>Route 6:<br>depart xx:30 from 6:30am to 5:30pm<br>arrive xx:26 from 7:26am to 6:55pm<br><br>Route 8:<br>depart xx:30 from 6:30am to 6:30pm<br>arrive xx:26 from 7:26am to 7:26pm<br><br>Route 9:<br>depart xx:30 from 7:30am to 5:30pm<br>arrive xx:27 from 8:27am to 6:27pm<br><br>Route 11:<br>depart xx:00 and xx:30 from 6:00am to 6:30pm<br>arrive xx:00 and xx:56 from 6:30am to 6:56pm<br><br>Route 12:<br>depart xx:00 from 6:00am to 6:00pm<br>arrive xx:56 from 6:56am to 6:56pm<br><br>Route 13:<br>depart xx:30 from 6:30am* to 6:30pm<br>arrive xx:26 from 7:26am to 7:26pm<br>*no Saturday service at 6:30am<br><br>Route 15 (Patton Ave./Deaverview):<br>depart xx:00 from 6:00am* to 6:00pm<br>arrive xx:56 from 6:56am** to 6:56pm<br>*no Saturday service at 6:00am<br>**also arrives at 6:26am from Deaverview<br><br>Route 16 (N. Louisiana/Bingham Heights):<br>depart xx:00 from 6:00am to 6:00pm<br>arrive xx:26 from 6:26am to 6:26pm<br><br>Route 18 (Erskine St./AB Tech/Flint St./UNCA):<br>depart xx:00 from 6:00am to 6:00pm<br>arrive xx:58 from 6:58am to 6:58pm<br><br>Route 26 (Tunnel Rd./Target/Wal-Mart):<br>depart xx:15 from 6:15am to 6:15pm<br>arrive xx:15 from 7:15am to 7:15pm<br></div>]]></description>
+	<styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-82.555710,35.592793,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

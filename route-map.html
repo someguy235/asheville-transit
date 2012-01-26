@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>map test</title>
+    <title>Asheville Transit Redesign - Map</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
     <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
@@ -23,23 +23,23 @@
       var map = null;
 
       var kml_dict = {};
-      kml_dict["week-day-route-1"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r1.week.day.kml');
+      kml_dict["week-day-route-1"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r1.week.day.kml');
       //kml_dict["week-day-route-1"] = new google.maps.KmlLayer('./r1.week.day.kml');
-      kml_dict["week-day-route-2"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r2.week.day.kml');
-      kml_dict["week-day-route-4"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r4.week.day.kml');
-      kml_dict["week-day-route-5"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r5.week.day.kml');
-      kml_dict["week-day-route-6"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r6.week.day.kml');
-      kml_dict["week-day-route-8"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r8.week.day.kml');
-      kml_dict["week-day-route-9"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r9.week.day.kml');
-      kml_dict["week-day-route-11"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r11.week.day.kml');
-      kml_dict["week-day-route-12"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r12.week.day.kml');
-      kml_dict["week-day-route-13"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r13.week.day.kml');
-      kml_dict["week-day-route-15"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r15.week.day.kml');
-      kml_dict["week-day-route-16"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r16.week.day.kml');
-      kml_dict["week-day-route-18"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r18.week.day.kml');
-      kml_dict["week-day-route-26"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r26.week.day.kml');
-      kml_dict["week-day-route-170"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r170.week.day.kml');
-      transit_center_day_map = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/transit.center.day.kml');
+      kml_dict["week-day-route-2"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r2.week.day.kml');
+      kml_dict["week-day-route-4"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r4.week.day.kml');
+      kml_dict["week-day-route-5"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r5.week.day.kml');
+      kml_dict["week-day-route-6"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r6.week.day.kml');
+      kml_dict["week-day-route-8"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r8.week.day.kml');
+      kml_dict["week-day-route-9"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r9.week.day.kml');
+      kml_dict["week-day-route-11"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r11.week.day.kml');
+      kml_dict["week-day-route-12"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r12.week.day.kml');
+      kml_dict["week-day-route-13"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r13.week.day.kml');
+      kml_dict["week-day-route-15"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r15.week.day.kml');
+      kml_dict["week-day-route-16"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r16.week.day.kml');
+      kml_dict["week-day-route-18"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r18.week.day.kml');
+      kml_dict["week-day-route-26"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r26.week.day.kml');
+      kml_dict["week-day-route-170"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r170.week.day.kml');
+      transit_center_day_map = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/transit.center.day.kml');
 
       function initialize(){
         resizeMap();
