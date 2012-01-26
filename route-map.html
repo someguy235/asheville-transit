@@ -3,7 +3,7 @@
 <html>
   <head>
     <title>map test</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
     <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
@@ -24,6 +24,7 @@
 
       var kml_dict = {};
       kml_dict["week-day-route-1"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r1.week.day.kml');
+      //kml_dict["week-day-route-1"] = new google.maps.KmlLayer('./r1.week.day.kml');
       kml_dict["week-day-route-2"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r2.week.day.kml');
       kml_dict["week-day-route-4"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r4.week.day.kml');
       kml_dict["week-day-route-5"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/r5.week.day.kml');
@@ -151,7 +152,7 @@
       <div id="navbar" data-role="navbar" data-iconpos="right">
         <ul>
           <li>
-            <a href="" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+            <a href="./index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
           </li>
           <li>
           <select name="select-routes" id="routes" data-native-menu="true" data-icon="gear" onchange="addRoutes(this.value);">
@@ -173,6 +174,6 @@
         <div id="map_canvas"></div>
       </div>
 
-    </div><!--data-role="page">
+    </div><!--data-role="page"-->
   </body>
 </html>
