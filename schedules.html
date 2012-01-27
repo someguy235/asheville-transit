@@ -8,12 +8,16 @@
     <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
     <style type="text/css">
+    	.schedule{
+    		width: 100%
+    	}
       table.schedule-table tr th{
-        font-size:.5em;
+      	padding: 0px 5px 0px 5px;
+        /*font-size:.5em;*/
       }
       table.schedule-table tr td{
         text-align:center;
-        font-size:.5em;
+        /*font-size:.5em;*/
       }
     </style>
   </head>
@@ -27,89 +31,718 @@
           <div data-role="collapsible" data-theme="b" data-content-theme="b" data-collapsed="false">
             <h2>Day Routes (5:00am - 7:00pm)</h2>
             <div data-role="collapsible-set">
-              <div data-role="collapsible" data-theme="c" data-content-theme="d">
-                <h3>1: Haywood Rd.</h3>
-                <div class='schedule'>
-                  <h3>Route 1  Haywood Road/NC DMV</h3>
-                  <h4>Monday - Saturday </h4>
-                  <table class='schedule-table'><tr>
-                    <th style='width:5%;'>Leave Transit Center</th>
-                    <th style='width:5%;'>Ingles</th>
-                    <th style='width:5%;'>Haywood Rd at Patton Ave</th>
-                    <th style='width:5%;'>Goodwill</th>
-                    <th style='width:5%;'>Malvern Hills Pool</th>
-                    <th style='width:5%;'>Haywood Rd at Vermont Ave</th>
-                    <th style='width:5%;'>Pisgah View Apts </th>
-                    <th style='width:5%;'>Arrive Transit Center</th>
-                    </tr>
-                    <tr><td>|||||</td><td>|||||</td><td>|||||</td><td>|||||</td><td>*5:30</td><td>*5:35</td><td>*5:40</td><td>*5:56</td></tr>
-                    <tr><td>6:00</td><td>6:10</td><td>6:15</td><td>6:25</td><td>6:30</td><td>6:35</td><td>6:40</td><td>6:56</td></tr>
-                    <tr><td>7:00</td><td>7:10</td><td>7:15</td><td>7:25</td><td>7:30</td><td>7:35</td><td>7:40</td><td>7:56</td></tr>
-                    <tr><td>8:00</td><td>8:10</td><td>8:15</td><td>8:25</td><td>8:30</td><td>8:35</td><td>8:40</td><td>8:56</td></tr>
-                    <tr><td>9:00</td><td>9:10</td><td>9:15</td><td>9:25</td><td>9:30</td><td>9:35</td><td>9:40</td><td>9:56</td></tr>
-                    <tr><td>10:00</td><td>10:10</td><td>10:15</td><td>10:25</td><td>10:30</td><td>10:35</td><td>10:40</td><td>10:56</td></tr>
-                    <tr><td>11:00</td><td>11:00</td><td>11:15</td><td>11:25</td><td>11:30</td><td>11:35</td><td>11:40</td><td>11:56</td></tr>
-                    <tr><td>12:00</td><td>12:10</td><td>12:15</td><td>12:25</td><td>12:30</td><td>12:35</td><td>12:40</td><td>12:56</td></tr>
-                    <tr><td>1:00</td><td>1:10</td><td>1:15</td><td>1:25</td><td>1:30</td><td>1:35</td><td>1:40</td><td>1:56</td></tr>
-                    <tr><td>2:00</td><td>2:10</td><td>2:15</td><td>2:25</td><td>2:30</td><td>2:35</td><td>2:40</td><td>2:56</td></tr>
-                    <tr><td>3:00</td><td>3:10</td><td>3:15</td><td>3:25</td><td>3:30</td><td>3:35</td><td>3:40</td><td>3:56</td></tr>
-                    <tr><td>4:00</td><td>4:10</td><td>4:15</td><td>4:25</td><td>4:30</td><td>4:35</td><td>4:40</td><td>4:56</td></tr>
-                    <tr><td>5:00</td><td>5:10</td><td>5:15</td><td>5:25</td><td>5:30</td><td>5:35</td><td>5:40</td><td>5:56</td></tr>
-                    <tr><td>6:00</td><td>6:10</td><td>6:15</td><td>6:25</td><td>6:30</td><td>6:35</td><td>6:40</td><td>6:56</td></tr>
-                  </table>
-                </div>
-              </div>
+							<div data-role="collapsible" data-theme="c" data-content-theme="d">
+								<h3>1: Haywood Rd.</h3>
+								<div class='schedule'>
+									<h3>Route 1  Haywood Road/NC DMV</h3>
+									<h3>Monday - Saturday </h3>
+									<table class='schedule-table'>
+										<tr>
+											<th>Leave Transit Center</th>
+											<th>Ingles</th>
+											<th>Haywood Rd at Patton Ave</th>
+											<th>Goodwill</th>
+											<th>Malvern Hills Pool</th>
+											<th>Haywood Rd at Vermont Ave</th>
+											<th>Pisgah View Apts </th>
+											<th>Arrive Transit Center</th>
+										</tr>
+										<tr><td>|||||</td><td>|||||</td><td>|||||</td><td>|||||</td><td>*5:30</td><td>*5:35</td><td>*5:40</td><td>*5:56</td></tr>
+										<tr><td>6:00</td><td>6:10</td><td>6:15</td><td>6:25</td><td>6:30</td><td>6:35</td><td>6:40</td><td>6:56</td></tr>
+										<tr><td>7:00</td><td>7:10</td><td>7:15</td><td>7:25</td><td>7:30</td><td>7:35</td><td>7:40</td><td>7:56</td></tr>
+										<tr><td>8:00</td><td>8:10</td><td>8:15</td><td>8:25</td><td>8:30</td><td>8:35</td><td>8:40</td><td>8:56</td></tr>
+										<tr><td>9:00</td><td>9:10</td><td>9:15</td><td>9:25</td><td>9:30</td><td>9:35</td><td>9:40</td><td>9:56</td></tr>
+										<tr><td>10:00</td><td>10:10</td><td>10:15</td><td>10:25</td><td>10:30</td><td>10:35</td><td>10:40</td><td>10:56</td></tr>
+										<tr><td>11:00</td><td>11:00</td><td>11:15</td><td>11:25</td><td>11:30</td><td>11:35</td><td>11:40</td><td>11:56</td></tr>
+										<tr><td>12:00</td><td>12:10</td><td>12:15</td><td>12:25</td><td>12:30</td><td>12:35</td><td>12:40</td><td>12:56</td></tr>
+										<tr><td>1:00</td><td>1:10</td><td>1:15</td><td>1:25</td><td>1:30</td><td>1:35</td><td>1:40</td><td>1:56</td></tr>
+										<tr><td>2:00</td><td>2:10</td><td>2:15</td><td>2:25</td><td>2:30</td><td>2:35</td><td>2:40</td><td>2:56</td></tr>
+										<tr><td>3:00</td><td>3:10</td><td>3:15</td><td>3:25</td><td>3:30</td><td>3:35</td><td>3:40</td><td>3:56</td></tr>
+										<tr><td>4:00</td><td>4:10</td><td>4:15</td><td>4:25</td><td>4:30</td><td>4:35</td><td>4:40</td><td>4:56</td></tr>
+										<tr><td>5:00</td><td>5:10</td><td>5:15</td><td>5:25</td><td>5:30</td><td>5:35</td><td>5:40</td><td>5:56</td></tr>
+										<tr><td>6:00</td><td>6:10</td><td>6:15</td><td>6:25</td><td>6:30</td><td>6:35</td><td>6:40</td><td>6:56</td></tr>
+									</table>
+									<p>
+										*No Saturday Service at 5:30 a.m.  First bus leaves the Transit Center at 6:00 a.m. 
+									</p>
+									<p>
+										<b>Route Traveled:</b><br>
+										From Transit Center left onto Coxe, right onto Patton Avenue, right onto Haywood Street loop to 
+										Clingman Avenue to Haywood Road.  Proceeds on Haywood Road and turns left onto Patton Avenue, 
+										to the Goodwill Industries.  From the Goodwill parking lot then turns right back onto Patton Avenue 
+										and proceeds to Bear Creek Road.  Turns right onto Bear Creek Road, then left onto Sulphur Springs 
+										Road and then right onto Haywood Road.  Proceeds on Haywood Road and turns right on Hanover 
+										Street and goes through Pisgah View Apartments by way of Granada Street.  Left on Short Michigan 
+										Avenue.  Left on Short Michigan Avenue; left on State Street and right back onto Hanover Street to Haywood Road to Clingman Avenue to Patton Avenue to Asheland Avenue and turns left into the 
+										Transit Center. 
+									</p>
+									<p>
+										Regional Transit Transfer bus stop at Goodwill Industries to Mountain Mobility Enka-Candler 
+									</p>
+									<p>
+										Trailer blazer Enka-Candler Trailblazer (258-0186). 
+									</p>
+									<p>
+										Park n Ride:  located at Goodwill Industries. 
+									</p>
+								</div>
+							</div>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>2: Merrimon Ave.</h3>
-                <p>Here's the schedule for route 2</p>
+                <div class='schedule'>
+									<h3>Route 2  Merrimon Avenue/UNCA</h3>
+									<h3>Monday - Saturday </h3>
+									<table class='schedule-table'>
+										<tr>
+											<th>Leave Transit Center</th>
+											<th>Claxton Elementary School</th>
+											<th>Zeis Bldg @ UNCA</th>
+											<th>Beaverdam Rd</th>
+											<th>Elkwood Rd at Merrimon Ave</th>
+											<th>Merrimon Ave at Lakeshore Dr</th>
+											<th>Claxton Elementary School</th>
+											<th>Arrive Transit Center</th>
+										</tr>
+										<tr><td>6:00</td><td>6:07</td><td>6:12</td><td>6:22</td><td>6:30</td><td>6:35</td><td>6:45</td><td>6:56</td></tr>
+										<tr><td>7:00</td><td>7:07</td><td>7:12</td><td>7:22</td><td>7:30</td><td>7:35</td><td>7:45</td><td>7:56</td></tr>
+										<tr><td>8:00</td><td>8:07</td><td>8:12</td><td>8:22</td><td>8:30</td><td>8:35</td><td>8:45</td><td>8:56</td></tr>
+										<tr><td>9:00</td><td>9:07</td><td>9:12</td><td>9:22</td><td>9:30</td><td>9:35</td><td>9:45</td><td>9:56</td></tr>
+										<tr><td>10:00</td><td>10:07</td><td>10:12</td><td>10:22</td><td>10:30</td><td>10:35</td><td>10:45</td><td>10:56</td></tr>
+										<tr><td>11:00</td><td>11:07</td><td>11:12</td><td>11:22</td><td>11:30</td><td>11:35</td><td>11:45</td><td>11:56</td></tr>
+										<tr><td>12:00</td><td>12:07</td><td>12:12</td><td>12:22</td><td>12:30</td><td>12:35</td><td>12:45</td><td>12:56</td></tr>
+										<tr><td>1:00</td><td>1:07</td><td>1:12</td><td>1:22</td><td>1:30</td><td>1:35</td><td>1:45</td><td>1:56</td></tr>
+										<tr><td>2:00</td><td>2:07</td><td>2:12</td><td>2:22</td><td>2:30</td><td>2:35</td><td>2:45</td><td>2:56</td></tr>
+										<tr><td>3:00</td><td>3:07</td><td>3:12</td><td>3:22</td><td>3:30</td><td>3:35</td><td>3:45</td><td>3:56</td></tr>
+										<tr><td>4:00</td><td>4:07</td><td>4:12</td><td>4:22</td><td>4:30</td><td>4:35</td><td>4:45</td><td>4:56</td></tr>
+										<tr><td>5:00</td><td>5:07</td><td>5:12</td><td>5:22</td><td>5:30</td><td>5:35</td><td>5:45</td><td>5:56</td></tr>
+										<tr><td>6:00</td><td>6:07</td><td>6:12</td><td>6:22</td><td>6:30</td><td>6:35</td><td>6:45</td><td>6:56</td></tr>
+									</table>
+									<p>
+										Dial-A-Ride Service available to Midland Road.  Call 253-5691 for pick-up in these areas at least 
+										one hour before you need to travel.  To exit the bus in these areas, just inform the bus operator as 
+										you board.  
+									</p>
+									<p>
+										<b>Route Traveled:</b><br>
+										From Transit Center to Asheland Avenue to Patton Avenue.  Turn right on Patton Avenue and 
+										proceed to turn left onto Broadway and continue to Merrimon Avenue.  Proceed north on Merrimon 
+										turning left onto W.T. Weaver Boulevard to UNCA.  Proceeds back to W.T. Weaver to Merrimon 
+										Avenue continuing north, turning right onto Beaverdam Road.  Returns to Merrimon and then turns 
+										right onto Midland Drive (Dial-A-Ride service only), return to Merrimon Avenue, turning left onto 
+										Elkwood Avenue, and left onto Lakeshore Drive.  Continue back to Merrimon Avenue, turning right onto Merrimon and continuing south to Broadway to right on College Street to left on Coxe Avenue 
+										to right into Transit Center. 
+									</p>
+									<p>
+										Regional Transit Transfer: bus stop located on Elkwood Avenue near Merrimon Ave.  Transfer to 
+										Mountain Mobility North Buncombe Trailblazer North Buncombe Trailblazer in English and North 
+										Buncombe Trailblazer in Spanish (828-258-0186) to Weaverville.
+									</p>
+								</div>
               </div>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>4: Kenilworth/Asheville Mall</h3>
-                <p>Here's the schedule for route 3</p>
+                <div class='schedule'>
+									<h3>Route 4  Kenilworth/Asheville Mall</h3>
+									<h3>Monday - Saturday </h3>
+									<table class='schedule-table'>
+										<tr>
+											<th>Leave Transit Center</th>
+											<th>Mission Campus MHS</th>
+											<th>Caledonia Rd at Forest Hill Dr</th>
+											<th>Innsbruck Mall</th>
+											<th>Asheville Mall</th>
+											<th>Tunnel Rd at Kenilworth Rd </th>
+											<th>Mission Campus MHS </th>
+											<th>Arrive Transit Center</th>
+										</tr>
+										<tr><td>6:00</td><td>6:06</td><td>6:15</td><td>6:20</td><td>6:30</td><td>6:40</td><td>6:45</td><td>6:56</td></tr>
+										<tr><td>7:00</td><td>7:06</td><td>7:15</td><td>7:20</td><td>7:30</td><td>7:40</td><td>7:45</td><td>7:56</td></tr>
+										<tr><td>8:00</td><td>8:06</td><td>8:15</td><td>8:20</td><td>8:30</td><td>8:40</td><td>8:45</td><td>8:56</td></tr>
+										<tr><td>9:00</td><td>9:06</td><td>9:15</td><td>9:20</td><td>9:30</td><td>9:40</td><td>9:45</td><td>9:56</td></tr>
+										<tr><td>10:00</td><td>10:06</td><td>10:15</td><td>10:20</td><td>10:30</td><td>10:40</td><td>10:45</td><td>10:56</td></tr>
+										<tr><td>11:00</td><td>11:06</td><td>11:15</td><td>11:20</td><td>11:30</td><td>11:40</td><td>11:45</td><td>11:56</td></tr>
+										<tr><td>12:00</td><td>12:06</td><td>12:15</td><td>12:20</td><td>12:30</td><td>12:40</td><td>12:45</td><td>12:56</td></tr>
+										<tr><td>1:00</td><td>1:06</td><td>1:15</td><td>1:20</td><td>1:30</td><td>1:40</td><td>1:45</td><td>1:56</td></tr>
+										<tr><td>2:00</td><td>2:06</td><td>2:15</td><td>2:20</td><td>2:30</td><td>2:40</td><td>2:45</td><td>2:56</td></tr>
+										<tr><td>3:00</td><td>3:06</td><td>3:15</td><td>3:20</td><td>3:30</td><td>3:40</td><td>3:45</td><td>3:56</td></tr>
+										<tr><td>4:00</td><td>4:06</td><td>4:15</td><td>4:20</td><td>4:30</td><td>4:40</td><td>4:45</td><td>4:56</td></tr>
+										<tr><td>5:00</td><td>5:06</td><td>5:15</td><td>5:20</td><td>5:30</td><td>5:40</td><td>5:45</td><td>5:56</td></tr>
+										<tr><td>6:00</td><td>6:06</td><td>6:15</td><td>6:20</td><td>6:30</td><td>6:40</td><td>6:45</td><td>6:56</td></tr>
+									</table>
+									<p>
+										<b>Route Traveled:</b><br>
+										From Transit Center to Asheland Avenue to Patton Avenue, turns right onto Patton.  Continues east 
+										to turn right onto Biltmore Avenue.  Travels south on Biltmore, turns right onto Victoria Road, then 
+										left into the Mission Campus of Mission Hospital Systems (MHS).  Circles around the hospital and 
+										back to a right turn onto Biltmore Avenue.  Continues southbound on Biltmore Avenue until a left 
+										onto Caledonia Road to Lowell to Springdale to Kenilworth Road, then left onto Aurora Drive to 
+										Beaucatcher Road to Mineral Springs Road to Innsbruck Mall.  Innsbruck Mall to right on Tunnel 
+										Road. Proceeds east on Tunnel Road to S Tunnel Rd and the Asheville Mall and left into Overlook 
+										Village, then back to S Tunnel Rd.  Right onto northbound South Tunnel Road to west (inbound) on 
+										Tunnel road to left onto Kenilworth.  Continues on Kenilworth Road to Warwick Drive to Forest Hill 
+										Drive to Biltmore Avenue.  Left into Mission Campus of MHS, circles campus to right onto Victoria Road to left on Biltmore.  Northbound on Biltmore to left on Aston Street, then across Coxe Avenue 
+										into Transit Center. 
+									</p>
+								</div>
               </div>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>5: Charlotte St.</h3>
-                <p>Here's the schedule for route 4</p>
+                <div class='schedule'>
+									<h3>Route 5 Charlotte Street/Grove Park Inn</h3>
+									<h3>Monday - Saturday </h3>
+									<table class='schedule-table'>
+										<tr>
+											<th>Leave Transit Center</th>
+											<th>Charlotte St at Chestnut St</th>
+											<th>Charlotte St at Hillside St </th>
+											<th>Grove Park Inn</th>
+											<th>Kimberly Ave to Hampstead Rd </th>
+											<th>Charlotte St at Hillside St </th>
+											<th>Arrive Transit Center</th>
+										</tr>
+										<tr><td>6:30</td><td>6:35</td><td>6:37</td><td>6:42</td><td>*</td><td>6:50</td><td>6:56</td></tr>
+										<tr><td>7:30</td><td>7:35</td><td>7:37</td><td>7:42</td><td>*</td><td>7:50</td><td>7:56</td></tr>
+										<tr><td>8:30</td><td>8:35</td><td>8:37</td><td>8:42</td><td>*</td><td>8:50</td><td>8:56</td></tr>
+										<tr><td>9:30</td><td>9:35</td><td>9:37</td><td>9:42</td><td>*</td><td>9:50</td><td>9:56</td></tr>
+										<tr><td>10:30</td><td>10:35</td><td>10:37</td><td>10:42</td><td>*</td><td>10:50</td><td>10:56</td></tr>
+										<tr><td>11:30</td><td>11:35</td><td>11:37</td><td>11:42</td><td>*</td><td>11:50</td><td>11:56</td></tr>
+										<tr><td>12:30</td><td>12:35</td><td>12:37</td><td>12:42</td><td>*</td><td>12:50</td><td>12:56</td></tr>
+										<tr><td>1:30</td><td>1:35</td><td>1:37</td><td>1:42</td><td>*</td><td>1:50</td><td>1:56</td></tr>
+										<tr><td>2:30</td><td>2:35</td><td>2:37</td><td>2:42</td><td>*</td><td>2:50</td><td>2:56</td></tr>
+										<tr><td>3:30</td><td>3:35</td><td>3:37</td><td>3:42</td><td>*</td><td>3:50</td><td>3:56</td></tr>
+										<tr><td>4:30</td><td>4:35</td><td>4:37</td><td>4:42</td><td>*</td><td>4:50</td><td>4:56</td></tr>
+										<tr><td>5:30</td><td>5:35</td><td>5:37</td><td>5:42</td><td>*</td><td>5:50</td><td>5:56</td></tr>
+									</table>
+									<p>
+										*Dial-A-Ride Service available to Kimberly Avenue (as far north as Hampstead Avenue).  To be 
+										picked up, call 253-5691 at least one hour before you need to travel.  To be dropped off, merely tell 
+										the bus operator as you board the vehicle.  Dial-A-Ride--it's that simple! 
+									</p>
+									<p>
+										<b>Route Traveled:</b><br>
+										Transit Center to right onto Asheland Avenue to right onto Patton Avenue.  Continue on Patton, 
+										crossing Pack Square to College Street, then left on Charlotte Street.  Proceed north on Charlotte 
+										Street and turn right on Macon Avenue, turning left into the Grove Park Inn, then returning via 
+										Macon Avenue to left on Charlotte Street.  For Dial-A-Ride Service, turn right on Kimberly to right 
+										on Hampstead Road to Right on Country Club Road to right on Griffing Boulevard to left on Kimberly 
+										to return to Charlotte Street.  From Charlotte Street, make a right turn on College Street to Left on 
+										Coxe Avenue to right into the Transit Center. 
+									</p>
+								</div>
               </div>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>6: Hendersonville Rd./Airport</h3>
-                <p>Here's the schedule for route 5</p>
+                <div class='schedule'>
+									<h3>Route 6  Hendersonville Road/Asheville Airport</h3>
+									<h3>Monday - Saturday </h3>
+									<table class='schedule-table'>
+										<tr>
+											<th>Leave Transit Center</th>
+											<th>Avl High</th>
+											<th>Busbee Rd @ Ingles</th>
+											<th>Mills Gap Rd @ Ingles</th>
+											<th>Long Shoals Rd </th>
+											<th>H'ville Rd at Airport Rd </th>
+											<th>Wellington Park </th>
+											<th>Lowes and Target </th>
+											<th>Asheville Airport Terminal</th>
+											<th>H'ville Rd at Airport Rd </th>
+											<th>Mills Gap Rd @ Ingles</th>
+											<th>Busbee Rd @ Ingles</th>
+											<th>Avl High </th>
+											<th>Arrive Transit Center</th>
+										</tr>
+										<tr><td>6:30</td><td>6:35</td><td>6:40</td><td>6:45</td><td>6:47</td><td>6:52</td><td>*6:55</td><td>---</td><td>---</td><td>7:00</td><td>7:10</td><td>7:15</td><td>7:22</td><td>7:26</td></tr>
+										<tr><td>7:30</td><td>7:35</td><td>7:40</td><td>7:45</td><td>7:47</td><td>7:52</td><td>*7:55</td><td>---</td><td>---</td><td>8:00</td><td>8:10</td><td>8:15</td><td>8:22</td><td>8:26</td></tr>
+										<tr><td>8:30</td><td>8:37</td><td>8:45</td><td>8:50</td><td>8:55</td><td>9:00</td><td>9:03</td><td>9:10</td><td>9:25</td><td>9:30</td><td>9:40</td><td>9:45</td><td>9:50</td><td>9:55</td></tr>
+										<tr><td>10:00</td><td>10:07</td><td>10:15</td><td>10:20</td><td>10:25</td><td>10:30</td><td>10:33</td><td>10:40</td><td>10:55</td><td>11:00</td><td>11:10</td><td>11:15</td><td>11:20</td><td>11:25</td></tr>
+										<tr><td>11:30</td><td>11:37</td><td>11:45</td><td>11:50</td><td>11:55</td><td>12:00</td><td>12:03</td><td>12:10</td><td>12:25</td><td>12:30</td><td>12:40</td><td>12:45</td><td>12:50</td><td>12:55</td></tr>
+										<tr><td>1:00</td><td>1:07</td><td>1:15</td><td>1:20</td><td>1:25</td><td>1:30</td><td>1:33</td><td>1:40</td><td>1:55</td><td>2:00</td><td>2:10</td><td>2:15</td><td>2:20</td><td>2:25</td></tr>
+										<tr><td>2:30</td><td>2:37</td><td>2:45</td><td>2:50</td><td>2:55</td><td>3:00</td><td>3:03</td><td>3:10</td><td>3:25</td><td>3:30</td><td>3:40</td><td>3:45</td><td>3:50</td><td>3:55</td></tr>
+										<tr><td>4:00</td><td>4:07</td><td>4:15</td><td>4:20</td><td>4:25</td><td>4:30</td><td>4:33</td><td>4:40</td><td>4:55</td><td>5:00</td><td>5:10</td><td>5:15</td><td>5:20</td><td>5:25</td></tr>
+										<tr><td>5:30</td><td>5:37</td><td>5:45</td><td>5:50</td><td>5:55</td><td>6:00</td><td>6:03</td><td>6:10</td><td>6:25</td><td>6:30</td><td>6:40</td><td>6:45</td><td>6:50</td><td>6:55</td></tr>
+									</table>
+									<p>
+										<b>Route Traveled:</b><br>
+										Transit Center to left onto Asheland Avenue.  Asheland becomes McDowell Street, then 
+										Hendersonville Road (US Hwy 25).  Route proceeds southbound on Hendersonville Road to right 
+										onto Airport Road. Route then enters the Asheville Regional Airport, stopping at sign in front of 
+										terminal.  During first two runs of the day, route enters McDonalds on Airport Road (near I-26) and 
+										turns around, not going to the Asheville Regional Airport.  Route then returns inbound via Airport 
+										Road to left on Hendersonville Road, then Hendersonville Road/McDowell Street, Asheland Avenue 
+										to right on Hilliard Avenue to left onto Coxe Avenue to left into Transit Center. 
+									</p>
+									<p>
+										Regional Transit Transfer bus stop on Airport Road at Rutledge Road for *6:55am and *7:55 am 
+										trips, with remainder of trip transferring at Asheville Regional Airport Terminal to Apple Transit  
+									</p>
+									<p>
+										LINKS: <a href='http://www.henderson.lib.nc.us/county/planning/actransit/main.html'>http://www.henderson.lib.nc.us/county/planning/actransit/main.html</a> to 
+										Hendersonville and Fletcher- Call: 828-698-8571. 
+									</p>
+								</div>
               </div>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>8: Biltmore Ave./Shiloh</h3>
-                <p>Here's the schedule for route 5</p>
+                <div class='schedule'>
+									<h3>Route 8 Biltmore Avenue/Shiloh</h3>
+									<h3>Monday - Saturday </h3>
+									<table class='schedule-table'>
+										<tr>
+											<th>Leave Transit Center</th>
+											<th>Biltmore Village/Lodge St</th>
+											<th>Care Partners </th>
+											<th>Rock Hill Rd at West Chapel Rd</th>
+											<th>Laurel Wood Apts</th>
+											<th>Hendersonville Rd @ Peachtree Rd</th>
+											<th>Care Partners </th>
+											<th>Biltmore Village/Lodge St</th>
+											<th>Arrive Transit Center</th>
+										</tr>
+										<tr><td>6:30</td><td>6:40</td><td>7:10</td><td>||||||</td><td>7:05</td><td>||||||</td><td>||||||</td><td>7:15</td><td>7:26</td></tr>
+										<tr><td>7:30</td><td>7:40</td><td>8:10</td><td>8:00</td><td>8:05</td><td>||||||</td><td>||||||</td><td>8:15</td><td>8:26</td></tr>
+										<tr><td>8:30</td><td>8:40</td><td>||||||</td><td>||||||</td><td>||||||</td><td>9:00</td><td>||||||</td><td>9:15</td><td>9:26</td></tr>
+										<tr><td>9:30</td><td>9:40</td><td>||||||</td><td>||||||</td><td>10:05</td><td>||||||</td><td>||||||</td><td>10:15</td><td>10:26</td></tr>
+										<tr><td>10:30</td><td>10:40</td><td>||||||</td><td>10:55</td><td>11:05</td><td>||||||</td><td>||||||</td><td>11:15</td><td>11:26</td></tr>
+										<tr><td>11:30</td><td>11:40</td><td>||||||</td><td>||||||</td><td>||||||</td><td>12:00</td><td>||||||</td><td>12:15</td><td>12:26</td></tr>
+										<tr><td>12:30</td><td>12:40</td><td>|||||</td><td>12:55</td><td>1:05</td><td>|||||</td><td>|||||</td><td>1:15</td><td>1:26</td></tr>
+										<tr><td>1:30</td><td>1:40</td><td>|||||</td><td>1:55</td><td>2:05</td><td>|||||</td><td>|||||</td><td>2:15</td><td>2:26</td></tr>
+										<tr><td>2:30</td><td>2:40</td><td>|||||</td><td>|||||</td><td>|||||</td><td>3:00</td><td>3:13</td><td>3:15</td><td>3:26</td></tr>
+										<tr><td>3:30</td><td>3:40</td><td>|||||</td><td>3:55</td><td>4:05</td><td>|||||</td><td>|||||</td><td>4:15</td><td>4:26</td></tr>
+										<tr><td>4:30</td><td>4:40</td><td>|||||</td><td>4:55</td><td>5:05</td><td>|||||</td><td>|||||</td><td>5:15</td><td>5:26</td></tr>
+										<tr><td>5:30</td><td>5:40</td><td>|||||</td><td>5:55</td><td>6:05</td><td>|||||</td><td>|||||</td><td>6:15</td><td>6:26</td></tr>
+										<tr><td>6:30</td><td>6:40</td><td>|||||</td><td>6:55</td><td>7:05</td><td>|||||</td><td>|||||</td><td>7:15</td><td>7:26</td></tr>
+									</table>
+									<p>
+										<b>Route Traveled:</b><br>
+										Transit Center to Aston Street to right on Biltmore Avenue.  Proceeds on Biltmore Avenue and turns 
+										left on Lodge Street at McDonald's, turns right on London Road (2:30 pm trip serve Care Partners 
+										inbound trip).  Continues to West Chapel Road to White Avenue to Shiloh Road to Caribou Road to 
+										Hendersonville Road.  Proceeds to left on Rock Hill Road turning left on Sweeten Creek Road to 
+										West Chapel Road to Rock Hill Road to Hendersonville Road.  Turns right and continues on 
+										Hendersonville Road to Caribou Road.  Goes into Laurelwood Apartments and returns to Caribou 
+										Road to Shiloh Road to White Avenue to West Chapel Road to London Road (serves Care Partners 
+										on the 6:30 pm, 7:30pm outbound trip), continues to Lodge Street and proceeds to the Transit 
+										Center by way of Biltmore Avenue to Hilliard Street to Asheland Avenue. NOTE: See schedule--8:30 a.m., 11:30 a.m., and 2:30 pm trips will serve the Wal-Mart on 
+										Hendersonville Road and will not serve Rock Hill Road nor does it turn into Laurelwood Apartments, 
+										but it does pass Laurelwood Apartments on Caribou Road. 
+									</p>
+									<p>
+										<b>Dial-A-Ride</b><br />
+										Dial-A-Ride service available to Medical Park off Sweeten Creek Rd.  Please call 253-5691 at least 
+										one hour before you need to travel to arrange pick-up.  To arrange for drop-off at this location, just
+										inform the bus operator as you board the bus. 
+									</p>
+								</div>
               </div>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>9: Brevard Rd./Biltmore Square Mall</h3>
-                <p>Here's the schedule for route 5</p>
+                <div class='schedule'>
+									<h3>Route 9  Brevard Road/Biltmore Square Mall</h3>
+									<h3>Monday - Saturday </h3>
+									<table class='schedule-table'>
+										<tr>
+											<th>Leave Transit Center</th>
+											<th>Haywood Rd at Westwood Place </th>
+											<th>Pisgah View Apts</th>
+											<th>Ingles Market</th>
+											<th>Brevard Rd at Farmer's Market</th>
+											<th>Biltmore Square Mall</th>
+											<th>WNC Farmer's Market</th>
+											<th>Haywood Rd at Ingles Market</th>
+											<th>Pisgah View Apts</th>
+											<th>Arrive Transit Center</th>
+										</tr>
+										<tr><td>7:30</td><td>7:37</td><td>7:40</td><td>7:43</td><td>7:50</td><td>8:00</td><td>8:08</td><td>8:12</td><td>8:15</td><td>8:27</td></tr>
+										<tr><td>8:30</td><td>8:37</td><td>8:40</td><td>8:43</td><td>8:50</td><td>9:00</td><td>9:08</td><td>9:12</td><td>9:15</td><td>9:27</td></tr>
+										<tr><td>9:30</td><td>9:37</td><td>9:40</td><td>9:43</td><td>9:50</td><td>10:00</td><td>10:08</td><td>10:12</td><td>10:15</td><td>10:27</td></tr>
+										<tr><td>10:30</td><td>10:37</td><td>10:40</td><td>10:43</td><td>10:50</td><td>11:00</td><td>11:08</td><td>11:12</td><td>11:15</td><td>11:27</td></tr>
+										<tr><td>11:30</td><td>11:37</td><td>11:40</td><td>11:43</td><td>11:50</td><td>12:00</td><td>12:08</td><td>12:12</td><td>12:15</td><td>12:27</td></tr>
+										<tr><td>12:30</td><td>12:37</td><td>12:40</td><td>12:43</td><td>12:50</td><td>1:00</td><td>1:08</td><td>1:12</td><td>1:15</td><td>1:27</td></tr>
+										<tr><td>1:30</td><td>1:37</td><td>1:40</td><td>1:43</td><td>1:50</td><td>2:00</td><td>2:08</td><td>2:12</td><td>2:15</td><td>2:27</td></tr>
+										<tr><td>2:30</td><td>2:37</td><td>2:40</td><td>2:43</td><td>2:50</td><td>3:00</td><td>3:08</td><td>3:12</td><td>3:15</td><td>3:27</td></tr>
+										<tr><td>3:30</td><td>3:37</td><td>3:40</td><td>3:43</td><td>3:50</td><td>4:00</td><td>4:08</td><td>4:12</td><td>4:15</td><td>4:27</td></tr>
+										<tr><td>4:30</td><td>4:37</td><td>4:40</td><td>4:43</td><td>4:50</td><td>5:00</td><td>5:08</td><td>5:12</td><td>5:15</td><td>5:27</td></tr>
+										<tr><td>5:30</td><td>5:37</td><td>5:40</td><td>5:43</td><td>5:50</td><td>6:00</td><td>6:08</td><td>6:12</td><td>6:15</td><td>6:27</td></tr>
+									</table>
+									<p>
+										Dial-A-Ride service available to NC Vocational Rehab on Heart Drive.  Please call 253-5691 at least 
+										an hour before you need to travel to arrange pick up.  To arrange for drop-off at these locations, 
+										just inform the bus operator as you board the vehicle.  
+									</p>
+									<p>
+										<b>Route Traveled:</b><br>
+										Transit Center to right onto Coxe Avenue to right onto Hilliard Avenue to left onto Clingman 
+										Avenue.  Clingman Avenue to Haywood Road to left onto Hanover Street to left onto Granada Street 
+										into Pisgah View Apartments.  Left onto Short Michigan to left onto State Street to left onto 
+										Haywood Road to left onto Brevard Road.  Continues on Brevard Road to Biltmore Square Mall.  Bus 
+										stop is near theatres in back of Mall. 
+										Bus will then travel to NC Vocational Rehab by request only. Bus returns via Brevard Road past WNC Farmer's Market then turn right on Wells Avenue, left on 
+										Fairfax Avenue, then right on Haywood Road to right on State Street.  Bus continues to a right onto 
+										Hanover Street then left onto Granada into Pisgah View Apartments.  Bus continues on Granada, 
+										then left onto Short Michigan, left onto State Street, then right onto Hanover Street.  From Hanover 
+										Street, right onto Haywood Road to Clingman Avenue, right onto Hilliard Avenue, left onto Asheland 
+										into the Transit Center. 
+									</p>
+								</div>
               </div>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>11: Montford/Klondyke Apts./Hillcrest</h3>
-                <p>Here's the schedule for route 5</p>
+                <div class='schedule'>
+									<h3>Route 11  Montford/Klondyke/Hillcrest</h3>
+									<h3>Monday - Saturday </h3>
+									<table class='schedule-table'>
+										<tr>
+											<th>Leave Transit Center</th>
+											<th>William Randolph School</th>
+											<th>Klondyke Apts</th>
+											<th>W. Chestnut St</th>
+											<th>Courtland St</th>
+											<th>Hill St (Out)</th>
+											<th>Hillcrest Apts</th>
+											<th>Hill St (In)</th>
+											<th>Isaac Dickson School</th>
+											<th>Arrive Transit Center</th>
+										</tr>
+										<tr><td>6:00</td><td>6:03</td><td>6:07</td><td>6:10</td><td>6:12</td><td>||||</td><td>6:15</td><td>6:17</td><td>6:20</td><td>6:30</td></tr>
+										<tr><td>6:30</td><td>6:33</td><td>6:37</td><td>6:40</td><td>||||</td><td>6:42</td><td>6:45</td><td>6:47</td><td>6:50</td><td>6:56</td></tr>
+										<tr><td>7:00</td><td>7:03</td><td>7:07</td><td>7:10</td><td>7:12</td><td>||||</td><td>7:15</td><td>7:17</td><td>7:20</td><td>7:30</td></tr>
+										<tr><td>7:30</td><td>7:33</td><td>7:37</td><td>7:40</td><td>||||</td><td>7:42</td><td>7:45</td><td>7:47</td><td>7:50</td><td>7:56</td></tr>
+										<tr><td>8:00</td><td>8:03</td><td>8:07</td><td>8:10</td><td>8:12</td><td>||||</td><td>8:17</td><td>8:17</td><td>8:20</td><td>8:30</td></tr>
+										<tr><td>8:30</td><td>8:33</td><td>8:37</td><td>8:40</td><td>||||</td><td>8:42</td><td>8:45</td><td>8:47</td><td>8:50</td><td>8:56</td></tr>
+										<tr><td>9:00</td><td>9:03</td><td>9:07</td><td>9:10</td><td>9:12</td><td>||||</td><td>9:15</td><td>9:17</td><td>9:20</td><td>9:30</td></tr>
+										<tr><td>9:30</td><td>9:33</td><td>9:37</td><td>9:40</td><td>||||</td><td>9:42</td><td>9:45</td><td>9:47</td><td>9:50</td><td>9:56</td></tr>
+										<tr><td>10:00</td><td>10:03</td><td>10:07</td><td>10:10</td><td>10:12</td><td>||||</td><td>10:15</td><td>10:17</td><td>10:20</td><td>10:30</td></tr>
+										<tr><td>10:30</td><td>10:33</td><td>10:37</td><td>10:40</td><td>||||</td><td>10:42</td><td>10:45</td><td>10:47</td><td>10:50</td><td>10:56</td></tr>
+										<tr><td>11:00</td><td>11:03</td><td>11:07</td><td>11:10</td><td>11:12</td><td>||||</td><td>11:15</td><td>11:17</td><td>11:20</td><td>11:30</td></tr>
+										<tr><td>11:30</td><td>11:33</td><td>11:37</td><td>11:40</td><td>||||</td><td>11:42</td><td>11:45</td><td>11:47</td><td>11:50</td><td>11:56</td></tr>
+										<tr><td>12:00</td><td>12:03</td><td>12:07</td><td>12:10</td><td>12:12</td><td>||||</td><td>12:15</td><td>12:17</td><td>12:20</td><td>12:30</td></tr>
+										<tr><td>12:30</td><td>12:33</td><td>12:37</td><td>12:40</td><td>||||</td><td>12:42</td><td>12:45</td><td>12:47</td><td>12:50</td><td>12:56</td></tr>
+										<tr><td>1:00</td><td>1:03</td><td>1:07</td><td>1:10</td><td>1:12</td><td>||||</td><td>1:15</td><td>1:17</td><td>1:20</td><td>1:30</td></tr>
+										<tr><td>1:30</td><td>1:33</td><td>1:37</td><td>1:40</td><td>||||</td><td>1:42</td><td>1:45</td><td>1:47</td><td>1:50</td><td>1:56</td></tr>
+										<tr><td>2:00</td><td>2:03</td><td>2:07</td><td>2:10</td><td>2:12</td><td>||||</td><td>2:15</td><td>2:17</td><td>2:20</td><td>2:30</td></tr>
+										<tr><td>2:30</td><td>2:33</td><td>2:37</td><td>2:40</td><td>||||</td><td>2:42</td><td>2:45</td><td>2:47</td><td>2:50</td><td>2:56</td></tr>
+										<tr><td>3:00</td><td>3:03</td><td>3:07</td><td>3:10</td><td>3:12</td><td>||||</td><td>3:15</td><td>3:17</td><td>3:20</td><td>3:30</td></tr>
+										<tr><td>3:30</td><td>3:33</td><td>3:37</td><td>3:40</td><td>||||</td><td>3:42</td><td>3:45</td><td>3:47</td><td>3:50</td><td>3:56</td></tr>
+										<tr><td>4:00</td><td>4:03</td><td>4:07</td><td>4:10</td><td>4:12</td><td>||||</td><td>4:15</td><td>4:17</td><td>4:20</td><td>4:30</td></tr>
+										<tr><td>4:30</td><td>4:33</td><td>4:37</td><td>4:40</td><td>||||</td><td>4:42</td><td>4:45</td><td>4:47</td><td>4:50</td><td>4:56</td></tr>
+										<tr><td>5:00</td><td>5:03</td><td>5:07</td><td>5:10</td><td>5:12</td><td>||||</td><td>5:15</td><td>5:17</td><td>5:20</td><td>5:30</td></tr>
+										<tr><td>5:30</td><td>5:33</td><td>5:37</td><td>5:40</td><td>||||</td><td>5:42</td><td>5:45</td><td>5:47</td><td>5:50</td><td>5:56</td></tr>
+										<tr><td>6:00</td><td>6:03</td><td>6:07</td><td>6:10</td><td>6:12</td><td>||||</td><td>6:15</td><td>6:17</td><td>6:20</td><td>6:30</td></tr>
+										<tr><td>6:30</td><td>6:33</td><td>6:37</td><td>6:40</td><td>||||</td><td>6:42</td><td>6:45</td><td>6:47</td><td>6:50</td><td>6:56</td></tr>
+									</table>
+									<p>
+										<b>Route Traveled:</b><br>
+										Transit Center to right onto Asheland Avenue to right onto Patton Avenue to left onto Haywood 
+										Street to Flint Street.  Right onto Cherry Street to right onto Montford Avenue.  Proceeds on 
+										Montford Avenue through Klondyke Apartments.  Leaves Klondyke Apartments to right onto Santee 
+										Street to left onto Pearson Drive to Left on Watauga to right onto Montford Avenue.  Turns right 
+										onto either Courtland Street or Hill Street (see schedule for times) and proceeds to Hillcrest 
+										Apartments.  Circles counter-clockwise through apartments then returns to Hill Street, past Isaac 
+										Dickson School to right onto Montford to left onto Haywood Street.  Continues on Haywood Street to 
+										right onto College Street to left onto Coxe Avenue to right into Transit Center. 
+									</p>
+								</div>
               </div>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>12: Fairview Rd./Oakley/River Ridge</h3>
-                <p>Here's the schedule for route 5</p>
+                <div class='schedule'>
+									<h3>Route 12  Oakley/River Ridge</h3>
+									<h3>Monday - Saturday </h3>
+									<table class='schedule-table'>
+										<tr>
+											<th>Leave Transit Center</th>
+											<th>Asheville High School</th>
+											<th>Biltmore Village/Lodge St</th>
+											<th>River Ridge Center</th>
+											<th>Wal-Mart SuperCenter</th>
+											<th>Ledgewood Village Apts </th>
+											<th>Biltmore Village/Lodge St</th>
+											<th>Arrive Transit Center</th>
+										</tr>
+										<tr><td>6:00</td><td>6:05</td><td>6:10</td><td>6:25</td><td>6:30</td><td>6:35</td><td>6:45</td><td>6:56</td></tr>
+										<tr><td>7:00</td><td>7:05</td><td>7:10</td><td>7:25</td><td>7:30</td><td>7:35</td><td>7:45</td><td>7:56</td></tr>
+										<tr><td>8:00</td><td>8:05</td><td>8:10</td><td>8:25</td><td>8:30</td><td>8:35</td><td>8:45</td><td>8:56</td></tr>
+										<tr><td>9:00</td><td>9:05</td><td>9:10</td><td>9:25</td><td>9:30</td><td>9:35</td><td>9:45</td><td>9:56</td></tr>
+										<tr><td>10:00</td><td>10:05</td><td>10:10</td><td>10:25</td><td>10:30</td><td>10:35</td><td>10:45</td><td>10:56</td></tr>
+										<tr><td>11:00</td><td>11:05</td><td>11:10</td><td>11:25</td><td>11:30</td><td>11:35</td><td>11:45</td><td>11:56</td></tr>
+										<tr><td>12:00</td><td>12:05</td><td>12:10</td><td>12:25</td><td>12:30</td><td>12:35</td><td>12:45</td><td>12:56</td></tr>
+										<tr><td>1:00</td><td>1:05</td><td>1:10</td><td>1:25</td><td>1:30</td><td>1:35</td><td>1:45</td><td>1:56</td></tr>
+										<tr><td>2:00</td><td>2:05</td><td>2:10</td><td>2:25</td><td>2:30</td><td>2:35</td><td>2:45</td><td>2:56</td></tr>
+										<tr><td>3:00</td><td>3:05</td><td>3:10</td><td>3:25</td><td>||||||</td><td>3:35</td><td>3:45</td><td>3:56</td></tr>
+										<tr><td>4:00</td><td>4:05</td><td>4:10</td><td>4:25</td><td>||||||</td><td>4:35</td><td>4:45</td><td>4:56</td></tr>
+										<tr><td>5:00</td><td>5:05</td><td>5:10</td><td>5:25</td><td>5:30</td><td>5:35</td><td>5:45</td><td>5:56</td></tr>
+										<tr><td>6:00</td><td>6:05</td><td>6:10</td><td>6:25</td><td>6:30</td><td>6:35</td><td>6:45</td><td>6:56</td></tr>
+									</table>
+									<p>
+										NOTE:  The 3:00 p.m. and 4:00 p.m. departures from the Transit Center will not turn into the WalMart Supercenter, instead continuing on NC 81/Swannanoa River Road. 
+									</p>
+									<p>
+										<b>Route Traveled:</b><br>
+										Transit Center to Right onto Coxe Avenue to right onto Hilliard Street to left onto Asheland Avenue.  
+										Asheland Avenue to McDowell Street to left onto Lodge Street in Biltmore Village to left onto 
+										Fairview Road.  Fairview Road to right onto Liberty Street to left onto Raleigh Road to left onto 
+										Onteora Boulevard to right onto Fairview Road.  Left into River Ridge Shopping Center, turning left 
+										behind the center and traveling to J&S Cafeteria then returning to Fairview Road.  Left on Fairview 
+										Road to left onto NC 81/Swannanoa River Road.  Left into Wal-Mart Supercenter, circling to shelter 
+										in front of Walmart.  Exit Wal-Mart Supercenter to left onto NC 81/Swannanoa River Road, turning 
+										left onto Wood Avenue, then turning right onto Future Street to circle through Ledgewood Village Apartments and return to Wood Avenue.  Turning right onto Wood Avenue to Cedar Street to right 
+										onto Fairview Road.  Continue on Fairview Road to right onto Lodge Street to right onto McDowell 
+										Street to right into Transit Center. 
+									</p>
+								</div>
               </div>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>13: Tunnel Rd./Oteen/Haw Creek</h3>
-                <p>Here's the schedule for route 5</p>
+								<div class='schedule'>
+									<h3>Route 13 Tunnel Road/Oteen/Haw Creek</h3>
+									<h3>Monday - Saturday </h3>
+									<table class='schedule-table'>
+										<tr>
+											<th>Leave Transit Center</th>
+											<th>Tunnel Rd Innsbruck Mall</th>
+											<th>Asheville Mall</th>
+											<th>NC81/Bleachery Rd</th>
+											<th>VA Hospital Oteen</th>
+											<th>Beverly Rd/Haw Creek</th>
+											<th>Tunnel Rd/Buckstone Place</th>
+											<th>Arrive Transit Center</th>
+										</tr>
+										<tr><td>**/*6:30</td><td>*6:35</td><td>*6:40</td><td>*6:47</td><td>*6:55</td><td>*7:00</td><td>*7:15</td><td>*7:26</td></tr>
+										<tr><td>**7:30</td><td>**7:35</td><td>**7:40</td><td>**7:47</td><td>**7:55</td><td>**8:00</td><td>**8:15</td><td>**8:26</td></tr>
+										<tr><td>**8:30</td><td>**8:35</td><td>**8:40</td><td>**8:47</td><td>**8:55</td><td>**9:00</td><td>**9:15</td><td>**9:26</td></tr>
+										<tr><td>9:30</td><td>9:35</td><td>9:40</td><td>9:47</td><td>9:55</td><td>10:00</td><td>10:15</td><td>10:23</td></tr>
+										<tr><td>10:30</td><td>10:35</td><td>10:40</td><td>10:47</td><td>10:55</td><td>11:00</td><td>11:15</td><td>11:26</td></tr>
+										<tr><td>11:30</td><td>11:35</td><td>11:40</td><td>11:47</td><td>11:55</td><td>12:00</td><td>12:15</td><td>12:26</td></tr>
+										<tr><td>12:30</td><td>12:35</td><td>12:40</td><td>12:47</td><td>12:55</td><td>1:00</td><td>1:15</td><td>1:26</td></tr>
+										<tr><td>1:30</td><td>1:35</td><td>1:40</td><td>1:47</td><td>1:55</td><td>2:00</td><td>2:15</td><td>2:26</td></tr>
+										<tr><td>2:30</td><td>2:35</td><td>2:40</td><td>2:47</td><td>2:55</td><td>3:00</td><td>3:15</td><td>3:26</td></tr>
+										<tr><td>**3:30</td><td>**3:35</td><td>**3:40</td><td>**3:47</td><td>**3:55</td><td>**4:00</td><td>**4:15</td><td>**4:26</td></tr>
+										<tr><td>**4:30</td><td>**4:35</td><td>**4:40</td><td>**4:47</td><td>**4:55</td><td>**5:00</td><td>**5:15</td><td>**5:26</td></tr>
+										<tr><td>**5:30</td><td>5:35</td><td>5:40</td><td>5:47</td><td>5:55</td><td>6:00</td><td>6:15</td><td>6:26</td></tr>
+										<tr><td>6:30</td><td>6:35</td><td>6:40</td><td>6:47</td><td>6:55</td><td>7:00</td><td>7:15</td><td>7:26</td></tr>
+									</table>
+									<p>
+										* = No Saturday Service on 6:30 a.m. trip 
+										** = These trips go through Spruce Hill Apartments (6:30am; 7:30am; 8:30am; 3:30pm; 4:30pm; 
+										5:30 pm) 
+									</p>
+									<p>
+										<b>Route Traveled:</b><br>
+										Transit Center to right onto Asheland Avenue to right onto Patton Avenue.  Proceeds down Patton 
+										Avenue/College Street/Tunnel Road to right onto South Tunnel Road to left onto Swannanoa River 
+										Road (NC 81).  Proceed on Swannanoa River Road (Route passes Bleachery Road and does not 
+										enter the Walmart Supercenter complex) past the Municipal Golf Course and the Amboy Recreation 
+										Park to right onto Tunnel Road to left into the VA Hospital in Oteen.  Returns to Tunnel Road, 
+										turning right.  Tunnel Road to right onto Beverly Road to right onto New Haw Creek Road to left onto Bethesda Road to left onto Old Haw Creek Road.  (See schedule for trips through Spruce Hill 
+										Apartments.)  Old Haw Creek Road to Middlebrook Drive to left onto New Haw Creek Road and right 
+										onto Tunnel Road.  Tunnel Road/College Street into downtown, left onto Coxe Avenue to right into 
+										Transit Center. 
+									</p>
+								</div>
               </div>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>15: Patton Ave./Deaverview</h3>
-                <p>Here's the schedule for route 5</p>
+                <div class='schedule'>
+									<h3>Route 15  Patton Avenue/Deaverview</h3>
+									<h3>Monday - Saturday </h3>
+									<table class='schedule-table'>
+										<tr>
+											<th>Leave Transit Center</th>
+											<th>Regent Park</th>
+											<th>Patton Ave at New Leicester Hwy</th>
+											<th>Meadows Apts</th>
+											<th>Deaverview Apts</th>
+											<th>Deaverview Rd at Pisgah View Rd</th>
+											<th>Old County Home Rd</th>
+											<th>New Leicester Hwy at Patton Ave</th>
+											<th>Westgate Shopping Center</th>
+											<th>Arrive Transit Center</th>
+										</tr>
+										<tr><td>||||</td><td>||||</td><td>||||</td><td>||||</td><td>||||</td><td>**6:00</td><td>||||</td><td>||||</td><td>||||</td><td>**6:26</td></tr>
+										<tr><td>**6:00</td><td>**6:08</td><td>**6:15</td><td>**6:20</td><td>**6:30</td><td>**6:35</td><td>**6:40</td><td>**6:45</td><td>**6:50</td><td>**6:56</td></tr>
+										<tr><td>7:00</td><td>7:08</td><td>7:15</td><td>7:20</td><td>7:30</td><td>7:35</td><td>7:40</td><td>7:45</td><td>7:50</td><td>7:56</td></tr>
+										<tr><td>8:00</td><td>8:08</td><td>8:15</td><td>*||||*</td><td>8:30</td><td>8:35</td><td>8:40</td><td>8:45</td><td>8:50</td><td>8:56</td></tr>
+										<tr><td>9:00</td><td>9:08</td><td>9:15</td><td>9:20</td><td>9:30</td><td>9:35</td><td>9:40</td><td>9:45</td><td>9:50</td><td>9:56</td></tr>
+										<tr><td>10:00</td><td>10:08</td><td>10:15</td><td>10:20</td><td>10:30</td><td>10:35</td><td>10:40</td><td>10:45</td><td>10:50</td><td>10:56</td></tr>
+										<tr><td>11:00</td><td>11:08</td><td>11:15</td><td>11:20</td><td>11:30</td><td>11:35</td><td>11:40</td><td>11:45</td><td>11:50</td><td>11:56</td></tr>
+										<tr><td>12:00</td><td>12:08</td><td>12:15</td><td>*||||*</td><td>12:30</td><td>12:35</td><td>12:40</td><td>12:45</td><td>12:50</td><td>12:56</td></tr>
+										<tr><td>1:00</td><td>1:08</td><td>1:15</td><td>1:20</td><td>1:30</td><td>1:35</td><td>1:40</td><td>1:45</td><td>1:50</td><td>1:56</td></tr>
+										<tr><td>2:00</td><td>2:08</td><td>2:15</td><td>2:20</td><td>2:30</td><td>2:35</td><td>2:40</td><td>2:45</td><td>2:50</td><td>2:56</td></tr>
+										<tr><td>3:00</td><td>3:08</td><td>3:15</td><td>3:20</td><td>3:30</td><td>3:35</td><td>3:40</td><td>3:45</td><td>3:50</td><td>3:56</td></tr>
+										<tr><td>4:00</td><td>4:08</td><td>4:15</td><td>4:20</td><td>4:30</td><td>4:35</td><td>4:40</td><td>4:45</td><td>4:50</td><td>4:56</td></tr>
+										<tr><td>5:00</td><td>5:08</td><td>5:15</td><td>*||||*</td><td>5:30</td><td>5:35</td><td>5:40</td><td>5:45</td><td>5:50</td><td>5:56</td></tr>
+										<tr><td>6:00</td><td>6:08</td><td>6:15</td><td>6:20</td><td>6:30</td><td>6:35</td><td>6:40</td><td>6:45</td><td>6:50</td><td>6:56</td></tr>
+									</table>
+									<p>
+										* = These buses service Eliada Home by way of Compton Drive and will not enter the Meadows 
+										Apartments. 
+									</p>
+									<p>
+										** = No Saturday service on 6:00 a.m. runs 
+									</p>
+									<p>
+										<b>Route Traveled:</b><br>
+										Transit Center to left onto Coxe Avenue to right onto Patton Avenue to left onto Haywood Street to 
+										right onto Montford Avenue and turns left onto the I-240 entrance ramp.  Travels I-240 and exits at 
+										the Westgate Shopping Center.  Loops through Westgate and continues west to Patton Avenue and Regent Park complex.  Loops through Regent park then returns to Patton Avenue, turning right onto 
+										Patton, then turning right onto New Leicester Highway to the Meadows Apartments (see schedule 
+										for times through Meadows Apartments and times to Eliada Home).  New Leicester Highway to left 
+										onto Old County Home Road to left onto Baker Drive to right onto Mountain Terrace to left onto 
+										Rash Road to right onto Oakmont Terrace to right onto Johnston Boulevard.  Johnston Boulevard to 
+										left onto North Bear Creek Road to right onto Deaverview Road.  Loop through Deaverview 
+										Apartments, back to Deaverview Road.  Right on Deaverview Road to Pisgah View Road.  Turn 
+										around in convenience store parking lot and head back down Deaverview Road, passing (but not reentering) Deaverview Apartments.  Turns left onto North Bear Creek Road to right onto Old County 
+										Home Road to right onto New Leicester Highway to left onto Patton Avenue.  Take Westgate 
+										Shopping Center Exit and loop around Westgate, returning to highway, which has now become I-
+										240.  Exit onto Patton Avenue to left onto Asheland Avenue to left into Transit Center. 
+									</p>
+								</div>
               </div>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>16: N. Louisiana/Bingham Heights</h3>
-                <p>Here's the schedule for route 5</p>
+                <div class='schedule'>
+									<h3>Route 16  North Louisiana/Bingham Heights</h3>
+									<h3>Monday - Saturday</h3>
+									<table class='schedule-table'>
+										<tr>
+											<th>Leave Transit Center</th>
+											<th>Patton Ave at Hazel Mill Rd</th>
+											<th>N Louisiana Ave at Emma Rd</th>
+											<th>Adams Hill/Pearson Bridge</th>
+											<th>Bingham Rd at Keith Drive</th>
+											<th>Emma Rd at N Louisiana Ave</th>
+											<th>N Louisiana Ave at Patton Ave</th>
+											<th>Arrive Transit Center</th>
+										</tr>
+										<tr><td>6:00</td><td>6:05</td><td>6:10</td><td>6:12</td><td>6:15</td><td>6:18</td><td>6:20</td><td>6:26</td></tr>
+										<tr><td>7:00</td><td>7:05</td><td>7:10</td><td>7:12</td><td>7:15</td><td>7:18</td><td>7:20</td><td>7:26</td></tr>
+										<tr><td>8:00</td><td>8:05</td><td>8:10</td><td>8:12</td><td>8:15</td><td>8:18</td><td>8:20</td><td>8:26</td></tr>
+										<tr><td>9:00</td><td>9:05</td><td>9:10</td><td>9:12</td><td>9:15</td><td>9:18</td><td>9:20</td><td>9:26</td></tr>
+										<tr><td>10:00</td><td>10:05</td><td>10:10</td><td>10:12</td><td>10:15</td><td>10:18</td><td>10:20</td><td>10:26</td></tr>
+										<tr><td>11:00</td><td>11:05</td><td>11:10</td><td>11:12</td><td>11:15</td><td>11:18</td><td>11:20</td><td>11:26</td></tr>
+										<tr><td>12:00</td><td>12:05</td><td>12:10</td><td>12:12</td><td>12:15</td><td>12:18</td><td>12:20</td><td>12:26</td></tr>
+										<tr><td>1:00</td><td>1:05</td><td>1:10</td><td>1:12</td><td>1:15</td><td>1:18</td><td>1:20</td><td>1:26</td></tr>
+										<tr><td>2:00</td><td>2:05</td><td>2:10</td><td>2:12</td><td>2:15</td><td>2:18</td><td>2:20</td><td>2:26</td></tr>
+										<tr><td>3:00</td><td>3:05</td><td>3:10</td><td>3:12</td><td>3:15</td><td>3:18</td><td>3:20</td><td>3:26</td></tr>
+										<tr><td>4:00</td><td>4:05</td><td>4:10</td><td>4:12</td><td>4:15</td><td>4:18</td><td>4:20</td><td>4:26</td></tr>
+										<tr><td>5:00</td><td>5:05</td><td>5:10</td><td>5:12</td><td>5:15</td><td>5:18</td><td>5:20</td><td>5:26</td></tr>
+										<tr><td>6:00</td><td>6:05</td><td>6:10</td><td>6:12</td><td>6:15</td><td>6:18</td><td>6:20</td><td>6:26</td></tr>
+									</table>
+									<p>
+										<b>Route Traveled:</b><br>
+										Transit Center to right onto Asheland Avenue to left onto Patton Avenue to I-240 to Patton Avenue.  
+										Turns right onto Hazel Mill Road.  Continues Hazel Mill Road to right onto North Louisiana Avenue 
+										and past Emma Elementary School.  Turns left onto Adams Hill Road to right onto Pearson Bridge 
+										Road to right on Bingham Road, services Woodridge Apartments via Bingham Road bus stop.  Turn 
+										right onto Emma Road, then left onto North Louisiana Avenue.  Turn left onto Patton Avenue and 
+										continue on Patton Avenue/I-240 to downtown, exiting on Patton Avenue.  Continue on Patton 
+										Avenue to right onto Coxe Avenue to right into Transit Center. 
+									</p>
+								</div>
               </div>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>18: Erskine St./AB Tech/Flint St./UNCA</h3>
-                <p>Here's the schedule for route 5</p>
+                <div class='schedule'>
+									<h3>Route 18 Erskine Street/AB Tech/Flint Street/UNCA</h3>
+									<h3>Monday - Saturday </h3>
+									<table class='schedule-table'>
+										<tr>
+											<th>Leave Transit Center</th>
+											<th>Asheville Housing Authority</th>
+											<th>Depot St at Oakland Rd</th>
+											<th>AB Tech</th>
+											<th>Erskine Street Aparts.</th>
+											<th>MLK/So. Charlotte Street</th>
+											<th>Haywood St at Civic Center</th>
+											<th>Mount Clare Ave at Hillside St</th>
+											<th>UNCA</th>
+											<th>Flint St at Magnolia Ave</th>
+											<th>Arrive Transit Center</th>
+										</tr>
+										<tr><td>6:00</td><td>6:05</td><td>6:15</td><td>6:20</td><td>6:25</td><td>6:30</td><td>6:35</td><td>6:38</td><td>6:45</td><td>6:50</td><td>6:58</td></tr>
+										<tr><td>7:00</td><td>7:05</td><td>7:15</td><td>7:20</td><td>7:25</td><td>7:30</td><td>7:35</td><td>7:38</td><td>7:45</td><td>7:50</td><td>7:58</td></tr>
+										<tr><td>8:00</td><td>8:05</td><td>8:15</td><td>8:20</td><td>8:25</td><td>8:30</td><td>8:35</td><td>8:38</td><td>8:45</td><td>8:50</td><td>8:58</td></tr>
+										<tr><td>9:00</td><td>9:05</td><td>9:15</td><td>9:20</td><td>9:25</td><td>9:30</td><td>9:35</td><td>9:38</td><td>9:45</td><td>9:50</td><td>9:58</td></tr>
+										<tr><td>10:00</td><td>10:05</td><td>10:15</td><td>10:20</td><td>10:25</td><td>10:30</td><td>10:35</td><td>10:38</td><td>10:45</td><td>10:50</td><td>10:58</td></tr>
+										<tr><td>11:00</td><td>11:05</td><td>11:15</td><td>11:20</td><td>11:25</td><td>11:30</td><td>11:35</td><td>11:38</td><td>11:45</td><td>11:50</td><td>11:58</td></tr>
+										<tr><td>12:00</td><td>12:05</td><td>12:15</td><td>12:20</td><td>12:25</td><td>12:30</td><td>12:35</td><td>12:38</td><td>12:45</td><td>12:50</td><td>12:58</td></tr>
+										<tr><td>1:00</td><td>1:05</td><td>1:15</td><td>1:20</td><td>1:25</td><td>1:30</td><td>1:35</td><td>1:38</td><td>1:45</td><td>1:50</td><td>1:58</td></tr>
+										<tr><td>2:00</td><td>2:05</td><td>2:15</td><td>2:20</td><td>2:25</td><td>2:30</td><td>2:35</td><td>2:38</td><td>2:45</td><td>2:50</td><td>2:58</td></tr>
+										<tr><td>3:00</td><td>3:05</td><td>3:15</td><td>3:20</td><td>3:25</td><td>3:30</td><td>3:35</td><td>3:38</td><td>3:45</td><td>3:50</td><td>3:58</td></tr>
+										<tr><td>4:00</td><td>4:05</td><td>4:15</td><td>4:20</td><td>4:25</td><td>4:30</td><td>4:35</td><td>4:38</td><td>4:45</td><td>4:50</td><td>4:58</td></tr>
+										<tr><td>5:00</td><td>5:05</td><td>5:15</td><td>5:20</td><td>5:25</td><td>5:30</td><td>5:35</td><td>5:38</td><td>5:45</td><td>5:50</td><td>5:58</td></tr>
+										<tr><td>6:00</td><td>6:05</td><td>6:15</td><td>6:20</td><td>6:25</td><td>6:30</td><td>6:35</td><td>6:38</td><td>6:45</td><td>6:50</td><td>6:58</td></tr>
+									</table>
+									<p>
+										<b>Route Traveled:</b><br>
+										Transit Center to right on Coxe Avenue to right on Hilliard Street to left on South French Broad 
+										Avenue.  Continue South French Broad to right on Bartlett Street through Overlook Arms 
+										Apartments and return to South French Broad.  Right on South French Broad to right on Livingston 
+										Street to left on Depot Street to left on Oakland Road to right on Victoria Road to right into AB Tech
+										lower lots.  Left onto Victoria, left into AB Tech upper lots via Joblink Center to left on Victoria 
+										Road.  Victoria Road to left onto Livingston Street to left onto Erskine Street and through Erskine 
+										Apartments, returning to Erskine Street to Pine Grove Avenue to left onto Churchill Street to right 
+										onto Congress Street.  Congress Street to right onto Choctaw Street to left onto McDowell Street to 
+										right onto Southside Avenue, crossing Biltmore Avenue and becoming South Charlotte Street.  Right onto Martin Luther King Jr. Drive to left onto College Street to right on Haywood Street.  Continue 
+										on Haywood Street past the Asheville Civic Center, to right onto Flint Street to right on West 
+										Chestnut Street to bear left onto Mount Clare Avenue at 5-points intersection.  Mount Clare Avenue 
+										to left onto Hillside Street to right onto Broadway to right onto W.T. Weaver Boulevard to left onto 
+										University Heights.  Circle UNCA campus counter-clockwise via University Heights then return to 
+										W.T. Weaver, turning right on W.T. Weaver Boulevard.  Continue on W.T. Weaver, turning left onto 
+										Broadway, right onto Magnolia Avenue to left onto Flint Street.  Continue on to Haywood Street, 
+										turning right onto College Street, then left onto Asheland Avenue, then left into Transit Center. 
+									</p>
+								</div>
               </div>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>26: Tunnel Rd./Target/Walmart</h3>
-                <p>Here's the schedule for route 5</p>
+                <div class='schedule'>
+									<h3>Route 26 Tunnel Road/Target/Wal-Mart</h3>
+									<h3>Monday - Saturday </h3>
+									<table class='schedule-table'>
+										<tr>
+											<th>Leave Transit Center</th>
+											<th>College St at S Charlotte St</th>
+											<th>Social Security Admin.</th>
+											<th>Asheville Mall</th>
+											<th>Target Store</th>
+											<th>Wal-Mart Supercenter</th>
+											<th>S Tunnel Rd @ Kmart</th>
+											<th>Arrive Transit Center</th>
+										</tr>
+										<tr><td>6:15</td><td>6:18</td><td>6:23</td><td>6:26</td><td>6:40</td><td>6:50</td><td>7:00</td><td>7:15</td></tr>
+										<tr><td>7:15</td><td>7:18</td><td>7:23</td><td>7:26</td><td>7:40</td><td>7:50</td><td>8:00</td><td>8:15</td></tr>
+										<tr><td>8:15</td><td>8:18</td><td>8:23</td><td>8:26</td><td>8:40</td><td>8:50</td><td>9:00</td><td>9:15</td></tr>
+										<tr><td>9:15</td><td>9:18</td><td>9:23</td><td>9:26</td><td>9:40</td><td>9:50</td><td>10:00</td><td>10:15</td></tr>
+										<tr><td>10:15</td><td>10:18</td><td>10:23</td><td>10:26</td><td>10:40</td><td>10:50</td><td>11:00</td><td>11:15</td></tr>
+										<tr><td>11:15</td><td>11:18</td><td>11:23</td><td>11:26</td><td>11:40</td><td>11:50</td><td>12:00</td><td>12:15</td></tr>
+										<tr><td>12:15</td><td>12:18</td><td>12:23</td><td>12:26</td><td>12:40</td><td>12:50</td><td>1:00</td><td>1:15</td></tr>
+										<tr><td>1:15</td><td>1:18</td><td>1:23</td><td>1:26</td><td>1:40</td><td>1:50</td><td>2:00</td><td>2:15</td></tr>
+										<tr><td>2:15</td><td>2:18</td><td>2:23</td><td>2:26</td><td>2:40</td><td>2:50</td><td>3:00</td><td>3:15</td></tr>
+										<tr><td>3:15</td><td>3:18</td><td>3:23</td><td>3:26</td><td>3:40</td><td>3:50</td><td>4:00</td><td>4:15</td></tr>
+										<tr><td>4:15</td><td>4:18</td><td>4:23</td><td>4:26</td><td>4:40</td><td>4:50</td><td>5:00</td><td>5:15</td></tr>
+										<tr><td>5:15</td><td>5:18</td><td>5:23</td><td>5:26</td><td>5:40</td><td>5:50</td><td>6:00</td><td>6:15</td></tr>
+										<tr><td>6:15</td><td>6:18</td><td>6:23</td><td>6:26</td><td>6:40</td><td>6:50</td><td>7:00</td><td>7:15</td></tr>
+									</table>
+									<p>
+										<b>Route Traveled:</b><br>
+										Leave Transit Center and turn left onto Coxe Avenue.  Turn right onto Patton Avenue and follow 
+										Patton Avenue/College Street/Tunnel Road until taking a left on Chunns Cove Rd then right on Pney 
+										Mtn. Drive and turning into Center Park Drive, to serve the Social Security Administration then 
+										return to Tunnel Rd, left on Tunnel Rd to right onto South Tunnel Road.  Upon crossing Swannanoa 
+										River Road, South Tunnel Road becomes Wood Avenue.  Turn right off of Wood into shopping center 
+										roadway.  Follow roadway up hill to Target, circling in front of store. Reverse route and return to 
+										Wood Avenue, turning left.  From Wood Avenue, turn right onto Swannanoa River Road, then turn 
+										right onto Bleachery Boulevard to enter Wal-Mart Supercenter.  Circle Wal-Mart Supercenter 
+										and pass shelter in front of store.  Return to Bleachery Boulevard, turning left onto Swannanoa 
+										River Road, turning right onto South Tunnel Road, then turning left onto Tunnel Road.  If there is 
+										demand for the Social Security area, then turn right on Chunn's Cove Road, right onto Piney Mountain Drive, then left onto Centre park Drive, circling the complex and returning to Piney 
+										Mountain Drive.  Turn right onto Piney Mountain Drive, then left onto Chunn's Cove Road, then right 
+										onto Tunnel Road to re-join scheduled route.  Continue on Tunnel Road/College Street to left onto 
+										Asheland Avenue to left into Transit Center. 
+									</p>
+								</div>
               </div>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>170: Warren Wilson/Black Mountain</h3>
@@ -124,23 +757,171 @@
             <div data-role="collapsible-set">
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>36: Hendersonville Rd./Shiloh</h3>
-                <p>Here's the schedule for route 1</p>
+                <div class='schedule'>
+									<h3>Route 36 Hendersonville Road/Shiloh Evening Service</h3>
+									<h3>Monday - Saturday </h3>
+									<table class='schedule-table'>
+										<tr>
+											<th>Leave Transit Center</th>
+											<th>MHS Mission Campus</th>
+											<th>Biltmore Village Lodge St</th>
+											<th>Laurelwood Apts</th>
+											<th>Rock Hill Rd at West Chapel Rd</th>
+											<th>South Forest Center</th>
+											<th>Arrive Transit Center</th>
+										</tr>
+										<tr><td>7:30</td><td>7:37</td><td>7:43</td><td>7:53</td><td>8:05</td><td>8:15</td><td>8:26</td></tr>
+										<tr><td>8:30</td><td>8:37</td><td>8:43</td><td>8:53</td><td>9:05</td><td>9:15</td><td>9:26</td></tr>
+										<tr><td>9:30</td><td>9:37</td><td>9:43</td><td>9:53</td><td>10:05</td><td>10:15</td><td>10:26</td></tr>
+										<tr><td>10:30</td><td>10:37</td><td>10:43</td><td>10:53</td><td>11:05</td><td>11:15</td><td>11:26</td></tr>
+									</table>
+									<p>
+										<b>Route Traveled:</b><br>
+										Leave Transit Center onto eastbound Aston Street to right on Biltmore Avenue to right on Victoria 
+										Road to left onto MHS Mission Campus.  Circle Mission Campus, exiting by turning right onto 
+										Biltmore Avenue.  Biltmore Avenue to Biltmore Village to left onto Lodge Street.  Continue on Lodge 
+										Street/Sweeten Creek Road to right onto London Road, left onto West Chapel Road, right onto 
+										White Avenue, left onto Shiloh Road, then right onto Caribou Road.  Caribou Road to left into 
+										Laurelwood Apartments and return to Caribou Road, turning left.  Caribou Road to left onto 
+										Hendersonville Road to left onto Rock Hill Road, left onto Sweeten Creek Road, right onto West 
+										Chapel Road, right onto Rock Hill Road, crossing Sweeten Creek Road and making a right turn onto 
+										Hendersonville Road.  Hendersonville Road to Biltmore Avenue to left into MHS Mission Campus, 
+										making the loop around the campus to a right turn onto Victoria Road, then a left onto Biltmore 
+										Avenue.  Biltmore Avenue to left onto Hilliard Street to right onto Asheland Avenue to right into 
+										Transit Center. 
+									</p>
+								</div>
               </div>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>38: S. French Broad/Erskine/AB Tech</h3>
-                <p>Here's the schedule for route 2</p>
+                <div class='schedule'>
+									<h3>Route 38 South French Broad/Erskine/AB Tech Evening Service</h3>
+									<h3>Monday - Saturday </h3>
+									<table class='schedule-table'>
+										<tr>
+											<th>Leave Transit Center</th>
+											<th>Asheville Housing Authority</th>
+											<th>Oakland Rd at Depot Street</th>
+											<th>AB Tech College</th>
+											<th>Erskine St Apts</th>
+											<th>Arrive Transit Center</th>
+										</tr>
+										<tr><td>8:00</td><td>8:04</td><td>8:13</td><td>8:18</td><td>8:22</td><td>8:27</td></tr>
+										<tr><td>9:00</td><td>9:04</td><td>9:13</td><td>9:18</td><td>9:22</td><td>9:27</td></tr>
+										<tr><td>10:00</td><td>10:04</td><td>10:13</td><td>10:18</td><td>10:22</td><td>10:27</td></tr>
+										<tr><td>11:00</td><td>11:04</td><td>11:13</td><td>11:18</td><td>11:22</td><td>11:27</td></tr>
+									</table>
+									<p>
+										<b>Route Traveled:</b><br>
+										Leave Transit Center by making a right turn onto Coxe Avenue.  Coxe Avenue to right onto Hilliard 
+										Street to left onto South French Broad Avenue to right onto Livingston Street to left onto Depot 
+										Street to left onto Oakland Road to Right onto Victoria Road to AB Tech Campus.  Loop through AB 
+										Tech lower lots, returning to Victoria Road to loop through AB Tech upper lots past Joblink Center to 
+										Victoria Road and left onto Victoria.  Continue on Victoria to left onto Livingston Street to left onto 
+										Erskine Street and loop through Erskine Street Apartments.  Returning on Erskine Street, cross 
+										Livingston Street and road becomes Pine Grove Avenue.  Left onto Churchill Street to right onto 
+										Congress Street to right onto Choctaw Street to left onto McDowell Street.  McDowell 
+										Street/Asheland Avenue to right into Transit Center
+									</p>
+								</div>
               </div>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>41: Haywood Rd./Deaverview/Pisgah View</h3>
-                <p>Here's the schedule for route 3</p>
+                <div class='schedule'>
+									<h3>Route 41 Haywood Road/Deaverview/Pisgah View Evening Service</h3>
+									<h3>Monday - Saturday </h3>
+									<table class='schedule-table'>
+										<tr>
+											<th>Leave Transit Center</th>
+											<th>Pisgah View Apts</th>
+											<th>Ingles Market</th>
+											<th>Haywood Rd at Patton Ave</th>
+											<th>Deaverview Apts</th>
+											<th>Haywood Rd at Vermont Ave</th>
+											<th>Arrive Transit Center</th>
+										</tr>
+										<tr><td>7:30</td><td>7:42</td><td>7:52</td><td>7:57</td><td>8:05</td><td>8:15</td><td>8:26</td></tr>
+										<tr><td>8:30</td><td>8:42</td><td>8:52</td><td>8:57</td><td>9:05</td><td>9:15</td><td>9:26</td></tr>
+										<tr><td>9:30</td><td>9:42</td><td>9:52</td><td>9:57</td><td>10:05</td><td>10:15</td><td>10:26</td></tr>
+										<tr><td>10:30</td><td>10:42</td><td>10:52</td><td>10:57</td><td>11:05</td><td>11:15</td><td>11:26</td></tr>
+									</table>
+									<p>
+										<b>Route Traveled:</b><br>
+										Exit Transit Center by turning left onto Coxe Avenue then left onto Patton Avenue.  Right onto 
+										Haywood Street loop to Clingman Avenue to Haywood Road to left onto Hanover Street to left onto 
+										Granada Street through Pisgah View Apartments.  Left onto Short Michigan Avenue, right onto State 
+										Street, left onto Michigan Avenue to left back onto Haywood Road.  Haywood Road to left onto 
+										Patton Avenue to right onto Deaverview Road.  Right into Deaverview Apartments, looping through 
+										complex.  Return to Deaverview Road, turning right onto Deaverview, crossing Pisgah View Road 
+										and turning around at convenience store on corner.  Inbound on Deaverview Road to left onto 
+										Patton Avenue to right onto Haywood Road.  Haywood Road/Clingman Avenue to right onto Patton 
+										Avenue to right onto Asheland Avenue to left into Transit Center. 
+									</p>
+								</div>
               </div>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>46: Patton Ave./Bingham Heights</h3>
-                <p>Here's the schedule for route 4</p>
+                <div class='schedule'>
+									<h3>Route 46 Patton Avenue/Bingham Heights Evening Service</h3>
+									<h3>Monday - Saturday </h3>
+									<table class='schedule-table'>
+										<tr>
+											<th>Leave Transit Center</th>
+											<th>Kmart Plaza</th>
+											<th>N Louisiana Ave at Emma Rd</th>
+											<th>Bingham Rd at Emma Rd</th>
+											<th>Emma Rd at Louisiana Ave</th>
+											<th>Patton Ave BiLo</th>
+											<th>Arrive Transit Center</th>
+										</tr>
+										<tr><td>7:30</td><td>7:38</td><td>7:40</td><td>7:46</td><td>7:48</td><td>7:50</td><td>7:56</td></tr>
+										<tr><td>8:30</td><td>8:38</td><td>8:40</td><td>8:46</td><td>8:48</td><td>8:50</td><td>8:56</td></tr>
+										<tr><td>9:30</td><td>9:38</td><td>9:40</td><td>9:46</td><td>9:48</td><td>9:50</td><td>9:56</td></tr>
+										<tr><td>10:30</td><td>10:38</td><td>10:40</td><td>10:46</td><td>10:48</td><td>10:50</td><td>10:56</td></tr>
+									</table>
+									<p>
+										<b>Route Traveled:</b><br>
+										Exit Transit Center by right turn onto Asheland Avenue.  Left turn onto Patton Avenue.  Continue on 
+										Patton Avenue/I-240/Patton Avenue to right onto North Louisiana Avenue.  North on North 
+										Louisiana  Avenue to right onto Adams Hill Road to right onto Bingham Road.  Continue on Bingham 
+										Road to right onto Emma Road to left onto North Louisiana Avenue to left onto Patton Avenue.  
+										Continue on Patton Avenue/I-240/Patton Avenue to downtown, turning right onto Coxe Avenue then 
+										right into Transit Center. 
+									</p>
+								</div>
               </div>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>51: Montford/Klondyke/Hillcrest</h3>
-                <p>Here's the schedule for route 5</p>
+                <div class='schedule'>
+									<h3>Route 51  Montford/Klondyke/Hillcrest Evening Service</h3>
+									<h3>Monday - Saturday </h3>
+									<table class='schedule-table'>
+										<tr>
+											<th>Leave Transit Center</th>
+											<th>William Randolph School</th>
+											<th>Klondyke Apts</th>
+											<th>Hillcrest Apts</th>
+											<th>Isaac Dickson School</th>
+											<th>Asheville Visitor's Center</th>
+											<th>Arrive Transit Center</th>
+										</tr>
+										<tr><td>7:30</td><td>7:33</td><td>7:37</td><td>7:45</td><td>7:50</td><td>7:52</td><td>7:56</td></tr>
+										<tr><td>8:30</td><td>8:33</td><td>8:37</td><td>8:45</td><td>8:50</td><td>8:52</td><td>8:56</td></tr>
+										<tr><td>9:30</td><td>9:33</td><td>9:37</td><td>9:45</td><td>9:50</td><td>9:52</td><td>9:56</td></tr>
+										<tr><td>10:30</td><td>10:33</td><td>10:37</td><td>10:45</td><td>10:50</td><td>10:52</td><td>10:56</td></tr>
+									</table>
+									<p>
+										<b>Route Traveled:</b><br>
+										Transit Center to right onto Asheland Avenue to right onto Patton Avenue to left onto Haywood 
+										Street to Flint Street.  Right onto Cherry Street to right onto Montford Avenue.  Proceeds on 
+										Montford Avenue through Klondyke Apartments.  Leaves Klondyke Apartments to right onto Santee 
+										Street to left onto Pearson Drive to Left on Watauga to right onto Montford Avenue.  Turns right 
+										onto Hill Street and proceeds to Hillcrest Apartments.  Circles counter-clockwise through apartments 
+										then returns to Hill Street, past Isaac Dickson School to right onto Montford to left onto Haywood 
+										Street.  Continues on Haywood Street to right onto College Street to left onto Coxe Avenue to right 
+										into Transit Center. 
+									</p>
+								</div>
               </div>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>52: Merrimon Ave./UNCA</h3>
