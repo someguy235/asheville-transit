@@ -7,42 +7,28 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
     <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
-    <style type="text/css">
-      .left{
-        width:45%;
-        text-align:right;
-        float:left;
-        padding-right:5px;
-      }
-      .right{
-        width:48%;
-        text-align:left;
-        font-size: 1.5em;
-      }
-      .link_text{
-        font-size: 1.5em;
-      }
-    </style>
   </head>
   <body>
+    <div data-role="page" >
+    <div data-role="header" data-theme="b">
+    <h1>Asheville, NC Transit Info</h1>
+    </div>
+    <div data-role="content">
     <div data-role="controlgroup" >
       <a href="./info.html" data-role="button">
-        <img src="./images/info.png" />
-        Info
+        <div><img src="./images/info-med.png" /></div>
+        <div>Info</div>
       </a>
       <a href="./schedules.html" data-role="button">
-        <img src="./images/schedule.png" />
-        Schedules
+        <div><img src="./images/schedule-med.png" /></div>
+        <div>Schedules</div>
       </a>
       <a href="./route-map.html" data-role="button">
-        <img src="./images/map.png" />
-        Maps
+        <div><img src="./images/map-med.png" /></div>
+        <div>Maps</div>
       </a>
     </div>
-    <div>
-      <p>
-        This is an unofficial redesign of the transit website for the city of Asheville, NC. I have no connection to the city, and this information may become out-of-date at some point.
-      </p>
+    </div>
     </div>
   </body>
 </html>
