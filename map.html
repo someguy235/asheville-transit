@@ -149,25 +149,17 @@
   <body onload="initialize()">
     <div data-role="page" data-theme="b"id="main_page">
       
-      <div id="navbar" data-role="navbar" data-iconpos="right">
-        <ul>
-          <li>
-            <a href="./index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
-          </li>
-          <li>
+      <div id="navbar" data-theme="b" data-role="header" data-iconpos="right">
+        <a href="./index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-left jqm-home">Home</a>
+        <div data-role="controlgroup" data-type="horizontal" style="margin-left:75px; margin-top:5px; margin-bottom:5px;">
           <select name="select-routes" id="routes" data-native-menu="true" data-icon="gear" onchange="addRoutes(this.value);">
             <option value="">all routes</option>
           </select>
-          </li>
-          <li>
           <select name="select-times" id="times" data-native-menu="true" data-icon="gear" onChange="setRoutes(this.value)">
             <option value="week-day">Mon-Sat Daytime</option>
             <option value="week-ngt">Mon-Sat Night</option>
-<!--            <option value="wknd-day">wknd/day</option>
-            <option value="wknd-ngt">wknd/ngt</option>-->
           </select>
-          </li>
-        </ul>
+        </div>
       </div><!--navbar-->
       
       <div data-role="content" id="content">
