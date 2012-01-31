@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
 <Document>
-  <name>Route 4 (Kenilworth/Asheville Mall) Week Day</name>
+  <name>Route 4 (Kenilworth/Asheville Mall) Mon-Sat Day</name>
   <description><![CDATA[]]></description>
-  <Style id="style4">
+   <Style id="style1">
     <IconStyle>
       <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/bus.png</href>
       </Icon>
     </IconStyle>
   </Style>
@@ -16,15 +16,8 @@
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style1">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
   <Placemark>
-    <name>Route 4 (Kenilworth/Asheville Mall) Week Day</name>
+    <name>Route 4 (Kenilworth/Asheville Mall) Mon-Sat Day</name>
     <Snippet></Snippet>
     <description><![CDATA[]]></description>
     <styleUrl>#style2</styleUrl>
@@ -310,6 +303,54 @@
         -82.55505,35.59278,0.000000
       </coordinates>
     </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Route 4: Mission Campus MHS</name>
+    <description><![CDATA[<div dir="ltr">##:06 from 6:06am to 6:06pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.550132,35.579255,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 4: Caledonia Rd at Forest Hill Dr</name>
+    <description><![CDATA[<div dir="ltr">##:15 from 6:15am to 6:15pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.539725,35.575642,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 4: Innsbruck Mall</name>
+    <description><![CDATA[<div dir="ltr">##:20 from 6:20am to 6:20pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.533095,35.594175,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 4: Asheville Mall</name>
+    <description><![CDATA[<div dir="ltr">##:30 from 6:30am to 6:30pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.52492,35.582449,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 4: Tunnel Rd at Kenilworth Rd </name>
+    <description><![CDATA[<div dir="ltr">##:40 from 6:40am to 6:40pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.529984,35.589612,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 4: Mission Campus MHS </name>
+    <description><![CDATA[<div dir="ltr">##:45 from 6:45am to 6:45pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.54981,35.579098,0.000000</coordinates>
+    </Point>
   </Placemark>
 </Document>
 </kml>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
 <Document>
-  <name>Route 1 (Haywood Rd.) Week Day</name>
+  <name>Route 1 (Haywood Rd.) Mon-Sat Day</name>
   <description><![CDATA[]]></description>
    <Style id="style1">
     <IconStyle>
@@ -17,7 +17,7 @@
     </LineStyle>
   </Style>
   <Placemark>
-    <name>Route 1 (Haywood Rd.) Week Day</name>
+    <name>Route 1 (Haywood Rd.) Mon-Sat Day</name>
     <Snippet></Snippet>
     <description><![CDATA[]]></description>
     <styleUrl>#style2</styleUrl>

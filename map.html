@@ -23,23 +23,22 @@
       var map = null;
 
       var kml_dict = {};
-      kml_dict["week-day-route-1"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r1.week.day.kml');
-      //kml_dict["week-day-route-1"] = new google.maps.KmlLayer('./r1.week.day.kml');
-      kml_dict["week-day-route-2"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r2.week.day.kml');
-      kml_dict["week-day-route-4"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r4.week.day.kml');
-      kml_dict["week-day-route-5"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r5.week.day.kml');
-      kml_dict["week-day-route-6"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r6.week.day.kml');
-      kml_dict["week-day-route-8"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r8.week.day.kml');
-      kml_dict["week-day-route-9"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r9.week.day.kml');
-      kml_dict["week-day-route-11"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r11.week.day.kml');
-      kml_dict["week-day-route-12"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r12.week.day.kml');
-      kml_dict["week-day-route-13"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r13.week.day.kml');
-      kml_dict["week-day-route-15"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r15.week.day.kml');
-      kml_dict["week-day-route-16"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r16.week.day.kml');
-      kml_dict["week-day-route-18"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r18.week.day.kml');
-      kml_dict["week-day-route-26"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r26.week.day.kml');
-      kml_dict["week-day-route-170"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/r170.week.day.kml');
-      transit_center_day_map = new google.maps.KmlLayer('http://www.ethanshepherd.com/static/kml/transit.center.day.kml');
+      kml_dict["week-day-route-1"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r1.week.day.kml');
+      kml_dict["week-day-route-2"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r2.week.day.kml');
+      kml_dict["week-day-route-4"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r4.week.day.kml');
+      kml_dict["week-day-route-5"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r5.week.day.kml');
+      kml_dict["week-day-route-6"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r6.week.day.kml');
+      kml_dict["week-day-route-8"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r8.week.day.kml');
+      kml_dict["week-day-route-9"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r9.week.day.kml');
+      kml_dict["week-day-route-11"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r11.week.day.kml');
+      kml_dict["week-day-route-12"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r12.week.day.kml');
+      kml_dict["week-day-route-13"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r13.week.day.kml');
+      kml_dict["week-day-route-15"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r15.week.day.kml');
+      kml_dict["week-day-route-16"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r16.week.day.kml');
+      kml_dict["week-day-route-18"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r18.week.day.kml');
+      kml_dict["week-day-route-26"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r26.week.day.kml');
+      kml_dict["week-day-route-170"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r170.week.day.kml');
+      transit_center_day_map = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/transit.center.day.kml');
 
       function initialize(){
         resizeMap();
@@ -149,17 +148,31 @@
   <body onload="initialize()">
     <div data-role="page" data-theme="b"id="main_page">
       
-      <div id="navbar" data-theme="b" data-role="header" data-iconpos="right">
-        <a href="./index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-left jqm-home">Home</a>
-        <div data-role="controlgroup" data-type="horizontal" style="margin-left:75px; margin-top:5px; margin-bottom:5px;">
+      <div id="navbar" data-theme="b" data-role="navbar" data-iconpos="right">
+        <ul>
+          <li>
+            <a href="./index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-left jqm-home">&nbsp;</a>
+          </li>
+          <li>
+            <a href="">&nbsp;</a>
+          </li>
+          <li>
+            <a href="">Route Maps</a>
+          </li>
+          <li>
+<!--        <div data-role="controlgroup" data-type="horizontal" style="margin-left:75px; margin-top:5px; margin-bottom:5px;">-->
           <select name="select-routes" id="routes" data-native-menu="true" data-icon="gear" onchange="addRoutes(this.value);">
             <option value="">all routes</option>
           </select>
+          </li>
+          <li>
           <select name="select-times" id="times" data-native-menu="true" data-icon="gear" onChange="setRoutes(this.value)">
-            <option value="week-day">Mon-Sat Daytime</option>
-            <option value="week-ngt">Mon-Sat Night</option>
+            <option value="week-day">daytime</option>
+            <option value="week-ngt">nighttime</option>
           </select>
-        </div>
+          </li>
+<!--        </div>-->
+        </ul>
       </div><!--navbar-->
       
       <div data-role="content" id="content">
