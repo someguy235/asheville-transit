@@ -3,10 +3,10 @@
 <Document>
   <name>Route 12 (Oakley/River Ridge) Mon.-Sat. Daytime</name>
   <description><![CDATA[]]></description>
-  <Style id="style4">
+  <Style id="style1">
     <IconStyle>
       <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/bus.png</href>
       </Icon>
     </IconStyle>
   </Style>
@@ -15,13 +15,6 @@
       <color>851874CF</color>
       <width>5</width>
     </LineStyle>
-  </Style>
-  <Style id="style1">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png</href>
-      </Icon>
-    </IconStyle>
   </Style>
   <Placemark>
     <name>Route 12 (Oakley/River Ridge) Mon.-Sat. Daytime</name>
@@ -320,5 +313,46 @@
       </coordinates>
     </LineString>
   </Placemark>
+  <Placemark>
+    <name>Route 12: Asheville High School</name>
+    <description><![CDATA[<div dir="ltr"><br />##:05 from 6:05am to 6:05pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.550519,35.57285,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 12: Biltmore Village/Lodge St</name>
+    <description><![CDATA[<div dir="ltr"><br />Southbound:<br />##:10 from 6:10am to 6:10pm<br /><br />Northbound:<br />##:45 from 6:45am to 6:45pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.544575,35.567055,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 12: River Ridge Center</name>
+    <description><![CDATA[<div dir="ltr"><br />##:25 from 6:25am to 6:25pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.506487,35.570511,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 12: Wal-Mart SuperCenter</name>
+    <description><![CDATA[<div dir="ltr"><br />##:30 from 6:30am to 6:30pm*<br><br>*no service at 3:30pm or 4:30pm</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.515156,35.5773,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 12: Ledgewood Village Apts</name>
+    <description><![CDATA[<div dir="ltr"><br />##:35 from 6:35am to 6:35pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.518826,35.571262,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
 </Document>
 </kml>

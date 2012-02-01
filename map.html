@@ -37,6 +37,12 @@
       kml_dict["week-day-route-16"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r16.week.day.kml');
       kml_dict["week-day-route-18"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r18.week.day.kml');
       kml_dict["week-day-route-26"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r26.week.day.kml');
+      kml_dict["week-ngt-route-36"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r36.week.ngt.kml');
+      kml_dict["week-ngt-route-38"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r38.week.ngt.kml');
+      kml_dict["week-ngt-route-41"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r41.week.ngt.kml');
+      kml_dict["week-ngt-route-46"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r46.week.ngt.kml');
+      kml_dict["week-ngt-route-51"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r51.week.ngt.kml');
+      kml_dict["week-ngt-route-52"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r52.week.ngt.kml');
       kml_dict["week-day-route-170"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r170.week.day.kml');
       transit_center_day_map = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/transit.center.day.kml');
 
@@ -78,6 +84,10 @@
           $.each(kml_dict, function(index, route){
             route.setMap(map);
           });
+        }else if(routes==="week-ngt-all-routes"){
+          $.each(kml_dict, function(index, route){
+            route.setMap(map);
+          });
         }else{
           $.each(kml_dict, function(index, route){
             route.setMap(null);
@@ -112,12 +122,13 @@
             break;
           case 'week-ngt':
             $('#routes').html("\
-            <option value='week-day-route-36'>route 36</option>\
-            <option value='week-day-route-38'>route 38</option>\
-            <option value='week-day-route-41'>route 41</option>\
-            <option value='week-day-route-46'>route 46</option>\
-            <option value='week-day-route-51'>route 51</option>\
-            <option value='week-day-route-52'>route 52</option>\
+            <option value='week-ngt-all-routes'>all routes</option>\
+            <option value='week-ngt-route-36'>route 36</option>\
+            <option value='week-ngt-route-38'>route 38</option>\
+            <option value='week-ngt-route-41'>route 41</option>\
+            <option value='week-ngt-route-46'>route 46</option>\
+            <option value='week-ngt-route-51'>route 51</option>\
+            <option value='week-ngt-route-52'>route 52</option>\
             ");
             break;
           case 'wknd-day':

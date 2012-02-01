@@ -299,8 +299,8 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>Route 2: Claxton Elementary School (Northbound)</name>
-    <description><![CDATA[<div dir="ltr">##:07 from 6:07am to 6:07pm<br><br></div>]]></description>
+    <name>Route 2: Claxton Elementary School</name>
+    <description><![CDATA[<div dir="ltr">Northbound:<br />##:07 from 6:07am to 6:07pm<br />Southbound:<br />##:45 from 6:45am to 6:45pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.55378,35.607679,0.000000</coordinates>
@@ -339,14 +339,6 @@
     </Point>
   </Placemark>
   <Placemark>
-    <name>Route 2: Claxton Elementary School(Southbound)</name>
-    <description><![CDATA[<div dir="ltr">##:45 from 6:45am to 6:45pm<br><br></div>]]></description>
-    <styleUrl>#style1</styleUrl>
-    <Point>
-      <coordinates>-82.554123,35.608342,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Route 2: Midland Rd. Dial-A-Ride Service </name>
     <description><![CDATA[<div dir="ltr">Dial-A-Ride only<br><br>Call 253-5691 for pick-up</div>]]></description>
     <styleUrl>#style1</styleUrl>
@@ -354,6 +346,5 @@
       <coordinates>-82.562664,35.640505,0.000000</coordinates>
     </Point>
   </Placemark>
-  
 </Document>
 </kml>

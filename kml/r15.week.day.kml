@@ -3,10 +3,10 @@
 <Document>
   <name>Route 15 (Patton Ave./Deaverview) Mon.-Sat. Daytime</name>
   <description><![CDATA[]]></description>
-  <Style id="style4">
+  <Style id="style1">
     <IconStyle>
       <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/bus.png</href>
       </Icon>
     </IconStyle>
   </Style>
@@ -15,13 +15,6 @@
       <color>8546BA61</color>
       <width>5</width>
     </LineStyle>
-  </Style>
-  <Style id="style1">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png</href>
-      </Icon>
-    </IconStyle>
   </Style>
   <Placemark>
     <name>Route 15 (Patton Ave./Deaverview) Mon.-Sat. Daytime</name>
@@ -402,6 +395,62 @@
         -82.55635,35.59277,0.000000
       </coordinates>
     </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Route 15: Regent Park </name>
+    <description><![CDATA[<div dir="ltr"><br />##:08 from 6:08am* to 6:08pm<br><br>*no 6:08am service on Saturday</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.582448,35.590319,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 15: Patton Ave at New Leicester Hwy</name>
+    <description><![CDATA[<div dir="ltr"><br />Westbound:<br />##:15 from 6:15am* to 6:15pm<br /><br />Eastbound:<br />##:45 from 6:45am* to 6:45pm<br><br>*no 6:15am or 6:45am service on Saturday</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.597404,35.586951,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 15: Meadows Apts</name>
+    <description><![CDATA[<div dir="ltr"><br />##:20** from 6:20am* to 6:20pm<br><br>*no 6:20am service on Saturday<br />**no 8:20am, 12:20pm, or 5:20pm service</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.609742,35.594297,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 15: Deaverview Apts</name>
+    <description><![CDATA[<div dir="ltr"><br />##:30 from 6:30am* to 6:30pm<br><br>*no 6:30am service on Saturday</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.62002,35.583321,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 15: Deaverview Rd at Pisgah View Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />6:00am* and ##:35 from 6:35am* to 6:35pm<br><br>*no 6:00am or 6:35am service on Saturday</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.628603,35.582745,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 15: Old County Home Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />##:40 from 6:40am* to 6:40pm<br><br>*no 6:40am service on Saturday</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.614784,35.592099,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 15: Westgate Shopping Center</name>
+    <description><![CDATA[<div dir="ltr"><br />##:50 from 6:50am* to 6:50pm<br><br>*no 6:50am service on Saturday</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.575281,35.591697,0.000000</coordinates>
+    </Point>
   </Placemark>
 </Document>
 </kml>

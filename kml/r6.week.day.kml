@@ -319,48 +319,32 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>Route 6: Avl High (Southbound)</name>
-    <description><![CDATA[<div dir="ltr">6:35<br />7:35<br />8:37<br />10:07<br />11:37<br />1:07<br />2:37<br />4:07<br />5:37<br><br></div>]]></description>
+    <name>Route 6: Busbee Rd @ Ingles</name>
+    <description><![CDATA[<div dir="ltr">Southbound:<br />am: 6:40 7:40 8:45 10:15 11:45<br />pm: 1:15 2:45 4:15 5:45<br />Northbound:<br />am: 7:15 8::15 9:45 11:15<br />pm: 12:45 2:15 3:45 5:15 6:45<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
-      <coordinates>-82.550883,35.574334,0.000000</coordinates>
+      <coordinates>-82.53287,35.542825,0.000000</coordinates>
     </Point>
   </Placemark>
   <Placemark>
-    <name>Route 6: Busbee Rd @ Ingles (Southbound)</name>
-    <description><![CDATA[<div dir="ltr">6:40<br />7:40<br />8:45<br />10:15<br />11:45<br />1:15<br />2:45<br />4:15<br />5:45<br><br></div>]]></description>
+    <name>Route 6: Mills Gap Rd @ Ingles</name>
+    <description><![CDATA[<div dir="ltr"><br />Southbound:<br />am: 6:45 7:45 8:50 10:20 11:50<br />pm: 1:20 2:50 4:20 5:50<br />Northbound:<br />am: 7:10 8:10 9:40 11:10<br />pm: 12:40 2:10 3:40 5:10 6:40<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
-      <coordinates>-82.533245,35.543104,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Route 6: Mills Gap Rd @ Ingles (Southbound)</name>
-    <description><![CDATA[<div dir="ltr">6:45<br />7:45<br />8:50<br />10:20<br />11:50<br />1:20<br />2:50<br />4:20<br />5:50<br><br></div>]]></description>
-    <styleUrl>#style1</styleUrl>
-    <Point>
-      <coordinates>-82.521958,35.499898,0.000000</coordinates>
+      <coordinates>-82.521636,35.499758,0.000000</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>Route 6: Long Shoals Rd </name>
-    <description><![CDATA[<div dir="ltr">6:47<br />7:47<br />8:55<br />10:25<br />11:55<br />1:25<br />2:55<br />4:25<br />5:55<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />6:47<br />7:47<br />8:55<br />10:25<br />11:55<br />1:25<br />2:55<br />4:25<br />5:55<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.525799,35.485205,0.000000</coordinates>
     </Point>
   </Placemark>
   <Placemark>
-    <name>Route 6: H'ville Rd at Airport Rd (Southbound)</name>
-    <description><![CDATA[<div dir="ltr">6:52<br />7:52<br />9:00<br />10:30<br />12:00<br />1:30<br />3:00<br />4:30<br />6:00<br><br></div>]]></description>
-    <styleUrl>#style1</styleUrl>
-    <Point>
-      <coordinates>-82.512581,35.460076,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Route 6: Wellington Park </name>
-    <description><![CDATA[<div dir="ltr">6:55*<br />7:55*<br />9:03<br />10:33<br />12:03<br />1:33<br />3:03<br />4:33<br />6:03<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />6:55*<br />7:55*<br />9:03<br />10:33<br />12:03<br />1:33<br />3:03<br />4:33<br />6:03<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.51919,35.458048,0.000000</coordinates>
@@ -368,7 +352,7 @@
   </Placemark>
   <Placemark>
     <name>Route 6: Lowes and Target </name>
-    <description><![CDATA[<div dir="ltr">---<br />---<br />9:10<br />10:40<br />12:10<br />1:40<br />3:10<br />4:40<br />6:10<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />---<br />---<br />9:10<br />10:40<br />12:10<br />1:40<br />3:10<br />4:40<br />6:10<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.532537,35.447036,0.000000</coordinates>
@@ -376,39 +360,23 @@
   </Placemark>
   <Placemark>
     <name>Route 6: Asheville Airport Terminal</name>
-    <description><![CDATA[<div dir="ltr">---<br />---<br />9:25<br />10:55<br />12:25<br />1:55<br />3:25<br />4:55<br />6:25<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />---<br />---<br />9:25<br />10:55<br />12:25<br />1:55<br />3:25<br />4:55<br />6:25<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.536893,35.43417,0.000000</coordinates>
     </Point>
   </Placemark>
   <Placemark>
-    <name>Route 6: H'ville Rd at Airport Rd (Northbound)</name>
-    <description><![CDATA[<div dir="ltr">7:00<br />8:00<br />9:30<br />11:00<br />12:30<br />2:00<br />3:30<br />5:00<br />6:30<br><br></div>]]></description>
+    <name>Route 6: H'ville Rd at Airport Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />Northbound:<br />am: 7:00 8:00 9:30 11:00<br />pm: 12:30 2:00 3:30 5:00 6:30<br />Southbound:<br />am: 6:52 7:52 9:00 10:30<br />pm: 12:00 1:30 3:00 4:30 6:00<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.512152,35.460076,0.000000</coordinates>
     </Point>
   </Placemark>
   <Placemark>
-    <name>Route 6: Mills Gap Rd @ Ingles (Northbound)</name>
-    <description><![CDATA[<div dir="ltr">7:10<br />8:10<br />9:40<br />11:10<br />12:40<br />2:10<br />3:40<br />5:10<br />6:40<br><br></div>]]></description>
-    <styleUrl>#style1</styleUrl>
-    <Point>
-      <coordinates>-82.521529,35.499985,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Route 6: Busbee Rd @ Ingles (Northbound)</name>
-    <description><![CDATA[<div dir="ltr">7:15<br />8::15<br />9:45<br />11:15<br />12:45<br />2:15<br />3:45<br />5:15<br />6:45<br><br></div>]]></description>
-    <styleUrl>#style1</styleUrl>
-    <Point>
-      <coordinates>-82.532752,35.543261,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Route 6: Avl High (Northbound)</name>
-    <description><![CDATA[<div dir="ltr">7:22<br />8:22<br />9:50<br />11:20<br />12:50<br />2:20<br />3:50<br />5:20<br />6:50<br><br></div>]]></description>
+    <name>Route 6: Avl High</name>
+    <description><![CDATA[<div dir="ltr"><br />Southbound:<br />am: 6:35 7:35 8:37 10:07 11:37<br />pm: 1:07 2:37 4:07 5:37<br />Northbound:<br />am: 7:22 8:22 9:50 11:20<br />pm: 12:50 2:20 3:50 5:20 6:50<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.55039,35.574211,0.000000</coordinates>

@@ -3,10 +3,10 @@
 <Document>
   <name>Route 8 (Biltmore Ave./Shiloh) Mon.-Sat. Daytime</name>
   <description><![CDATA[]]></description>
-  <Style id="style4">
+  <Style id="style1">
     <IconStyle>
       <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/bus.png</href>
       </Icon>
     </IconStyle>
   </Style>
@@ -16,15 +16,8 @@
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style1">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
   <Placemark>
-    <name>Route 8 (Biltmore Avi./Shiloh) Mon.-Sat. Daytime</name>
+    <name>Route 8 (Biltmore Ave./Shiloh) Mon.-Sat. Daytime</name>
     <Snippet></Snippet>
     <description><![CDATA[]]></description>
     <styleUrl>#style2</styleUrl>
@@ -388,5 +381,46 @@
       </coordinates>
     </LineString>
   </Placemark>
+  <Placemark>
+    <name>Route 8: Biltmore Village/Lodge St</name>
+    <description><![CDATA[<div dir="ltr"><br />Southbound:<br />##:40 from 6:40am to 6:40pm<br /><br />Northbound:<br />##:15 from 7:15am to 7:15pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.543738,35.567212,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 8: Care Partners</name>
+    <description><![CDATA[<div dir="ltr"><br />Southbound:<br />7:10am 8:10am<br /><br />Northbound:<br />3:13pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.532473,35.561749,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 8: Rock Hill Rd at West Chapel Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />8:00am<br />10:55am<br />12:55pm<br />1:55pm<br />3:55pm<br />4:55pm<br />5:55pm<br />6:55pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.518761,35.543698,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 8: Laurel Wood Apts</name>
+    <description><![CDATA[<div dir="ltr"><br />7:05am<br />8:05am<br />10:05am<br />11:05am<br />1:05pm<br />2:05pm<br />4:05pm<br />5:05pm<br />6:05pm<br />7:05pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.526293,35.542668,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 8: Hendersonville Rd @ Peachtree Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />9:00am<br />12:00pm<br />3:00pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.52213,35.513068,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
 </Document>
 </kml>

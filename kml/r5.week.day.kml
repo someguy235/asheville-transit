@@ -209,11 +209,11 @@
     </Point>
   </Placemark>
   <Placemark>
-    <name>Route 5: Charlotte St at Hillside St (Northbound)</name>
-    <description><![CDATA[<div dir="ltr">##:37 from 6:37am to 5:37pm<br><br></div>]]></description>
+    <name>Route 5: Charlotte St at Hillside St</name>
+    <description><![CDATA[<div dir="ltr">Northbound:<br />##:37 from 6:37am to 5:37pm<br />Southbound:<br />##:50 from 6:50am to 5:50pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
-      <coordinates>-82.546055,35.607173,0.000000</coordinates>
+      <coordinates>-82.546291,35.607156,0.000000</coordinates>
     </Point>
   </Placemark>
   <Placemark>
@@ -232,14 +232,5 @@
       <coordinates>-82.547622,35.627251,0.000000</coordinates>
     </Point>
   </Placemark>
-  <Placemark>
-    <name>Route 5: Charlotte St at Hillside St (Southbound)</name>
-    <description><![CDATA[<div dir="ltr">##:50 from 6:50am to 5:50pm<br><br></div>]]></description>
-    <styleUrl>#style1</styleUrl>
-    <Point>
-      <coordinates>-82.546463,35.607313,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  
 </Document>
 </kml>
