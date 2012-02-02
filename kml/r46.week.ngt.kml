@@ -137,5 +137,29 @@
       </coordinates>
     </LineString>
   </Placemark>
+  <Placemark>
+    <name>Route 46: Kmart/Bilo Plaza</name>
+    <description><![CDATA[<div dir="ltr"><br />North/Westbound:<br />__:38 from 7:38pm to 10:38pm<br /><br />South/Eastbound:<br />__:50 from 7:50pm to 10:50pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.592425,35.587719,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 46: N Louisiana Ave at Emma Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />North/Westbound:<br />__:40 frpm 7:40pm to 10:40pm<br /><br />South/Eastbound:<br />__:48 from 7:48pm to 10:48pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.591631,35.595745,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 46: Bingham Rd at Emma Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />__:46 from 7:46pm to 10:46pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.582469,35.597961,0.000000</coordinates>
+    </Point>
+  </Placemark>
 </Document>
 </kml>

@@ -144,5 +144,37 @@
       </coordinates>
     </LineString>
   </Placemark>
+  <Placemark>
+    <name>Route 38: Asheville Housing Authority</name>
+    <description><![CDATA[<div dir="ltr"><br />__:04 from 8:04pm to 11:04pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.559144,35.589045,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 38: Oakland Rd at Depot Street</name>
+    <description><![CDATA[<div dir="ltr"><br />__:13 from 8:13pm to 11:13pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.562191,35.574752,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 38: AB Tech College</name>
+    <description><![CDATA[<div dir="ltr"><br />__:18 from 8:18pm to 11:18pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.554209,35.570057,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 38: Erskine St Apts</name>
+    <description><![CDATA[<div dir="ltr"><br />__:22 from 8:22pm to 11:22pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.556462,35.576567,0.000000</coordinates>
+    </Point>
+  </Placemark>
 </Document>
 </kml>
