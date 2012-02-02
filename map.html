@@ -80,18 +80,23 @@
       };
 
       function addRoutes(routes){
+        $.each(kml_dict, function(index, route){
+          route.setMap(null);
+        });
+
         if(routes==="week-day-all-routes"){
           $.each(kml_dict, function(index, route){
-            route.setMap(map);
+            if(index.indexOf("day") != -1){
+              route.setMap(map);
+            }
           });
         }else if(routes==="week-ngt-all-routes"){
           $.each(kml_dict, function(index, route){
-            route.setMap(map);
+            if(index.indexOf("ngt") != -1){
+              route.setMap(map);
+            }
           });
         }else{
-          $.each(kml_dict, function(index, route){
-            route.setMap(null);
-          });
           kml_dict[routes].setMap(map);
         }
         transit_center_day_map.setMap(map);

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
 <Document>
-  <name>Route 5 (Charlotte St.) Mon-Sat Day</name>
+  <name>Route 5 (Charlotte St.) Mon-Sat Daytime</name>
   <description><![CDATA[]]></description>
   <Style id="style1">
     <IconStyle>
@@ -17,7 +17,7 @@
     </LineStyle>
   </Style>
   <Placemark>
-    <name>Route 5 (Charlotte St.) Mon-Sat Day</name>
+    <name>Route 5 (Charlotte St.) Mon-Sat Daytime</name>
     <Snippet></Snippet>
     <description><![CDATA[]]></description>
     <styleUrl>#style2</styleUrl>
@@ -202,7 +202,7 @@
   </Placemark>
   <Placemark>
     <name>Route 5: Charlotte St at Chestnut St</name>
-    <description><![CDATA[<div dir="ltr">##:35 from 6:35am to 5:35pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />##:35 from 6:35am to 5:35pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.546613,35.602934,0.000000</coordinates>
@@ -210,7 +210,7 @@
   </Placemark>
   <Placemark>
     <name>Route 5: Charlotte St at Hillside St</name>
-    <description><![CDATA[<div dir="ltr">Northbound:<br />##:37 from 6:37am to 5:37pm<br />Southbound:<br />##:50 from 6:50am to 5:50pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />Northbound:<br />##:37 from 6:37am to 5:37pm<br /><br />Southbound:<br />##:50 from 6:50am to 5:50pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.546291,35.607156,0.000000</coordinates>
@@ -218,7 +218,7 @@
   </Placemark>
   <Placemark>
     <name>Route 5: Grove Park Inn</name>
-    <description><![CDATA[<div dir="ltr">##:42 from 6:42am to 5:42pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />##:42 from 6:42am to 5:42pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.541721,35.620117,0.000000</coordinates>
@@ -226,7 +226,7 @@
   </Placemark>
   <Placemark>
     <name>Route 5: Kimberly Ave to Hampstead Rd </name>
-    <description><![CDATA[<div dir="ltr">Dial-A-Ride only<br><br>Call 253-5691 for pick-up</div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />Dial-A-Ride only<br><br>Call 253-5691 for pick-up</div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.547622,35.627251,0.000000</coordinates>
