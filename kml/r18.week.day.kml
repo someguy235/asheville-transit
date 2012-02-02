@@ -3,10 +3,10 @@
 <Document>
   <name>Route 18 (Erskine St./AB Tech/Flint St./UNCA) Mon.-Sat. Daytime</name>
   <description><![CDATA[]]></description>
-  <Style id="style4">
+  <Style id="style1">
     <IconStyle>
       <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/bus.png</href>
       </Icon>
     </IconStyle>
   </Style>
@@ -15,13 +15,6 @@
       <color>85334800</color>
       <width>5</width>
     </LineStyle>
-  </Style>
-  <Style id="style1">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png</href>
-      </Icon>
-    </IconStyle>
   </Style>
   <Placemark>
     <name>Route 18 (Erskine St./AB Tech/Flint St./UNCA) Mon.-Sat. Daytime</name>
@@ -342,6 +335,78 @@
         -82.55635,35.59274,0.000000
       </coordinates>
     </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Route 18: Asheville Housing Authority</name>
+    <description><![CDATA[<div dir="ltr"><br />##:05 from 6:05am to 6:05pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.559252,35.587858,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 18: Depot St at Oakland Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />##:15 from 6:15am to 6:15pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.56217,35.574735,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 18: AB Tech</name>
+    <description><![CDATA[<div dir="ltr"><br />##:20 from 6:20am to 6:20pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.554166,35.57011,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 18: Erskine Street Aparts.</name>
+    <description><![CDATA[<div dir="ltr"><br />##:25 from 6:25am to 6:25pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.556462,35.576602,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 18: MLK/So. Charlotte Street</name>
+    <description><![CDATA[<div dir="ltr"><br />##:30 from 6:30am to 6:30pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.544103,35.598066,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 18: Haywood St at Civic Center</name>
+    <description><![CDATA[<div dir="ltr"><br />##:35 from 6:35am to 6:35pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.555926,35.597089,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 18: Mount Clare Ave at Hillside St</name>
+    <description><![CDATA[<div dir="ltr"><br />##:38 from 6:38am to 6:38pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.55805,35.607313,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 18: UNCA</name>
+    <description><![CDATA[<div dir="ltr"><br />##:45 from 6:45am to 6:45pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.564402,35.616332,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 18: Flint St at Magnolia Ave</name>
+    <description><![CDATA[<div dir="ltr"><br />##:50 from 6:50am to 6:50pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.560711,35.603021,0.000000</coordinates>
+    </Point>
   </Placemark>
 </Document>
 </kml>
