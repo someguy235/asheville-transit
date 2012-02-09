@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Asheville Transit Center - Nighttime Departures</name>
+  <description><![CDATA[]]></description>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Asheville Transit Center - Nighttime Departures</name>
+    <Snippet></Snippet>
+    <description><![CDATA[<div dir="ltr">Route: depart times<br>36,41,46,51: --:30 from 7:30pm to 10:30pm<br>38: --:00 from 8:00pm to 11:00pm<br>52: Mon-Sat: --:00 from 8:00pm to 11:00pm<br>&nbsp;&nbsp;&nbsp;&nbsp;Thu-Sat: 11:30pm and 12:00am<br>&nbsp;&nbsp;&nbsp;&nbsp;Fri-Sat: 12:30am<br></div>]]></description>
+	<styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-82.556366,35.592805,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

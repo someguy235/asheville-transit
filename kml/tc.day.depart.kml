@@ -22,7 +22,7 @@
     <Snippet></Snippet>
     <description><![CDATA[]]></description>
     <description><![CDATA[<div dir="ltr">
-    Route: departure times<br /> 1,2,4,12,15,16,18: --:00 from 6:00am* to 6:00pm<br> *15: no Saturday service at 6:00am<br> *15: also arrives at 6:26am from Deaverview<br> 5,6: --:30 from 6:30am to 5:30pm<br> 8,13: --:30 from 6:30am* to 6:30pm<br> *13: no Saturday service at 6:30am<br> 9: --:30 from 7:30am to 5:30pm<br>11: --:00 and --:30 from 6:00am to 6:30pm<br>26: --:15 from 6:15am to 6:15pm<br></div>]]></description>
+    Route: departure times<br /> 1,2,4,12,15,16,18: --:00 from 6:00am* to 6:00pm<br>&nbsp;*15: no Saturday service at 6:00am<br>&nbsp;*15: also arrives at 6:26am from Deaverview<br>&nbsp;5,6: --:30 from 6:30am to 5:30pm<br>&nbsp;8,13: --:30 from 6:30am* to 6:30pm<br>&nbsp;*13: no Saturday service at 6:30am<br>&nbsp;9: --:30 from 7:30am to 5:30pm<br>&nbsp;11: --:00 and --:30 from 6:00am to 6:30pm<br>&nbsp;26: --:15 from 6:15am to 6:15pm<br>&nbsp;</div>]]></description>
 	<styleUrl>#style2</styleUrl>
     <Point>
       <coordinates>-82.556366,35.592805,0.000000</coordinates>

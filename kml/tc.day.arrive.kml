@@ -22,7 +22,7 @@
     <Snippet></Snippet>
     <description><![CDATA[]]></description>
     <description><![CDATA[<div dir="ltr">
-    Route: arrival times<br> 1: --:56 from 5:56am to 6:56pm<br> 2,4,5,12,15: --:56 from 6:56am* to 6:56pm<br> *15 also arrives at 6:26am from Deaverview<br> 6: 7:26 8:26 9:55 11:25am 12:55 2:25 3:55 5:25 6:55pm<br> 8,13: --:26 from 7:26am to 7:26pm<br> 9: --:27 from 8:27am to 6:27pm<br>11: --:00 and --:56 from 6:30am to 6:56pm<br>16: --:26 from 6:26am to 6:26pm<br>18: --:58 from 6:58am to 6:58pm<br>26: --:15 from 7:15am to 7:15pm<br></div>]]></description>
+    Route: arrival times<br>&nbsp;1: --:56 from 5:56am to 6:56pm<br>&nbsp;2,4,5,12,15: --:56 from 6:56am* to 6:56pm<br> *15 also arrives at 6:26am from Deaverview<br>&nbsp;6: 7:26 8:26 9:55 11:25am 12:55 2:25 3:55 5:25 6:55pm<br>&nbsp;8,13: --:26 from 7:26am to 7:26pm<br>&nbsp;9: --:27 from 8:27am to 6:27pm<br>11: --:00 and --:56 from 6:30am to 6:56pm<br>16: --:26 from 6:26am to 6:26pm<br>18: --:58 from 6:58am to 6:58pm<br>26: --:15 from 7:15am to 7:15pm<br></div>]]></description>
 	<styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.555025,35.592805,0.000000</coordinates>

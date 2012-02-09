@@ -1,7 +1,7 @@
 var center;
 var map = null;
-selDay = null;
-selNgt = null;
+selDay = "week-day-all-routes";
+selNgt = "week-ngt-all-routes";
 
 var kml_dict = {};
 kml_dict["week-day-route-1"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r1.week.day.kml');
@@ -25,9 +25,10 @@ kml_dict["week-ngt-route-46"] = new google.maps.KmlLayer('http://www.ethanshephe
 kml_dict["week-ngt-route-51"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r51.week.ngt.kml');
 kml_dict["week-ngt-route-52"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r52.week.ngt.kml');
 kml_dict["week-day-route-170"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r170.week.day.kml');
-transit_center_day_map = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/transit.center.day.kml');
 tc_day_arrive_map = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/tc.day.arrive.kml');
 tc_day_depart_map = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/tc.day.depart.kml');
+tc_ngt_arrive_map = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/tc.ngt.arrive.kml');
+tc_ngt_depart_map = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/tc.ngt.depart.kml');
 
 function initialize(){
   resizeMap();
@@ -58,7 +59,7 @@ function newMap(lat,lng){
     mapTypeId: google.maps.MapTypeId.TERRAIN
   };
   map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-  addRoutes("week-day-all-routes");
+  //addRoutes("week-day-all-routes");
   //addRoutes("route-2");
 };
 
@@ -72,20 +73,22 @@ function addRoutes(routes){
   //TODO:check if the placemarks need to be switched, probably not very common
   if(routes.indexOf("day") != -1){
     //this is a day route, remove the night tc arrive/depart placemarks
-    //TODO: don't have these placemarks yet
-    //tc_ngt_arrive_map.setMap(map);
-    //tc_ngt_depart_map.setMap(map);
+    tc_ngt_arrive_map.setMap(null);
+    tc_ngt_depart_map.setMap(null);
     //...and add the day arrive/depart placemarks
     tc_day_arrive_map.setMap(map);
     tc_day_depart_map.setMap(map);
+    //set last selected route for switching from day<->night
+    selDay = routes
   }else{
     //this is a night route, remove the day tc arrive/depart placemarks...
     tc_day_arrive_map.setMap(null);
     tc_day_depart_map.setMap(null);
     //...and add the night arrive/depart placemarks
-    //TODO: don't have these placemarks yet
-    //tc_ngt_arrive_map.setMap(map);
-    //tc_ngt_depart_map.setMap(map);
+    tc_ngt_arrive_map.setMap(map);
+    tc_ngt_depart_map.setMap(map);
+    //set last selected route for switching from day<->night
+    selNgt = routes
   }
 
   // add either all the day routes...
@@ -106,13 +109,13 @@ function addRoutes(routes){
   }else{
     kml_dict[routes].setMap(map);
   }
-//  transit_center_day_map.setMap(map);
+  //alert("selDay: "+selDay+"\nselNgt: "+selNgt);
   //TODO: this doesn't work
   map.setCenter(center);
 };
 
 function setRoutes(times){
-  //TODO: actually change the route on the map (maybe), and set the text shown on the select box (maybe)
+  //TODO: set the text shown on the select box when switching from day to night 
   //TODO: currently cannot select 'all routes' after switching from day to night, setting map would solve this.
   switch(times){
     case 'week-day':
@@ -134,6 +137,14 @@ function setRoutes(times){
       <option value='week-day-route-26'>route 26</option>\
       <option value='week-day-route-170'>route 170</option>\
       ");
+      //alert(selDay);
+      //TODO: this doesn't work
+      //$('#routes').val = selDay;
+      document.getElementById("routes").value = selDay
+      $('#routes').selectmenu("refresh", true);
+      //alert(alertVal);
+      //alert(document.getElementById("routes").value)
+      addRoutes(selDay);
       break;
     case 'week-ngt':
       $('#routes').html("\
@@ -145,6 +156,10 @@ function setRoutes(times){
       <option value='week-ngt-route-51'>route 51</option>\
       <option value='week-ngt-route-52'>route 52</option>\
       ");
+      //alert(selNgt);
+      //$('#routes').val = selNgt;
+      document.getElementById("routes").value = selNgt
+      addRoutes(selNgt);
       break;
   }
 };
