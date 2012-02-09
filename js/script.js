@@ -1,4 +1,5 @@
 var center;
+var zoom;
 var map = null;
 selDay = "week-day-all-routes";
 selNgt = "week-ngt-all-routes";
@@ -36,10 +37,12 @@ function initialize(){
     //detectBrowser();
     navigator.geolocation.getCurrentPosition(
       //success callback
+      //create map at user's location
       function(position){
         newMap(position.coords.latitude, position.coords.longitude);
       },
       //error callback, usually because user declines geolocation
+      //create map at Asheville Transit Center
       function(){
         newMap(35.592793,-82.555710);
       }
@@ -48,19 +51,19 @@ function initialize(){
     //detectBrowser();
     newMap(35.592793,-82.555710);
   }
-  setRoutes("week-day");
 };
 
+//initialize the new map, and set the default routes
 function newMap(lat,lng){
   center = new google.maps.LatLng(lat,lng);
+  zoom = 14;
   var myOptions = {
     center: center,
-    zoom: 14,
+    zoom: zoom,
     mapTypeId: google.maps.MapTypeId.TERRAIN
   };
   map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-  //addRoutes("week-day-all-routes");
-  //addRoutes("route-2");
+  setRoutes("week-day");
 };
 
 function addRoutes(routes){
@@ -68,9 +71,12 @@ function addRoutes(routes){
   $.each(kml_dict, function(index, route){
     route.setMap(null);
   });
-
+  //TODO: get current map center and zoom level for centering later
+  center = map.getCenter(); 
+  zoom = map.getZoom();
+  //alert(map.getZoom());
+  
   // place the correct day or night arrive/depart placemarks at the tc
-  //TODO:check if the placemarks need to be switched, probably not very common
   if(routes.indexOf("day") != -1){
     //this is a day route, remove the night tc arrive/depart placemarks
     tc_ngt_arrive_map.setMap(null);
@@ -109,14 +115,13 @@ function addRoutes(routes){
   }else{
     kml_dict[routes].setMap(map);
   }
-  //alert("selDay: "+selDay+"\nselNgt: "+selNgt);
-  //TODO: this doesn't work
+  //TODO: this is still a little flaky
+  alert(center +","+ zoom)
   map.setCenter(center);
+  map.setZoom(zoom);
 };
 
 function setRoutes(times){
-  //TODO: set the text shown on the select box when switching from day to night 
-  //TODO: currently cannot select 'all routes' after switching from day to night, setting map would solve this.
   switch(times){
     case 'week-day':
       $('#routes').html("\
@@ -137,14 +142,13 @@ function setRoutes(times){
       <option value='week-day-route-26'>route 26</option>\
       <option value='week-day-route-170'>route 170</option>\
       ");
-      //alert(selDay);
-      //TODO: this doesn't work
-      //$('#routes').val = selDay;
+
+      //set the selected route to whatever was selected last time 'daytime' was shown
       document.getElementById("routes").value = selDay
       $('#routes').selectmenu("refresh", true);
-      //alert(alertVal);
-      //alert(document.getElementById("routes").value)
+
       addRoutes(selDay);
+      
       break;
     case 'week-ngt':
       $('#routes').html("\
@@ -156,10 +160,13 @@ function setRoutes(times){
       <option value='week-ngt-route-51'>route 51</option>\
       <option value='week-ngt-route-52'>route 52</option>\
       ");
-      //alert(selNgt);
-      //$('#routes').val = selNgt;
+      
+      //set the selected route to whatever was selected last time 'nighttime' was shown
       document.getElementById("routes").value = selNgt
+      $('#routes').selectmenu("refresh", true);
+      
       addRoutes(selNgt);
+      
       break;
   }
 };
