@@ -278,7 +278,7 @@
   </Placemark>
   <Placemark>
     <name>Route 26: College St at S Charlotte St</name>
-    <description><![CDATA[<div dir="ltr"><br />##:18 from 6:18am to 6:18pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:18 from 6:18am to 6:18pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.546012,35.597525,0.000000</coordinates>
@@ -286,7 +286,7 @@
   </Placemark>
   <Placemark>
     <name>Route 26: Social Security Admin.</name>
-    <description><![CDATA[<div dir="ltr"><br />##:23 from 6:23am to 6:23pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:23 from 6:23am to 6:23pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.528718,35.600352,0.000000</coordinates>
@@ -294,7 +294,7 @@
   </Placemark>
   <Placemark>
     <name>Route 26: Asheville Mall</name>
-    <description><![CDATA[<div dir="ltr"><br />##:26 from 6:26am to 6:26pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:26 from 6:26am to 6:26pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.524898,35.582449,0.000000</coordinates>
@@ -302,7 +302,7 @@
   </Placemark>
   <Placemark>
     <name>Route 26: Target Store</name>
-    <description><![CDATA[<div dir="ltr"><br />##:40 from 6:40am to 6:40pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:40 from 6:40am to 6:40pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.521744,35.573269,0.000000</coordinates>
@@ -310,7 +310,7 @@
   </Placemark>
   <Placemark>
     <name>Route 26: Wal-Mart Supercenter</name>
-    <description><![CDATA[<div dir="ltr"><br />##:50 from 6:50am to 6:50pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:50 from 6:50am to 6:50pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.515478,35.577492,0.000000</coordinates>
@@ -318,7 +318,7 @@
   </Placemark>
   <Placemark>
     <name>Route 26: S Tunnel Rd at Kmart</name>
-    <description><![CDATA[<div dir="ltr"><br />##:00 from 7:00am to 7:00pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:00 from 7:00am to 7:00pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.522538,35.580197,0.000000</coordinates>

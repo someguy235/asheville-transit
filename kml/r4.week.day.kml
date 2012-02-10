@@ -306,7 +306,7 @@
   </Placemark>
   <Placemark>
     <name>Route 4: Mission Campus MHS</name>
-    <description><![CDATA[<div dir="ltr"><br />Southbound:<br />##:06 from 6:06am to 6:06pm<br /><br />Northbound:<br />##:45 from 6:45am to 6:45pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />Southbound:<br />--:06 from 6:06am to 6:06pm<br /><br />Northbound:<br />--:45 from 6:45am to 6:45pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.550132,35.579255,0.000000</coordinates>
@@ -314,7 +314,7 @@
   </Placemark>
   <Placemark>
     <name>Route 4: Caledonia Rd at Forest Hill Dr</name>
-    <description><![CDATA[<div dir="ltr"><br />##:15 from 6:15am to 6:15pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:15 from 6:15am to 6:15pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.539725,35.575642,0.000000</coordinates>
@@ -322,7 +322,7 @@
   </Placemark>
   <Placemark>
     <name>Route 4: Innsbruck Mall</name>
-    <description><![CDATA[<div dir="ltr"><br />##:20 from 6:20am to 6:20pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:20 from 6:20am to 6:20pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.533095,35.594175,0.000000</coordinates>
@@ -330,7 +330,7 @@
   </Placemark>
   <Placemark>
     <name>Route 4: Asheville Mall</name>
-    <description><![CDATA[<div dir="ltr"><br />##:30 from 6:30am to 6:30pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:30 from 6:30am to 6:30pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.52492,35.582449,0.000000</coordinates>
@@ -338,7 +338,7 @@
   </Placemark>
   <Placemark>
     <name>Route 4: Tunnel Rd at Kenilworth Rd </name>
-    <description><![CDATA[<div dir="ltr"><br />##:40 from 6:40am to 6:40pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:40 from 6:40am to 6:40pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.529984,35.589612,0.000000</coordinates>

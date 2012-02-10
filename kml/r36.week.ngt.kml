@@ -280,7 +280,7 @@
   </Placemark>
   <Placemark>
     <name>Route 36: MHS Mission Campus</name>
-    <description><![CDATA[<div dir="ltr"><br />__:37 from 7:37pm to 10:37pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:37 from 7:37pm to 10:37pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.548459,35.577335,0.000000</coordinates>
@@ -288,7 +288,7 @@
   </Placemark>
   <Placemark>
     <name>Route 36: Biltmore Village Lodge St</name>
-    <description><![CDATA[<div dir="ltr"><br />__:43 from 7:43pm to 10:43pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:43 from 7:43pm to 10:43pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.543716,35.567247,0.000000</coordinates>
@@ -296,7 +296,7 @@
   </Placemark>
   <Placemark>
     <name>Route 36: Laurelwood Apts</name>
-    <description><![CDATA[<div dir="ltr"><br />__:53 from 7:53pm to 10:53pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:53 from 7:53pm to 10:53pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.5264,35.542615,0.000000</coordinates>
@@ -304,7 +304,7 @@
   </Placemark>
   <Placemark>
     <name>Route 36: Rock Hill Rd at West Chapel Rd</name>
-    <description><![CDATA[<div dir="ltr"><br />__:05 from 8:05pm to 11:05pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:05 from 8:05pm to 11:05pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.519169,35.543715,0.000000</coordinates>
@@ -312,7 +312,7 @@
   </Placemark>
   <Placemark>
     <name>Route 36: South Forest Center</name>
-    <description><![CDATA[<div dir="ltr"><br />__:15 from 8:15pm to 11:15pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:15 from 8:15pm to 11:15pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.533159,35.543576,0.000000</coordinates>

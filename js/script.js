@@ -3,6 +3,7 @@ var zoom;
 var map = null;
 selDay = "week-day-all-routes";
 selNgt = "week-ngt-all-routes";
+prvSel = "";
 
 var kml_dict = {};
 kml_dict["week-day-route-1"] = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/r1.week.day.kml');
@@ -71,30 +72,38 @@ function addRoutes(routes){
   $.each(kml_dict, function(index, route){
     route.setMap(null);
   });
-  //TODO: get current map center and zoom level for centering later
   center = map.getCenter(); 
   zoom = map.getZoom();
-  //alert(map.getZoom());
   
   // place the correct day or night arrive/depart placemarks at the tc
   if(routes.indexOf("day") != -1){
-    //this is a day route, remove the night tc arrive/depart placemarks
-    tc_ngt_arrive_map.setMap(null);
-    tc_ngt_depart_map.setMap(null);
-    //...and add the day arrive/depart placemarks
-    tc_day_arrive_map.setMap(map);
-    tc_day_depart_map.setMap(map);
+    if(prvSel === "day"){
+
+    }else{
+      //this is a day route, remove the night tc arrive/depart placemarks
+      tc_ngt_arrive_map.setMap(null);
+      tc_ngt_depart_map.setMap(null);
+      //...and add the day arrive/depart placemarks
+      tc_day_arrive_map.setMap(map);
+      tc_day_depart_map.setMap(map);
+    }
     //set last selected route for switching from day<->night
     selDay = routes
+    prvSel = "day"
   }else{
-    //this is a night route, remove the day tc arrive/depart placemarks...
-    tc_day_arrive_map.setMap(null);
-    tc_day_depart_map.setMap(null);
-    //...and add the night arrive/depart placemarks
-    tc_ngt_arrive_map.setMap(map);
-    tc_ngt_depart_map.setMap(map);
+    if(prvSel === "ngt"){
+
+    }else{
+      //this is a night route, remove the day tc arrive/depart placemarks...
+      tc_day_arrive_map.setMap(null);
+      tc_day_depart_map.setMap(null);
+      //...and add the night arrive/depart placemarks
+      tc_ngt_arrive_map.setMap(map);
+      tc_ngt_depart_map.setMap(map);
+    }
     //set last selected route for switching from day<->night
     selNgt = routes
+    prvSel = "ngt"
   }
 
   // add either all the day routes...
@@ -116,7 +125,9 @@ function addRoutes(routes){
     kml_dict[routes].setMap(map);
   }
   //TODO: this is still a little flaky
-  alert(center +","+ zoom)
+  //when switching from day<->night?
+  //only on first switch?
+  //alert(center +","+ zoom)
   map.setCenter(center);
   map.setZoom(zoom);
 };

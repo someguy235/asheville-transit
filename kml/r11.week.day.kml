@@ -157,7 +157,7 @@
   </Placemark>
   <Placemark>
     <name>Route 11: William Randolph School</name>
-    <description><![CDATA[<div dir="ltr"><br />##:03 and ##:33 from 6:03am to 6:33pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:03 and --:33 from 6:03am to 6:33pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.560968,35.598118,0.000000</coordinates>
@@ -165,7 +165,7 @@
   </Placemark>
   <Placemark>
     <name>Route 11: Klondyke Apts</name>
-    <description><![CDATA[<div dir="ltr"><br />##:07 and ##:37 from 6:07am to 6:37pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:07 and --:37 from 6:07am to 6:37pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.572234,35.610837,0.000000</coordinates>
@@ -173,7 +173,7 @@
   </Placemark>
   <Placemark>
     <name>Route 11: W. Chestnut St</name>
-    <description><![CDATA[<div dir="ltr"><br />##:10 and ##:40 from 6:10am to 6:40pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:10 and --:40 from 6:10am to 6:40pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.563071,35.600648,0.000000</coordinates>
@@ -181,7 +181,7 @@
   </Placemark>
   <Placemark>
     <name>Route 11: Courtland St</name>
-    <description><![CDATA[<div dir="ltr"><br />##:12 from 6:12am to 6:12pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:12 from 6:12am to 6:12pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.566183,35.598502,0.000000</coordinates>
@@ -189,7 +189,7 @@
   </Placemark>
   <Placemark>
     <name>Route 11: Hill St</name>
-    <description><![CDATA[<div dir="ltr"><br />Northbound:<br />##:42 from 6:42am to 6:42pm<br /><br />Southbound:<br />##:17 and ##:47 from 6:17am to 6:47pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />Northbound:<br />--:42 from 6:42am to 6:42pm<br /><br />Southbound:<br />--:17 and --:47 from 6:17am to 6:47pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.561162,35.596408,0.000000</coordinates>
@@ -197,7 +197,7 @@
   </Placemark>
   <Placemark>
     <name>Route 11: Hillcrest Apts</name>
-    <description><![CDATA[<div dir="ltr"><br />##:15 and ##:45 from 6:15am to 6:45pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:15 and --:45 from 6:15am to 6:45pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.569723,35.593704,0.000000</coordinates>
@@ -205,7 +205,7 @@
   </Placemark>
   <Placemark>
     <name>Route 11: Isaac Dickson School</name>
-    <description><![CDATA[<div dir="ltr"><br />##:20 and ##:50 from 6:20am to 6:50pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:20 and --:50 from 6:20am to 6:50pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.564423,35.594105,0.000000</coordinates>

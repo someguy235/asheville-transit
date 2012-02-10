@@ -276,7 +276,7 @@
   </Placemark>
   <Placemark>
     <name>Route 13: Tunnel Rd at Innsbruck Mall</name>
-    <description><![CDATA[<div dir="ltr"><br />##:35 from 6:35am* to 6:35pm<br><br>*no 6:35am service on Saturday</div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:35 from 6:35am* to 6:35pm<br><br>*no 6:35am service on Saturday</div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.532408,35.595012,0.000000</coordinates>
@@ -284,7 +284,7 @@
   </Placemark>
   <Placemark>
     <name>Route 13: Asheville Mall</name>
-    <description><![CDATA[<div dir="ltr"><br />##:40 from 6:40am* to 6:40pm<br><br>*no 6:40am service on Saturday</div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:40 from 6:40am* to 6:40pm<br><br>*no 6:40am service on Saturday</div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.525134,35.582693,0.000000</coordinates>
@@ -292,7 +292,7 @@
   </Placemark>
   <Placemark>
     <name>Route 13: NC81/Bleachery Rd</name>
-    <description><![CDATA[<div dir="ltr"><br />##:47 from 6:47am* to 6:47pm<br><br>*no 6:47am service on Saturday</div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:47 from 6:47am* to 6:47pm<br><br>*no 6:47am service on Saturday</div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.512345,35.57765,0.000000</coordinates>
@@ -300,7 +300,7 @@
   </Placemark>
   <Placemark>
     <name>Route 13: VA Hospital Oteen</name>
-    <description><![CDATA[<div dir="ltr"><br />##:55 from 6:55am* to 6:55pm<br><br>*no 6:55am service on Saturday</div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:55 from 6:55am* to 6:55pm<br><br>*no 6:55am service on Saturday</div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.48503,35.587911,0.000000</coordinates>
@@ -308,7 +308,7 @@
   </Placemark>
   <Placemark>
     <name>Route 13: Beverly Rd/Haw Creek</name>
-    <description><![CDATA[<div dir="ltr"><br />##:00 from 7:00am* to 7:00pm<br><br>*no 7:00am service on Saturday</div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:00 from 7:00am* to 7:00pm<br><br>*no 7:00am service on Saturday</div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.505651,35.591924,0.000000</coordinates>
@@ -316,7 +316,7 @@
   </Placemark>
   <Placemark>
     <name>Route 13: Tunnel Rd/Buckstone Place</name>
-    <description><![CDATA[<div dir="ltr"><br />##:15 from 7:15am* to 7:15pm<br><br>*no 6:35am service on Saturday</div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:15 from 7:15am* to 7:15pm<br><br>*no 6:35am service on Saturday</div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.528481,35.586148,0.000000</coordinates>

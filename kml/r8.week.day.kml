@@ -383,7 +383,7 @@
   </Placemark>
   <Placemark>
     <name>Route 8: Biltmore Village/Lodge St</name>
-    <description><![CDATA[<div dir="ltr"><br />Southbound:<br />##:40 from 6:40am to 6:40pm<br /><br />Northbound:<br />##:15 from 7:15am to 7:15pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />Southbound:<br />--:40 from 6:40am to 6:40pm<br /><br />Northbound:<br />--:15 from 7:15am to 7:15pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.543738,35.567212,0.000000</coordinates>

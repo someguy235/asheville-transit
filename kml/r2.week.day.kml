@@ -300,7 +300,7 @@
   </Placemark>
   <Placemark>
     <name>Route 2: Claxton Elementary School</name>
-    <description><![CDATA[<div dir="ltr"><br />Northbound:<br />##:07 from 6:07am to 6:07pm<br /><br />Southbound:<br />##:45 from 6:45am to 6:45pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />Northbound:<br />--:07 from 6:07am to 6:07pm<br /><br />Southbound:<br />--:45 from 6:45am to 6:45pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.55378,35.607679,0.000000</coordinates>
@@ -308,7 +308,7 @@
   </Placemark>
   <Placemark>
     <name>Route 2: Zeis Building at UNCA</name>
-    <description><![CDATA[<div dir="ltr"><br />##:12 from 6:12am to 6:12pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:12 from 6:12am to 6:12pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.564359,35.616419,0.000000</coordinates>
@@ -316,7 +316,7 @@
   </Placemark>
   <Placemark>
     <name>Route 2: Beaverdam Rd.</name>
-    <description><![CDATA[<div dir="ltr"><br />##:22 from 6:22am to 6:22pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:22 from 6:22am to 6:22pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.55275,35.629134,0.000000</coordinates>
@@ -324,7 +324,7 @@
   </Placemark>
   <Placemark>
     <name>Route 2: Elkwood Rd. at Merrimon Ave.</name>
-    <description><![CDATA[<div dir="ltr"><br />##:30 from 6:30am to 6:30pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:30 from 6:30am to 6:30pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.574809,35.637261,0.000000</coordinates>
@@ -332,7 +332,7 @@
   </Placemark>
   <Placemark>
     <name>Route 2: Merrimon Ave. at Lakeshore Dr.</name>
-    <description><![CDATA[<div dir="ltr"><br />##:35 from 6:35am to 6:35pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:35 from 6:35am to 6:35pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.553587,35.627094,0.000000</coordinates>

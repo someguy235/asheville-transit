@@ -151,7 +151,7 @@
   </Placemark>
   <Placemark>
     <name>Route 51: William Randolph School</name>
-    <description><![CDATA[<div dir="ltr"><br />__:33 from 7:33pm to 10:33pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:33 from 7:33pm to 10:33pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.560754,35.597926,0.000000</coordinates>
@@ -159,7 +159,7 @@
   </Placemark>
   <Placemark>
     <name>Route 51: Klondyke Apts</name>
-    <description><![CDATA[<div dir="ltr"><br />__:37 from 7:37pm to 10:37pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:37 from 7:37pm to 10:37pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.572148,35.61068,0.000000</coordinates>
@@ -167,7 +167,7 @@
   </Placemark>
   <Placemark>
     <name>Route 51: Hillcrest Apts</name>
-    <description><![CDATA[<div dir="ltr"><br />__:45 from 7:45pm to 10:45pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:45 from 7:45pm to 10:45pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.570388,35.593617,0.000000</coordinates>
@@ -175,7 +175,7 @@
   </Placemark>
   <Placemark>
     <name>Route 51: Isaac Dickson School</name>
-    <description><![CDATA[<div dir="ltr"><br />__:50 from 7:50pm to 10:50pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:50 from 7:50pm to 10:50pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.564166,35.594245,0.000000</coordinates>
@@ -183,7 +183,7 @@
   </Placemark>
   <Placemark>
     <name>Route 51: Asheville Visitor's Center</name>
-    <description><![CDATA[<div dir="ltr"><br />__:52 from 7:52pm to 10:52pm <br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:52 from 7:52pm to 10:52pm <br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.560046,35.597089,0.000000</coordinates>

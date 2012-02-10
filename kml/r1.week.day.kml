@@ -248,7 +248,7 @@
   </Placemark>
   <Placemark>
     <name>Route 1: Ingles</name>
-    <description><![CDATA[<div dir="ltr"><br />##:10 from 6:10am to 6:10pm</div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:10 from 6:10am to 6:10pm</div>]]></description>
   <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.590237,35.578173,0.000000</coordinates>
@@ -256,7 +256,7 @@
   </Placemark>
   <Placemark>
     <name>Route 1: Haywood Rd. at Patton Ave.</name>
-    <description><![CDATA[<div dir="ltr"><br />##:15 from 6:15am to 6:15pm</div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:15 from 6:15am to 6:15pm</div>]]></description>
   <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.6053,35.582571,0.000000</coordinates>
@@ -264,7 +264,7 @@
   </Placemark>
   <Placemark>
     <name>Route 1: Goodwill</name>
-    <description><![CDATA[<div dir="ltr"><br />##:25 from 6:25am to 6:25pm</div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:25 from 6:25am to 6:25pm</div>]]></description>
   <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.619054,35.571017,0.000000</coordinates>
@@ -272,7 +272,7 @@
   </Placemark>
   <Placemark>
     <name>Route 1: Malvern Hill Pool</name>
-    <description><![CDATA[<div dir="ltr"><br />##:30 from 5:30am* to 6:30pm<br><br>*no Saturday service at 5:30am</div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:30 from 5:30am* to 6:30pm<br><br>*no Saturday service at 5:30am</div>]]></description>
   <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.609828,35.576393,0.000000</coordinates>
@@ -280,7 +280,7 @@
   </Placemark>
   <Placemark>
     <name>Route 1: Haywood Rd. at Vermont Ave.</name>
-    <description><![CDATA[<div dir="ltr"><br />##:35 from 5:35am* to 6:35pm<br><br>*no Saturday service at 5:35am</div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:35 from 5:35am* to 6:35pm<br><br>*no Saturday service at 5:35am</div>]]></description>
   <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.594314,35.578487,0.000000</coordinates>
@@ -288,7 +288,7 @@
   </Placemark>
   <Placemark>
     <name>Route 1: Pisgah View Apts.</name>
-    <description><![CDATA[<div dir="ltr"><br />##:40 from 5:40am* to 6:40pm<br><br>*no Saturday service at 5:40am</div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:40 from 5:40am* to 6:40pm<br><br>*no Saturday service at 5:40am</div>]]></description>
   <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.581096,35.568644,0.000000</coordinates>

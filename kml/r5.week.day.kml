@@ -202,7 +202,7 @@
   </Placemark>
   <Placemark>
     <name>Route 5: Charlotte St at Chestnut St</name>
-    <description><![CDATA[<div dir="ltr"><br />##:35 from 6:35am to 5:35pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:35 from 6:35am to 5:35pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.546613,35.602934,0.000000</coordinates>
@@ -210,7 +210,7 @@
   </Placemark>
   <Placemark>
     <name>Route 5: Charlotte St at Hillside St</name>
-    <description><![CDATA[<div dir="ltr"><br />Northbound:<br />##:37 from 6:37am to 5:37pm<br /><br />Southbound:<br />##:50 from 6:50am to 5:50pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />Northbound:<br />--:37 from 6:37am to 5:37pm<br /><br />Southbound:<br />--:50 from 6:50am to 5:50pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.546291,35.607156,0.000000</coordinates>
@@ -218,7 +218,7 @@
   </Placemark>
   <Placemark>
     <name>Route 5: Grove Park Inn</name>
-    <description><![CDATA[<div dir="ltr"><br />##:42 from 6:42am to 5:42pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:42 from 6:42am to 5:42pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.541721,35.620117,0.000000</coordinates>

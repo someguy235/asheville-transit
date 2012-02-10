@@ -263,7 +263,7 @@
   </Placemark>
   <Placemark>
     <name>Route 41: Pisgah View Apts</name>
-    <description><![CDATA[<div dir="ltr"><br />__:42 from 7:42pm to 10:42pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:42 from 7:42pm to 10:42pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.58101,35.568626,0.000000</coordinates>
@@ -271,7 +271,7 @@
   </Placemark>
   <Placemark>
     <name>Route 41: Ingles Market</name>
-    <description><![CDATA[<div dir="ltr"><br />__:52 from 7:52pm to 10:52pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:52 from 7:52pm to 10:52pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.590473,35.577964,0.000000</coordinates>
@@ -279,7 +279,7 @@
   </Placemark>
   <Placemark>
     <name>Route 41: Haywood Rd at Patton Ave</name>
-    <description><![CDATA[<div dir="ltr"><br />__:57 from 7:57pm to 10:57pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:57 from 7:57pm to 10:57pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.605858,35.582868,0.000000</coordinates>
@@ -287,7 +287,7 @@
   </Placemark>
   <Placemark>
     <name>Route 41: Deaverview Apts</name>
-    <description><![CDATA[<div dir="ltr"><br />__:05 from 8:05pm to 11:05pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:05 from 8:05pm to 11:05pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.620063,35.583251,0.000000</coordinates>
@@ -295,7 +295,7 @@
   </Placemark>
   <Placemark>
     <name>Route 41: Haywood Rd at Vermont Ave</name>
-    <description><![CDATA[<div dir="ltr"><br />__:15 from 8:15pm to 11:15pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:15 from 8:15pm to 11:15pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.594314,35.578452,0.000000</coordinates>

@@ -153,7 +153,7 @@
   </Placemark>
   <Placemark>
     <name>Route 16: Patton Ave at Hazel Mill Rd</name>
-    <description><![CDATA[<div dir="ltr"><br />##:05 from 6:05am to 6:05pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:05 from 6:05am to 6:05pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.582684,35.588644,0.000000</coordinates>
@@ -161,7 +161,7 @@
   </Placemark>
   <Placemark>
     <name>Route 16: N Louisiana Ave at Emma Rd</name>
-    <description><![CDATA[<div dir="ltr"><br />Northbound:<br />##:10 from 6:10am to 6:10pm<br /><br />Southbound:<br />##:18 from 6:18am to 6:18pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />Northbound:<br />--:10 from 6:10am to 6:10pm<br /><br />Southbound:<br />--:18 from 6:18am to 6:18pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.59161,35.595676,0.000000</coordinates>
@@ -169,7 +169,7 @@
   </Placemark>
   <Placemark>
     <name>Route 16: Adams Hill/Pearson Bridge</name>
-    <description><![CDATA[<div dir="ltr"><br />##:12 from 6:12am to 6:12pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:12 from 6:12am to 6:12pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.587018,35.607313,0.000000</coordinates>
@@ -177,7 +177,7 @@
   </Placemark>
   <Placemark>
     <name>Route 16: Bingham Rd at Keith Drive</name>
-    <description><![CDATA[<div dir="ltr"><br />##:15 from 6:15am to 6:15pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:15 from 6:15am to 6:15pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.584658,35.600875,0.000000</coordinates>
@@ -185,7 +185,7 @@
   </Placemark>
   <Placemark>
     <name>Route 16: N Louisiana Ave at Patton Ave</name>
-    <description><![CDATA[<div dir="ltr"><br />##:20 from 6:20am to 6:20pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:20 from 6:20am to 6:20pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.591975,35.586794,0.000000</coordinates>

@@ -342,7 +342,7 @@
   </Placemark>
   <Placemark>
     <name>Route 9: Haywood Rd at Westwood Place</name>
-    <description><![CDATA[<div dir="ltr"><br />##:37 from 7:37am to 5:37 pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:37 from 7:37am to 5:37 pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.580463,35.577911,0.000000</coordinates>
@@ -350,7 +350,7 @@
   </Placemark>
   <Placemark>
     <name>Route 9: Pisgah View Apts</name>
-    <description><![CDATA[<div dir="ltr"><br />Westbound:<br />##:40 from 7:40am to 5:40pm<br /><br />Eastbound:<br />##:15 from 8:15am to 6:15pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />Westbound:<br />--:40 from 7:40am to 5:40pm<br /><br />Eastbound:<br />--:15 from 8:15am to 6:15pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.581471,35.568757,0.000000</coordinates>
@@ -358,7 +358,7 @@
   </Placemark>
   <Placemark>
     <name>Route 9: Haywood Rd at Ingles Market</name>
-    <description><![CDATA[<div dir="ltr"><br />Westbound:<br />##:43 from 7:43am to 5:43pm<br /><br />Eastbound:<br />##:12 from 8:12am to 6:12pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />Westbound:<br />--:43 from 7:43am to 5:43pm<br /><br />Eastbound:<br />--:12 from 8:12am to 6:12pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.590441,35.577937,0.000000</coordinates>
@@ -366,7 +366,7 @@
   </Placemark>
   <Placemark>
     <name>Route 9: Brevard Rd at Farmer's Market</name>
-    <description><![CDATA[<div dir="ltr"><br />Southbound:<br />##:50 from 7:50am to 5:50pm<br /><br />Northbound:<br />##:08 from 8:08am to 6:08pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />Southbound:<br />--:50 from 7:50am to 5:50pm<br /><br />Northbound:<br />--:08 from 8:08am to 6:08pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.599721,35.554836,0.000000</coordinates>
@@ -374,7 +374,7 @@
   </Placemark>
   <Placemark>
     <name>Route 9: Biltmore Square Mall</name>
-    <description><![CDATA[<div dir="ltr"><br />##:00 from 8:00am to 6:00pm<br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:00 from 8:00am to 6:00pm<br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.605343,35.526289,0.000000</coordinates>

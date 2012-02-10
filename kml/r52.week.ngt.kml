@@ -191,7 +191,7 @@
   </Placemark>
   <Placemark>
     <name>Route 52: Claxton Elem. School  </name>
-    <description><![CDATA[<div dir="ltr"><br />Northbound:<br />__:08 from 8:08pm to 11:08pm<br />Thu and Fri only: 11:38pm  12:08am<br />Fri and Sat only: 12:38am<br /><br />Southbound:<br />__:22 from 8:22pm to 11:22pm<br />Thu and Fri only: 11:52pm  12:22am<br />Fri and Sat only: 12:52am<br /><br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />Northbound:<br />--:08 from 8:08pm to 11:08pm<br />Thu and Fri only: 11:38pm  12:08am<br />Fri and Sat only: 12:38am<br /><br />Southbound:<br />--:22 from 8:22pm to 11:22pm<br />Thu and Fri only: 11:52pm  12:22am<br />Fri and Sat only: 12:52am<br /><br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.554016,35.60801,0.000000</coordinates>
@@ -199,7 +199,7 @@
   </Placemark>
   <Placemark>
     <name>Route 52: Merrimon Ave. Ingles  </name>
-    <description><![CDATA[<div dir="ltr"><br />__:13 from 8:13pm to 11:13pm<br />Thu and Fri only: 11:43pm  12:13am<br />Fri and Sat only: 12:43am<br /><br /><br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:13 from 8:13pm to 11:13pm<br />Thu and Fri only: 11:43pm  12:13am<br />Fri and Sat only: 12:43am<br /><br /><br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.552729,35.629396,0.000000</coordinates>
@@ -207,7 +207,7 @@
   </Placemark>
   <Placemark>
     <name>Route 52: Zeis Bldg. at UNCA    </name>
-    <description><![CDATA[<div dir="ltr"><br />__:18 from 8:18pm to 11:18pm<br />Thu and Fri only: 11:48pm  12:18am<br />Fri and Sat only: 12:48am<br /><br /><br><br></div>]]></description>
+    <description><![CDATA[<div dir="ltr"><br />--:18 from 8:18pm to 11:18pm<br />Thu and Fri only: 11:48pm  12:18am<br />Fri and Sat only: 12:48am<br /><br /><br><br></div>]]></description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-82.564702,35.616087,0.000000</coordinates>
