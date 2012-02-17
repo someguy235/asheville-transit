@@ -16,31 +16,18 @@
   <body onload="initialize()">
     <div data-role="page" data-theme="b"id="main_page">
       
-      <div id="navbar" data-theme="b" data-role="navbar" data-iconpos="right">
-        <ul>
-          <li>
-            <a href="./index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-left jqm-home">&nbsp;</a>
-          </li>
-          <li>
-            <a href="">&nbsp;</a>
-          </li>
-          <li>
-            <a href="">Route Maps</a>
-          </li>
-          <li>
-<!--        <div data-role="controlgroup" data-type="horizontal" style="margin-left:75px; margin-top:5px; margin-bottom:5px;">-->
+      <div id="header" data-theme="b" data-role="header">
+        <a href="./index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-left jqm-home">&nbsp;</a>
+        <h1>Route Maps</h1>
+        <div data-role="controlgroup" data-type="horizontal" id="map_buttons">
           <select name="select-routes" id="routes" data-native-menu="true" data-icon="gear" onchange="addRoutes(this.value);">
             <option value="">all routes</option>
           </select>
-          </li>
-          <li>
           <select name="select-times" id="times" data-native-menu="true" data-icon="gear" onChange="setRoutes(this.value)">
             <option value="week-day">daytime</option>
             <option value="week-ngt">nighttime</option>
           </select>
-          </li>
-<!--        </div>-->
-        </ul>
+        </div>
       </div><!--navbar-->
       
       <div data-role="content" id="content">

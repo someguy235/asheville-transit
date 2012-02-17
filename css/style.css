@@ -32,11 +32,13 @@ table.schedule-table tr td {
   width:100%; 
   padding: 0; 
 }
-
 .schedule{
   width: 100%
 }
-
+.ui-page{
+  background: url(../img/bg.jpg) no-repeat;
+  background-color:#216794;
+}
 #header {  
   height:10%; 
 }
@@ -45,7 +47,18 @@ table.schedule-table tr td {
   height:90%;   
   padding:0; 
 }
-
+#logo{
+  text-align:center;
+}
+#map_buttons{
+  position:absolute;
+  right:1em;
+  top:-.2em;
+  float:right;
+/*  margin-left:75px; 
+  margin-top:5px; 
+  margin-bottom:5px;*/
+}
 #map_canvas { 
   height: 100%; 
   width:100%; 
