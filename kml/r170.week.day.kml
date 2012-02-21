@@ -3,10 +3,10 @@
 <Document>
   <name>Route 170 (Warren Wilson/Black Mountain) Mon.-Sat. Daytime</name>
   <description><![CDATA[]]></description>
-  <Style id="style4">
+  <Style id="style1">
     <IconStyle>
       <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/bus.png</href>
       </Icon>
     </IconStyle>
   </Style>
@@ -15,13 +15,6 @@
       <color>8582B4FA</color>
       <width>5</width>
     </LineStyle>
-  </Style>
-  <Style id="style1">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png</href>
-      </Icon>
-    </IconStyle>
   </Style>
   <Placemark>
     <name>Route 170 (Warren Wilson/Black Mountain) Mon.-Sat. Daytime</name>
@@ -450,6 +443,222 @@
         -82.55636,35.59269,0.000000
       </coordinates>
     </LineString>
+  </Placemark>
+<Placemark>
+    <name>Route 52: Patton Ave at Pritchard Park</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:01 7:01am<br />Sat Only: 7:01am<br />Mon-Sat: 12:01pm<br />Sat Only: 2:01pm<br />Mon-Sat: 4:01 5:01 6:01 7:01 8:01 9:01pm<br />Fri-Sat: 10:01 11:01pm 12:01am<br /><br />Inbound:<br />Mon-Fri: 7:13 8:39am<br />Sat Only: 8:13am<br />Mon-Sat: 1:39pm<br />Sat Only: 3:39pm<br />Mon-Sat: 4:50 5:50 6:50 8:39 9:50pm<br />Fri-Sat: 10:50 11:50pm 12:50am<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.55451,35.594454,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: College St at Court Plaza</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:02 7:02am<br />Sat Only: 7:02am<br />Mon-Sat: 12:02pm<br />Sat Only: 2:02pm<br />Mon-Sat: 4:02 5:02 6:02 7:02 8:02 9:02pm<br />Fri-Sat: 10:02 11:02pm 12:02am<br /><br />Inbound:<br />Mon-Fri: 7:07 8:33am<br />Sat Only: 8:07am<br />Mon-Sat: 1:33pm<br />Sat Only: 3:33pm<br />Mon-Sat: 4:44 5:44 6:44 8:33 9:44pm<br />Fri-Sat: 10:44 11:44pm 12:44am<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.549177,35.596216,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: Tunnel Rd at Ingles</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:06 7:06am<br />Sat Only: 7:06am<br />Mon-Sat: 12:06pm<br />Sat Only: 2:06pm<br />Mon-Sat: 4:06 5:06 6:06 7:06 8:06 9:06pm<br />Fri-Sat: 10:06 11:06pm 12:06am<br /><br />Inbound:<br />Mon-Fri: 7:05 8:31am<br />Sat Only: 8:05am<br />Mon-Sat: 1:31pm<br />Sat Only: 3:31pm<br />Mon-Sat: 4:42 5:42 6:42 8:31 9:42pm<br />Fri-Sat: 10:42 11:42pm 12:42am<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.534608,35.596766,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: Tunnel Rd at White Pine Dr/Buckstone Pl</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:09 7:09am<br />Sat Only: 7:09am<br />Mon-Sat: 12:09pm<br />Sat Only: 2:09pm<br />Mon-Sat: 4:09 5:09 6:09 7:09 8:09 9:09pm<br />Fri-Sat: 10:09 11:09pm 12:09am<br /><br />Inbound:<br />Mon-Fri: 7:03 8:29am<br />Sat Only: 8:03am<br />Mon-Sat: 1:29pm<br />Sat Only: 3:29pm<br />Mon-Sat: 4:40 5:40 6:40 8:29 9:40pm<br />Fri-Sat: 10:40 11:40pm 12:40am<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.527784,35.585267,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: Tunnel Rd at Crockett Ave/New Haw Creek Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:10 7:10am<br />Sat Only: 7:10am<br />Mon-Sat: 12:10pm<br />Sat Only: 2:10pm<br />Mon-Sat: 4:10 5:10 6:10 7:10 8:10 9:10pm<br />Fri-Sat: 10:10 11:10pm 12:10am<br /><br />Inbound:<br />Mon-Fri: 7:00 8:26am<br />Sat Only: 8:00am<br />Mon-Sat: 1:26pm<br />Sat Only: 3:26pm<br />Mon-Sat: 4:37 5:37 6:37 8:26 9:37pm<br />Fri-Sat: 10:37 11:37pm 12:37am<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.513783,35.586759,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: Tunnel Rd at Governors View Rd/Avon Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:12 7:12am<br />Sat Only: 7:12am<br />Mon-Sat: 12:12pm<br />Sat Only: 2:12pm<br />Mon-Sat: 4:12 5:12 6:12 7:12 8:12 9:12pm<br />Fri-Sat: 10:12 11:12pm 12:12am<br /><br />Inbound:<br />Mon-Fri: 6:59 8:25am<br />Sat Only: 7:59am<br />Mon-Sat: 1:25pm<br />Sat Only: 3:25pm<br />Mon-Sat: 4:36 5:36 6:36 8:25 9:36pm<br />Fri-Sat: 10:36 11:36pm 12:36am<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.502882,35.587291,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: Tunnel Rd at Riceville Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:14 7:14am<br />Sat Only: 7:14am<br />Mon-Sat: 12:14pm<br />Sat Only: 2:14pm<br />Mon-Sat: 4:14 5:14 6:14 7:14 8:14 9:14pm<br />Fri-Sat: 10:14 11:14pm 12:14am<br /><br />Inbound:<br />Mon-Fri: 6:57 8:23am<br />Sat Only: 7:57am<br />Mon-Sat: 1:23pm<br />Sat Only: 3:23pm<br />Mon-Sat: 4:34 5:34 6:34 8:23 9:34pm<br />Fri-Sat: 10:34 11:34pm 12:34am<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.488205,35.58744,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: Tunnel Rd at Reddick Rd/Grassy Branch Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:15 7:15am<br />Sat Only: 7:15am<br />Mon-Sat: 12:15pm<br />Sat Only: 2:15pm<br />Mon-Sat: 4:15 5:15 6:15 7:15 8:15 9:15pm<br />Fri-Sat: 10:15 11:15pm 12:15am<br /><br />Inbound:<br />Mon-Fri: 6:55 8:21am<br />Sat Only: 7:55am<br />Mon-Sat: 1:21pm<br />Sat Only: 3:21pm<br />Mon-Sat: 4:31 5:31 6:31 8:20 9:31pm<br />Fri-Sat: 10:31 11:31pm 12:31am<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.475578,35.586279,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: US Hwy 70 at ABCCM</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:16 7:16am<br />Sat Only: 7:16am<br />Mon-Sat: 12:16pm<br />Sat Only: 2:16pm<br />Mon-Sat: 4:16 5:16 6:16 7:16 8:16 9:16pm<br />Fri-Sat: 10:16 11:16pm 12:16am<br /><br />Inbound:<br />Mon-Fri: 6:54 8:20am<br />Sat Only: 7:54am<br />Mon-Sat: 1:20pm<br />Sat Only: 3:20pm<br />Mon-Sat: 4:31 5:31 6:31 8:20 9:31pm<br />Fri-Sat: 10:31 11:31pm 12:31am<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.468861,35.583862,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: US Hwy 70 at Porter Cove Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:17 7:17am<br />Sat Only: 7:17am<br />Mon-Sat: 12:17pm<br />Sat Only: 2:17pm<br />Mon-Sat: 4:17 5:17 6:17 7:17 8:17 9:17pm<br />Fri-Sat: 10:17 11:17pm 12:17am<br /><br />Inbound:<br />Mon-Fri: 6:54 8:20am<br />Sat Only: 7:54am<br />Mon-Sat: 1:20pm<br />Sat Only: 3:20pm<br />Mon-Sat: 4:31 5:31 6:31 8:20 9:31pm<br />Fri-Sat: 10:31 11:31pm 12:31am<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.4631,35.584028,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: US Hwy 70 at Jims Branch Rd/Small Mtn Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:18 7:18am<br />Sat Only: 7:18am<br />Mon-Sat: 12:18pm<br />Sat Only: 2:18pm<br />Mon-Sat: 4:18 5:18 6:18 7:18 8:18 9:18pm<br />Fri-Sat: 10:18 11:18pm 12:18am<br /><br />Inbound:<br />Mon-Fri: 6:53 8:19am<br />Sat Only: 7:53am<br />Mon-Sat: 1:19pm<br />Sat Only: 3:19pm<br />Mon-Sat: 4:30 5:30 6:30 8:19 9:30pm<br />Fri-Sat: 10:30 11:30pm 12:30am<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.451717,35.590572,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: Warren Wilson Rd at US Hwy 70</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:18 7:20 7:29am<br />Sat Only: 7:18am<br />Mon-Sat: 12:20 12:29pm<br />Sat Only: 2:20 2:29pm<br />Mon-Sat: 4:20 5:20 6:20 7:20 7:29 8:20 9:20pm<br />Fri-Sat: 10:20 11:20pm 12:20am<br /><br />Inbound:<br />Mon-Fri: 6:52 8:04 8:18am<br />Sat Only: 7:52am<br />Mon-Sat: 1:04 1:18pm<br />Sat Only: 3:04 3:18pm<br />Mon-Sat: 4:29 5:29 6:29 8:04 8:18 9:29pm<br />Fri-Sat: 10:29 11:29pm 12:29am<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.435977,35.593006,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: Warren Wilson College Library</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 7:26am<br />Mon-Sat: 12:26pm<br />Sat Only: 2:26pm<br />Mon-Sat: 4:26 5:26 6:26 7:26 8:26 9:26pm<br />Fri-Sat: 10:26 11:26pm 12:26am<br /><br />Inbound:<br />Mon-Fri: 8:15am<br />Mon-Sat: 1:15pm<br />Sat Only: 3:15pm<br />Mon-Sat: 4:26 5:26 6:26 8:15 9:26pm<br />Fri-Sat: 10:26 11:26pm 12:26am<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.442372,35.610339,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: US Hwy 70 at Buckeye Cove Rd/Reger Ave</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:18 7:29am<br />Sat Only: 7:18am<br />Mon-Sat: 12:29pm<br />Sat Only: 2:29pm<br />Mon-Sat: 7:29pm<br /><br />Inbound:<br />Mon-Fri: 6:52 8:03am<br />Sat Only: 7:52am<br />Mon-Sat: 1:03pm<br />Sat Only: 3:03pm<br />Mon-Sat: 8:03pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.430291,35.593652,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: US Hwy 70 at New Salem Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:19 7:30am<br />Sat Only: 7:19am<br />Mon-Sat: 12:30pm<br />Sat Only: 2:30pm<br />Mon-Sat: 7:30pm<br /><br />Inbound:<br />Mon-Fri: 6:51 8:02am<br />Sat Only: 7:51am<br />Mon-Sat: 1:02pm<br />Sat Only: 3:02pm<br />Mon-Sat: 8:02pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.425238,35.594969,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: US Hwy 70 at Riverwood Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:20 7:31am<br />Sat Only: 7:20am<br />Mon-Sat: 12:31pm<br />Sat Only: 2:31pm<br />Mon-Sat: 7:31pm<br /><br />Inbound:<br />Mon-Fri: 6:49 8:00am<br />Sat Only: 7:49am<br />Mon-Sat: 1:00pm<br />Sat Only: 3:00pm<br />Mon-Sat: 8:00pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.409745,35.598947,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: US Hwy 70 at Patton Cove Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:20 7:31am<br />Sat Only: 7:20am<br />Mon-Sat: 12:31pm<br />Sat Only: 2:31pm<br />Mon-Sat: 7:31pm<br /><br />Inbound:<br />Mon-Fri: 6:48 7:59am<br />Sat Only: 7:48am<br />Mon-Sat: 12:59pm<br />Sat Only: 2:59pm<br />Mon-Sat: 7:59pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.40334,35.600011,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: US Hwy 70 at Whitson Ave</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:21 7:32am<br />Sat Only: 7:21am<br />Mon-Sat: 12:32pm<br />Sat Only: 2:32pm<br />Mon-Sat: 7:32pm<br /><br />Inbound:<br />Mon-Fri: 6:48 7:59am<br />Sat Only: 7:48am<br />Mon-Sat: 12:59pm<br />Sat Only: 2:59pm<br />Mon-Sat: 7:59pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.397794,35.601922,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: US Hwy 70 at Lytle Cove Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:23 7:34am<br />Sat Only: 7:23am<br />Mon-Sat: 12:34pm<br />Sat Only: 2:34pm<br />Mon-Sat: 7:34pm<br /><br />Inbound:<br />Mon-Fri: 6:45 7:56am<br />Sat Only: 7:45am<br />Mon-Sat: 12:56pm<br />Sat Only: 2:56pm<br />Mon-Sat: 7:56pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.367678,35.602035,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: US Hwy 70 at Grovestone Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:24 7:35am<br />Sat Only: 7:24am<br />Mon-Sat: 12:35pm<br />Sat Only: 2:35pm<br />Mon-Sat: 7:35pm<br /><br />Inbound:<br />Mon-Fri: 6:45 7:56am<br />Sat Only: 7:45am<br />Mon-Sat: 12:56pm<br />Sat Only: 2:56pm<br />Mon-Sat: 7:56pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.362281,35.604364,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: US Hwy 70 at Ingles Warehouse</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:24 7:35am<br />Sat Only: 7:24am<br />Mon-Sat: 12:35pm<br />Sat Only: 2:35pm<br />Mon-Sat: 7:35pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.352786,35.607068,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: US Hwy 70 at Amazing Savings</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:25 7:36am<br />Sat Only: 7:25am<br />Mon-Sat: 12:36pm<br />Sat Only: 2:36pm<br />Mon-Sat: 7:36pm<br /><br />Inbound:<br />Mon-Fri: 6:44 7:55am<br />Sat Only: 7:44am<br />Mon-Sat: 12:55pm<br />Sat Only: 2:55pm<br />Mon-Sat: 7:55pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.347744,35.608167,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: US Hwy 70 at Blue Ridge Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:26 7:37am<br />Sat Only: 7:26am<br />Mon-Sat: 12:37pm<br />Sat Only: 2:37pm<br />Mon-Sat: 7:37pm<br /><br />Inbound:<br />Mon-Fri: 6:43 7:54am<br />Sat Only: 7:43am<br />Mon-Sat: 12:54pm<br />Sat Only: 2:54pm<br />Mon-Sat: 7:54pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.340899,35.609598,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: W State St at Old US 70</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:27 7:38am<br />Sat Only: 7:27am<br />Mon-Sat: 12:38pm<br />Sat Only: 2:38pm<br />Mon-Sat: 7:38pm<br /><br />Inbound:<br />Mon-Fri: 6:42 7:53am<br />Sat Only: 7:42am<br />Mon-Sat: 12:53pm<br />Sat Only: 2:53pm<br />Mon-Sat: 7:53pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.33429,35.610994,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: W State St at Cragmont Rd</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:27 7:38am<br />Sat Only: 7:27am<br />Mon-Sat: 12:38pm<br />Sat Only: 2:38pm<br />Mon-Sat: 7:38pm<br /><br />Inbound:<br />Mon-Fri: 6:41 7:52am<br />Sat Only: 7:41am<br />Mon-Sat: 12:52pm<br />Sat Only: 2:52pm<br />Mon-Sat: 7:52pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.327058,35.61375,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: W State St at S Dougherty St</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:28 7:39am<br />Sat Only: 7:28am<br />Mon-Sat: 12:39pm<br />Sat Only: 2:39pm<br />Mon-Sat: 7:39pm<br /><br />Inbound:<br />Mon-Fri: 6:41 7:52am<br />Sat Only: 7:41am<br />Mon-Sat: 12:52pm<br />Sat Only: 2:52pm<br />Mon-Sat: 7:52pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.32193,35.615878,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Route 52: NC Hwy 9 at Sutton Ave</name>
+    <description><![CDATA[<div dir="ltr"><br />Outbound:<br />Mon-Fri: 6:29 7:40am<br />Sat Only: 7:29am<br />Mon-Sat: 12:40pm<br />Sat Only: 2:40pm<br />Mon-Sat: 7:40pm<br /><br />Inbound:<br />Mon-Fri: 6:40 7:51am<br />Sat Only: 7:40am<br />Mon-Sat: 12:51pm<br />Sat Only: 2:51pm<br />Mon-Sat: 7:51pm<br><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.319376,35.616105,0.000000</coordinates>
+    </Point>
   </Placemark>
 </Document>
 </kml>
