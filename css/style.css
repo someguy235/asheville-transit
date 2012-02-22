@@ -29,7 +29,7 @@ table.schedule-table tr td {
 
 .main_page { 
   height: 100%; 
-  width:100%; 
+  width: 100%; 
   padding: 0; 
 }
 .schedule{
@@ -37,15 +37,18 @@ table.schedule-table tr td {
 }
 .ui-page{
   background: url(../img/bg.jpg) no-repeat;
-  background-color:#216794;
+  background-color: #216794;
+}
+#content { 
+  height:100%;   
+  padding:0; 
+}
+#footer {
+  height: 10%;
+  padding: 0;
 }
 #header {  
-  height:10%; 
-}
-
-#content { 
-  height:90%;   
-  padding:0; 
+  height: 10%; 
 }
 #logo{
   text-align:center;
@@ -60,7 +63,7 @@ table.schedule-table tr td {
   margin-bottom:5px;*/
 }
 #map_canvas { 
-  height: 100%; 
+  height:100%; 
   width:100%; 
   padding:0; 
 }

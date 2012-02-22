@@ -14,26 +14,34 @@
   </head>
 
   <body onload="initialize()">
-    <div data-role="page" data-theme="b"id="main_page">
+    <div data-role="page" data-theme="b" id="main_page">
       
       <div id="header" data-theme="b" data-role="header">
         <a href="./index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-left jqm-home">&nbsp;</a>
         <h1>Route Maps</h1>
-        <div data-role="controlgroup" data-type="horizontal" id="map_buttons">
-          <select name="select-routes" id="routes" data-native-menu="true" data-icon="gear" onchange="addRoutes(this.value);">
-            <option value="">all routes</option>
-          </select>
-          <select name="select-times" id="times" data-native-menu="true" data-icon="gear" onChange="setRoutes(this.value)">
-            <option value="week-day">daytime</option>
-            <option value="week-ngt">nighttime</option>
-          </select>
-        </div>
       </div><!--navbar-->
       
       <div data-role="content" id="content">
         <div id="map_canvas"></div>
       </div>
-
+      
+      <div id="footer" data-role="footer" class="ui-bar" data-theme="b">
+        <div data-role="navbar">
+          <ul>
+            <li>
+              <select name="select-routes" id="routes" data-native-menu="true" data-icon="gear" onchange="addRoutes(this.value);">
+                <option value="">all routes</option>
+              </select>
+            </li>
+            <li>
+              <select name="select-times" id="times" data-native-menu="true" data-icon="gear" onChange="setRoutes(this.value)">
+                <option value="week-day">daytime</option>
+                <option value="week-ngt">nighttime</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div><!--data-role="page"-->
   </body>
 </html>

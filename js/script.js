@@ -183,7 +183,12 @@ function setRoutes(times){
 };
 
 function resizeMap(){
-  $('#map_canvas').height($(window).height()-($('#navbar').height()+2));
+  
+ /* alert($('#main_page').height() +", "+ $('#header').height() +", "+ $('#footer').height());*/
+/*  $('#map_canvas').height($(window).height()-($('#header').height()+$('#footer').height()+2));*/
+  $('#map_canvas').height($('#main_page').height()-($('#header').height()+$('#footer').height()+4));
+/*  $('#map_canvas').height($(window).height()-200);*/
+
 };
 
 function detectBrowser(){
