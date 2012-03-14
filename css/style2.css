@@ -34,19 +34,16 @@ body {
 header {  
   text-align:center;
   margin: auto;
-  color: #fff;
+  color: #ccc;
 }
 #logo{
+  max-width:293px;
   width: 35%;
   margin: auto;
   margin-bottom: 1em;
 }
 #logo img{
   width: 100%;
-  opacity: 1;
-}
-#logo img:hover{
-  opacity: .9;
 }
 .nav{
   width:80%;
@@ -80,19 +77,27 @@ header {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
 
   opacity: .8;
+  
   transition: all .5s;
   -moz-transition: all .5s; /* Firefox 4 */
   -webkit-transition: all .5s; /* Safari and Chrome */
   -o-transition: all .5s; /* Opera */
-  
 }
 .nav>div:hover{
   opacity: .95;
+}
+.nav_img{
+  transition: all .5s;
+  -moz-transition: all .5s; /* Firefox 4 */
+  -webkit-transition: all .5s; /* Safari and Chrome */
+  -o-transition: all .5s; /* Opera */
+}
+.nav_img:hover{
   -ms-transform:scale(1.01, 1.01); /* IE 9 */
   -moz-transform:scale(1.01, 1.01); /* Firefox */
-  -webkit-transform:scale(1.01, 1.01); /* Safari and Chrome */
+  -webkit-transform:scale(1.1, 1.1); /* Safari and Chrome */
   -o-transform:scale(1.01, 1.01); /* Opera */
-  transform: scale(1.01, 1.01);
+  transform: scale(1.1, 1.1);
 }
 .nav_1{
   -webkit-border-top-left-radius: 10px;
