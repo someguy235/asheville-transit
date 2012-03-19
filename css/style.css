@@ -1,71 +1,154 @@
-/*
-border
-font-family
-font-size
-color
-background-color
-list-style-type
-background-image
-*/
+
+@font-face {
+    font-family: 'LeagueGothicRegular';
+    src: url('../fonts/League_Gothic-webfont.eot');
+    src: url('../fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/League_Gothic-webfont.woff') format('woff'),
+         url('../fonts/League_Gothic-webfont.ttf') format('truetype'),
+         url('../fonts/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html { 
-  height: 100%; 
+  background-color: #216794;
 }
 
 body { 
-  height: 100%; 
-  margin: 0; 
-  padding: 0; 
+  background: url(../img/bg.jpg) no-repeat;
+  background-color: #216794;
+  font: 18px/27px 'LeagueGothicRegular', Helvetica, Arial, sans-serif;
 }
 
 table.schedule-table tr th {
-  padding: 0px 5px 0px 5px;
-  /*font-size:.5em;*/
+    padding: 0px 5px 0px 5px;
+      /*font-size:.5em;*/
 }
 
 table.schedule-table tr td {
-  text-align:center;
-  /*font-size:.5em;*/
+    text-align:center;
+      /*font-size:.5em;*/
 }
 
-.main_page { 
-  height: 100%; 
-  width: 100%; 
-  padding: 0; 
+.collapsable {
+  background-color: #eee;
+  margin-left: -.1em;
 }
+
+#collapsable-set>section {
+  background-color: #eee;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: .5em;
+  margin-bottom: .5em;
+}
+
 .schedule{
   width: 100%
 }
-.ui-page{
-  background: url(../img/bg.jpg) no-repeat;
-  background-color: #216794;
-}
-#content { 
-  height:100%;   
-  padding:0; 
-}
-#footer {
-  height: 10%;
-  padding: 0;
-}
-#header {  
-  height: 10%; 
-}
+
 #logo{
-  text-align:center;
+  margin-bottom: 1em;
+  text-align: center;
 }
+
+#logo img{
+  float:none;
+  margin: auto;
+  max-width: 293px;
+  max-width: 100%;
+}
+
 #map_buttons{
   position:absolute;
   right:1em;
   top:-.2em;
   float:right;
-/*  margin-left:75px; 
-  margin-top:5px; 
-  margin-bottom:5px;*/
-}
-#map_canvas { 
-  height:100%; 
-  width:100%; 
-  padding:0; 
 }
 
+#map_canvas {
+  height:100%;
+  width:100%;
+  padding:0;
+}
 
+.lnav{
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  -moz-box-shadow: 10px 10px 5px #333;
+  -webkit-box-shadow: 10px 10px 5px #333;
+  box-shadow: 10px 10px 5px #333;
+}
+
+.lnav a{
+  color: #000;
+  text-decoration:none;
+}
+
+.lnav>div{
+  text-align:center;
+
+  background: #fcfcfc; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fcfcfc 0%, #eeeeee 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(100%,#eeeeee)); /*   Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #fcfcfc 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #fcfcfc 0%,#eeeeee 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #fcfcfc 0%,#eeeeee 100%); /* IE10+ */
+  background: linear-gradient(top,  #fcfcfc 0%,#eeeeee 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+
+  opacity: .8;
+  
+  transition: all .5s;
+  -moz-transition: all .5s; /* Firefox 4 */
+  -webkit-transition: all .5s; /* Safari and Chrome */
+  -o-transition: all .5s; /* Opera */
+}
+
+.lnav>div:hover {
+  opacity: .95;
+}
+
+.lnav>div:hover .lnav_img{
+  -ms-transform:scale(1.1, 1.1); 
+  -moz-transform:scale(1.1, 1.1); 
+  -webkit-transform:scale(1.1, 1.1);
+  -o-transform:scale(1.1, 1.1); 
+  transform: scale(1.1, 1.1);
+}
+
+.lnav_img{
+  transition: all .5s;
+  -moz-transition: all .5s; 
+  -webkit-transition: all .5s; 
+  -o-transition: all .5s; 
+}
+
+.lnav_1{
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.lnav_2{
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+}
+
+.lnav_3{
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}

@@ -3,35 +3,88 @@
 <html>
   <head>
     <title>Asheville Transit Redesign - Home</title>
+    
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- this has to go between the bootstrap and the bootstrap-responsive, for correct failover -->
+    <style type="text/css">
+      body{
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link rel="stylesheet" href="css/bootstrap-responsive.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-    <script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
   </head>
+
   <body>
-    <div data-role="page" >
-    <div data-role="header" data-theme="b">
-    <h1>Asheville, NC Transit Home</h1>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          
+          <a class="brand" href="#">Asheville, NC Transit</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="info.html">Info</a></li>
+              <li><a href="schedules.html">Schedules</a></li>
+              <li><a href="map.html">Map</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-    <div data-role="content">
-    <div id="logo"><img src="./img/logo.png" /></div>
-    <div data-role="controlgroup" >
-      <a href="./info.html" data-role="button" data-ajax="false">
-        <div><img src="./img/info-med.png" /></div>
-        <div>Info</div>
-      </a>
-      <a href="./schedules.html" data-role="button" data-ajax="false">
-        <div><img src="./img/schedule-med.png" /></div>
-        <div>Schedules</div>
-      </a>
-      <a href="./map.html" data-role="button" data-ajax="false">
-        <div><img src="./img/map-med.png" /></div>
-        <div>Map</div>
-      </a>
+
+    <div class="container">
+      <div class="row">
+        <div class="span12" id="logo">
+          <img src="./img/logo.png" />
+        </div>
+      </div>
+      <div class="hero-unit">
+        <p>Welcome to the public transit information page for Asheville, North Carolina.</p>
+        <p>Here you can find information about fares and policies, detailed schedules, and an interactive map to help plan your trip.</p>
+        <p>You can contact Asheville Transit in person at 49 Coxe Avenue, by phone at (828) 253-5691, or by email at <a href="mailto:iride@ashevillenc.gov">iride@ashevillenc.gov</a>.</p>
+      </div>
+      <div class="row">
+        <div class="lnav span12">
+          <div class="lnav_1 ">
+            <a href="./info.html" data-role="button" data-ajax="false">
+              <div class="lnav_img"><img src="./img/info-med.png" /></div>
+              <div>Info</div>
+            </a>
+          </div>
+          <div class="lnav_2">
+            <a href="./schedules.html" data-role="button" data-ajax="false">
+              <div class="lnav_img"><img src="./img/schedule-med.png" /></div>
+              <div>Schedules</div>
+            </a>
+          </div>
+          <div class="lnav_3">
+            <a href="./map.html" data-role="button" data-ajax="false">
+              <div class="lnav_img"><img src="./img/map-med.png" /></div>
+              <div>Map</div>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
-    </div>
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
   </body>
 </html>
