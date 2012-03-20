@@ -10,6 +10,10 @@
     font-style: normal;
 }
 
+h2{
+  font-size: 2.0em;
+}
+
 html { 
   background-color: #216794;
 }
@@ -30,12 +34,9 @@ table.schedule-table tr td {
       /*font-size:.5em;*/
 }
 
-.collapsable {
-  background-color: #eee;
-  margin-left: -.1em;
-}
-
-#collapsable-set>section {
+#collapsable-set>section, #index_box {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
   background-color: #eee;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -44,8 +45,32 @@ table.schedule-table tr td {
   margin-bottom: .5em;
 }
 
-.schedule{
-  width: 100%
+#collapsable-set>section h2 {
+  font: 18px/27px 'LeagueGothicRegular', Helvetica, Arial, sans-serif;
+  font-size: 2.0em;
+  margin-bottom: .3em;
+}
+
+#collapsable-set>section h3 {
+  font: 18px/27px 'LeagueGothicRegular', Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+}
+
+#collapsable-set>section ul {
+  font-size:72.222%;
+}
+
+#collapsable-set>section table {
+  font-size:72.222%;
+}
+
+#collapsable-set>section table tr td,th{
+  text-align: left;
+}
+
+#index_box h3{
+  font: 18px/27px 'LeagueGothicRegular', Helvetica, Arial, sans-serif;
+  font-size: 1.0em;
 }
 
 #logo{
@@ -56,8 +81,13 @@ table.schedule-table tr td {
 #logo img{
   float:none;
   margin: auto;
-  max-width: 293px;
   max-width: 100%;
+}
+
+#main_page_title{
+  text-align:center;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 #map_buttons{
@@ -71,6 +101,28 @@ table.schedule-table tr td {
   height:100%;
   width:100%;
   padding:0;
+}
+
+#title_1{
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#title_2{
+  color: #555;
+  font-size: 3em;
+
+}
+
+.collapsable {
+  color: #216794;
+  background-color: #eee;
+  margin-left: -.1em;
+}
+
+.fare_table{
+  margin: auto;
+  max-width: 500px;
 }
 
 .lnav{
@@ -152,3 +204,8 @@ table.schedule-table tr td {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+
+.schedule{
+  width: 100%
+}
+
