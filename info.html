@@ -52,12 +52,12 @@
       </div>
     </div>
 
-   <div class="container">
-   <div class="row">
-    <div class="span12" id="logo">
-      <img src="./img/logo.png" />
-    </div>
-   </div>
+    <div class="container">
+      <div class="row">
+        <div class="span12" id="logo">
+          <img src="./img/logo.png" />
+        </div>
+      </div>
     </div>
 
     <div class="container-fluid">
@@ -75,9 +75,9 @@
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
-        <div id="collapsable-set" class="span10">
+        <div class="collapsible-set span10">
           <section>
-          <a name="GeneralInfo"></a><h2 class="collapsable">General Info</h2>
+          <a name="GeneralInfo"></a><h2 class="collapsible">General Info</h2>
           <div>        
             <p>The City encourages everyone to take advantage of the Transit System, but recommends checking the Service Alerts page before leaving to make sure there is not a service outage or route change that may affect your travel plans. The Service Alerts page is accessible from the left menu. Checking the Asheville Transit’s Holiday Schedule can be helpful, too.</p>
             <h3>About Transit</h3>
@@ -96,7 +96,7 @@
           </div>
           </section>
           <section>
-          <h2 class="collapsable">Fares and Passes</h2>
+          <h2 class="collapsible">Fares and Passes</h2>
           <div>
             <p>Transit is an inexpensive way to get around Asheville and the surrounding area. Public transportation also helps cut down on global pollutants. Bus riders can pay their fare with cash, tickets or pre-paid passes. Please remember, all cash fares must be exact change. Vehicle operators cannot make change. All fare boxes can accept $1 bills.</p>
             <p>As of July 1, 2010:</p>
@@ -135,7 +135,7 @@
           </div>
           </section>
           <section>
-          <h2 class="collapsable">Tips for Travel</h2>
+          <h2 class="collapsible">Tips for Travel</h2>
           <div>
             <h3>Boarding</h3>
             <p>While waiting to board the bus, please stand at a designated &amp; signed bus stop. Asheville Transit's first priority is the safety of its passengers and cannot guarantee that riders at any location will be picked up.</p>
@@ -153,7 +153,7 @@
           </div>
           </section>
           <section>
-          <h2 class="collapsable">Policies</h2>
+          <h2 class="collapsible">Policies</h2>
           <div>        
             <h3>Bike Policy</h3>
             <p>Asheville Transit’s policy is to support and promote the use of bicycles. Bicycles shall have access to all transit vehicles whenever feasible in order to support more sustainable transportation options. Asheville Transit allows bicycles to travel on buses at no extra charge, and provides the greatest flexibility possible within the constraints of capacity and safety.</p>
@@ -222,7 +222,7 @@
           </div>
           </section>
           <section>
-         <h2 class="collapsable">Programs</h2>
+         <h2 class="collapsible">Programs</h2>
           <div>        
             <h3>Paratransit Services</h3>
             <p>Asheville Transit provides Paratransit service along its routes and the service is provided by <a href="http://www.buncombecounty.org/governing/depts/Transportation/">Mountain Mobility of Buncombe County</a>. Please contact Mountain Mobility directly to determine eligibility, 828-258-0186.</p>
@@ -237,7 +237,7 @@
           </div>
           </section>
           <section>
-          <a name="Contact"></a><h2 class="collapsable">Contact</h2>
+          <a name="Contact"></a><h2 class="collapsible">Contact</h2>
           <div>        
             <p>Asheville Transit Center<br />
             49 Coxe Avenue, Asheville NC 28801<br />
@@ -252,11 +252,11 @@
     <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script type="text/javascript">
-      $('.collapsable').click(function() {
+      $('.collapsible').click(function() {
         $(this).next('div').toggle();
       });
       
-      $('#collapsable-set>div').each(function(i) {
+      $('.collapsible-set>div').each(function(i) {
         //$(this).hide();
       });
 

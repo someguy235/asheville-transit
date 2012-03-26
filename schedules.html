@@ -2,6 +2,34 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Asheville Transit Redesign - Info</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- this has to go between the bootstrap and the bootstrap-responsive, for correct failover -->
+    <style type="text/css">
+      body{
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+    <link rel="stylesheet" href="css/bootstrap-responsive.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+  </head>
+
+<!--  <head>
     <title>Asheville Transit Redesign - Schedule</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
@@ -9,22 +37,41 @@
     <link rel="stylesheet" href="css/style.css" />
     <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
-  </head>
+  </head>-->
   <body>
-    <div data-role="page">
-      <div data-role="header" data-theme="b">
-        <a href="./index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-left jqm-home">Home</a>
-        <h1>Route Schedules</h1>      
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+
+          <a class="brand" href="#">Asheville, NC Transit</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="#">Home</a></li>
+              <li><a href="info.html">Info</a></li>
+              <li class="active"><a href="schedules.html">Schedules</a></li>
+              <li><a href="map.html">Map</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div data-role="content">
-        <div data-role="collapsible-set">
-          <div data-role="collapsible" data-theme="a" data-content-theme="b" data-collapsed="false">
-            <h2>Day Routes (5:00am - 7:30pm)</h2>
-            <div data-role="collapsible-set">
-							<div data-role="collapsible" data-theme="c" data-content-theme="d">
-								<h3>1: Haywood Rd./NC DMV</h3>
+    </div>
+
+
+    <div class="container-fluid">
+      <div class="row-fliud">
+        <!--<div class="collapsible-set span12">
+          <div class="collapsible">-->
+          <h2>Day Routes (5:00am - 7:30pm)</h2>
+            <div class="collapsible-set span12">
+              <section>
+								<h3 class="collapsible">1: Haywood Rd./NC DMV</h3>
 								<div class='schedule'>
-									<table class='schedule-table'>
+									<table class='table table-striped table-condensed schedule-table'>
 										<tr>
 											<th>Leave Transit Center</th>
 											<th>Ingles</th>
@@ -74,7 +121,7 @@
 										Park n Ride:  located at Goodwill Industries. 
 									</p>
 								</div>
-							</div>
+							</section>
               <div data-role="collapsible" data-theme="c" data-content-theme="d">
                 <h3>2: Merrimon Ave./UNCA</h3>
                 <div class='schedule'>
@@ -756,8 +803,8 @@
 								</div>
               </div>
             </div>
-          </div>
-        </div>
+          <!--</div>
+        </div>-->
         <div data-role="collapsible-set">
           <div data-role="collapsible" data-collapsed="false" data-theme="a" data-content-theme="b">
             <h2>Night Routes (7:00pm - 1:00am)</h2>
@@ -958,5 +1005,20 @@
         </div>
       </div>
     </div>
+    
+    <script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+      $('.collapsible').click(function() {
+        $(this).next('div').toggle();
+      });
+      
+      $('.collapsible-set>div').each(function(i) {
+        //$(this).hide();
+      });
+
+    </script>
+
   </body>
 </html>
