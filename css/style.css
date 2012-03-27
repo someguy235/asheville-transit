@@ -215,19 +215,40 @@ body {
 }
 
 .schedule-table{
-  /*width: auto;*/
+  width: auto;
+  margin: auto;
 }
 
 .schedule-table tr th {
-    min-width: 5px;
+    max-width:10em;
     overflow: hidden;
-    padding: 0px 5px 0px 5px;
+    padding: 10px 5px 10px 5px;
+    margin: 15px 0px 15px 0px;
     text-align: center;
     font-size:1em;
+    position:absolute;
+    -moz-transform: rotate(-90deg);  /* FF3.5+ */
+    -o-transform: rotate(-90deg);  /* Opera 10.5 */
+    -webkit-transform: rotate(-90deg);  /* Saf3.1+, Chrome */
+    filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=-1);  /* IE6,IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=-1)"; /* IE8 */
+
 }
 
 .schedule-table tr td {
     text-align:center;
     font-size:1em;
+}
+
+@media (min-width: 480px) {
+  .schedule-table tr th {
+    /*font-size: .1em;*/
+    /*display:block;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);*/
+  }
 }
 
