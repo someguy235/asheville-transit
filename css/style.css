@@ -24,16 +24,6 @@ body {
   font: 18px/27px 'LeagueGothicRegular', Helvetica, Arial, sans-serif;
 }
 
-table.schedule-table tr th {
-    padding: 0px 5px 0px 5px;
-      /*font-size:.5em;*/
-}
-
-table.schedule-table tr td {
-    text-align:center;
-      /*font-size:.5em;*/
-}
-
 #index_box h3{
   font: 18px/27px 'LeagueGothicRegular', Helvetica, Arial, sans-serif;
   font-size: 1.0em;
@@ -205,11 +195,25 @@ table.schedule-table tr td {
 }
 
 .schedule{
- /* width: 100%*/
+  /*width: auto;*/
 }
 
-.schedule_table{
-
+.schedule-table{
+  /*width: auto;*/
 }
 
+.schedule-table tr th {
+    min-width: 5px;
+    /*max-width: 10px;*/
+    overflow: hidden;
+    /*white-space: nowrap;*/
+    padding: 0px 5px 0px 5px;
+    text-align: center;
+    font-size:1em;
+}
+
+.schedule-table tr td {
+    text-align:center;
+    font-size:1em;
+}
 
