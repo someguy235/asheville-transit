@@ -217,22 +217,33 @@ body {
 .schedule-table{
   width: auto;
   margin: auto;
+  table-layout:fixed;
 }
 
 .schedule-table tr th {
-    max-width:10em;
-    overflow: hidden;
-    padding: 10px 5px 10px 5px;
-    margin: 15px 0px 15px 0px;
-    text-align: center;
-    font-size:1em;
-    position:absolute;
-    -moz-transform: rotate(-90deg);  /* FF3.5+ */
+    /*font-size:1em;*/
+    
+    -moz-transform: rotate(-45deg);  /* FF3.5+ */
     -o-transform: rotate(-90deg);  /* Opera 10.5 */
-    -webkit-transform: rotate(-90deg);  /* Saf3.1+, Chrome */
+    -webkit-transform: rotate(-70deg);  /* Saf3.1+, Chrome */
     filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=-1);  /* IE6,IE7 */
     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=-1)"; /* IE8 */
+    
+    /*width: 20px;*/
+    text-overflow:hidden;
+    white-space:nowrap;
+    writing-mode: bt-rl;
+    text-indent: 2em;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+    vertical-align: top;
 
+}
+
+.schedule-table tr th div{
+    position:absolute;
+    margin: -1em 0px 0px 0px;
 }
 
 .schedule-table tr td {
