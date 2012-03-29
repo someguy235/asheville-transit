@@ -97,6 +97,11 @@ body {
   font-size: 1.2em;
 }
 
+.collapsible-set>section img {
+  margin:auto;
+  max-width: 100%;
+}
+
 .collapsible-set>section ul {
   font-size:72.222%;
 }
@@ -195,6 +200,21 @@ body {
   border-bottom-left-radius: 10px;
 }
 
+.openclose{
+  text-align:center;
+  float:left;
+  padding-top: .25em;
+  margin-right: .25em;
+  margin-left: .25em;
+  width: 1em;
+  height:1em;
+  background-color: #ccc;
+
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
 .route_title{
   width: 100%;
   font: 18px/27px 'LeagueGothicRegular', Helvetica, Arial, sans-serif;
@@ -215,30 +235,34 @@ body {
 }
 
 .schedule-table{
-  width: auto;
+  /*width: auto;*/
+  width: 50%;
   margin: auto;
+  margin-bottom: 5em;
   table-layout:fixed;
 }
 
 .schedule-table tr th {
     /*font-size:1em;*/
     
-    -moz-transform: rotate(-45deg);  /* FF3.5+ */
-    -o-transform: rotate(-90deg);  /* Opera 10.5 */
-    -webkit-transform: rotate(-70deg);  /* Saf3.1+, Chrome */
-    filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=-1);  /* IE6,IE7 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=-1)"; /* IE8 */
+    -moz-transform: rotate(-90deg);  
+    -o-transform: rotate(-90deg);  
+    -webkit-transform: rotate(-90deg);  
+    filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=-1); 
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=-1)";
     
     /*width: 20px;*/
+    
     text-overflow:hidden;
     white-space:nowrap;
     writing-mode: bt-rl;
-    text-indent: 2em;
+    text-indent: 4em;
     padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    margin: em 0px 0px 0px;
     text-align: left;
     vertical-align: top;
 
+    /*text-align: center;*/
 }
 
 .schedule-table tr th div{

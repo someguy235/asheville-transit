@@ -87,9 +87,6 @@
   }
 }
 @media (max-width: 480px) {
-  .schedule-table tr th {
-    font-size: 10%;
-  }
   .nav-collapse {
     -webkit-transform: translate3d(0, 0, 0);
   }
@@ -137,14 +134,15 @@
   }
 }
 @media (max-width: 767px) {
-  body {
-    /*padding-left: 20px;
-    padding-right: 20px;*/
+/*  body {
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .navbar-fixed-top {
     margin-left: -20px;
     margin-right: -20px;
   }
+  */
   .container {
     width: auto;
   }
@@ -159,7 +157,7 @@
     float: none;
     display: block;
     width: auto;
-    margin: 0;
+    /*margin: 0;*/
   }
   .thumbnails [class*="span"] {
     width: auto;
