@@ -110,11 +110,6 @@ body {
   font-size:72.222%;
 }
 
-.collapsible-set>section table tr td,th{
-  font-size: 100%;
-  /*text-align: left;*/
-}
-
 .fare_table{
   margin: auto;
   max-width: 500px;
@@ -200,7 +195,8 @@ body {
   border-bottom-left-radius: 10px;
 }
 
-.openclose{
+.openclose{ 
+  /* the +/- button for the route schedule divs */
   text-align:center;
   float:left;
   padding-top: .25em;
@@ -230,60 +226,62 @@ body {
   letter-spacing: 1px;
 }
 
-.schedule{
-  /*width: auto;*/
-}
-
 .schedule-table{
-  /*width: auto;*/
   width: 50%;
+  max-width: 500px;
   margin: auto;
-  margin-bottom: 5em;
-  table-layout:fixed;
+  margin-bottom: 1em;
 }
 
 .schedule-table tr th {
-    /*font-size:1em;*/
-    
-    -moz-transform: rotate(-90deg);  
-    -o-transform: rotate(-90deg);  
-    -webkit-transform: rotate(-90deg);  
-    filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=-1); 
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=-1)";
-    
-    /*width: 20px;*/
-    
-    text-overflow:hidden;
-    white-space:nowrap;
-    writing-mode: bt-rl;
-    text-indent: 4em;
-    padding: 0px 0px 0px 0px;
-    margin: em 0px 0px 0px;
-    text-align: left;
-    vertical-align: top;
-
-    /*text-align: center;*/
-}
-
-.schedule-table tr th div{
-    position:absolute;
-    margin: -1em 0px 0px 0px;
+  text-align: center;
 }
 
 .schedule-table tr td {
-    text-align:center;
-    font-size:1em;
+  text-align:center;
+  font-size:1em;
 }
 
-@media (min-width: 480px) {
+@media (max-width: 767px) {
+  .schedule-table{
+    width: 100%;
+  }
+
   .schedule-table tr th {
-    /*font-size: .1em;*/
-    /*display:block;
+    font-size: .75em;
+
+    /* rotate header text vertically on small screens */
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);*/
+    transform: rotate(-90deg);
+
+    /* all this crap (and the position:absolute on the div) makes the rotation look right */
+    text-overflow:hidden;
+    white-space:nowrap;
+    writing-mode: bt-rl;
+    text-indent: 3em; /* this moves the header text vertically closer to or further from the table */
+    padding: 0px 0px 0px 0px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .schedule-table tr td {
+    font-size: .75em;
+    padding:0;
+    margin:0;
+  }
+
+  .schedule-table tr th div{
+    display:block;
+    position:absolute;
+    margin: -1em 0px 0px 0px; /* top margin moves the header text left or right */
+  }
+
+  .table_spacer{
+    /* this makes room above the table for the rotated <th> text */
+    height: 11em;
   }
 }
 
