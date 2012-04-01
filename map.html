@@ -3,30 +3,52 @@
 <html>
   <head>
     <title>Asheville Transit Redesign - Map</title>
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.css" />
+    
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- this has to go between the bootstrap and the bootstrap-responsive, for correct failover -->
+    <style type="text/css">
+      body{
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link rel="stylesheet" href="css/bootstrap-responsive.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.js"></script>
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
   </head>
 
   <body onload="initialize()">
-    <div data-role="page" data-theme="b" id="main_page">
-      
-      <div id="header" data-theme="b" data-role="header">
-        <a href="./index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-left jqm-home">&nbsp;</a>
-        <h1>Route Maps</h1>
-      </div><!--navbar-->
-      
-      <div data-role="content" id="content">
-        <div id="map_canvas"></div>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+
+          <a class="brand" href="#">Asheville, NC Transit</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="info.html">Info</a></li>
+              <li><a href="schedules.html">Schedules</a></li>
+              <li class="active"><a href="#">Map</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      
-      <div id="footer" data-role="footer" class="ui-bar" data-theme="b">
-        <div data-role="navbar">
+    </div>
+-
           <ul>
             <li>
               <select name="select-routes" id="routes" data-native-menu="true" data-icon="gear" onchange="addRoutes(this.value);">
@@ -40,8 +62,17 @@
               </select>
             </li>
           </ul>
+      
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div id="content">
+          <div id="map_canvas"></div>
         </div>
-      </div>
-    </div><!--data-role="page"-->
+      </div><!-- /row -->
+    </div><!-- /container-fluid -->
+      
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
