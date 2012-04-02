@@ -111,6 +111,11 @@ body {
   font-size:72.222%;
 }
 
+.day_night_img{
+  max-height: 100%;
+  margin: 0em 1em 0em -2em;
+}
+
 .fare_table{
   margin: auto;
   max-width: 500px;
