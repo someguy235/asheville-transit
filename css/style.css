@@ -14,6 +14,11 @@ h2{
   font-size: 2.0em;
 }
 
+h4{
+  font-size: 1.3em;
+  padding-top: 1em;
+  text-align: center;
+}
 html { 
   background-color: #216794;
 }
@@ -112,8 +117,6 @@ body {
 }
 
 .day_night_img{
-  max-height: 100%;
-  margin: 0em 1em 0em -2em;
 }
 
 .fare_table{
@@ -226,10 +229,41 @@ body {
   -moz-border-radius: 5px;
   border-radius: 5px;
   text-align: center;
-  padding: .5em 0 .5em 0;
+  padding: .5em 0em .5em 0;
   margin-bottom: .5em;
-  background-color: #ccc;
+  /*background-color: #ccc;*/
   letter-spacing: 1px;
+}
+
+.route_title h1{
+  margin-right: 2em;
+}
+
+.route_title img{
+  margin: 0em 1em 0em 0em;
+}
+
+.route_title_day{
+  background: #c6ce29; /* Old browsers */
+  background: -moz-linear-gradient(top, #c6ce29 0%, #dddddd 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c6ce29), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #c6ce29 0%,#dddddd 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #c6ce29 0%,#dddddd 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #c6ce29 0%,#dddddd 100%); /* IE10+ */
+  background: linear-gradient(top, #c6ce29 0%,#dddddd 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6ce29', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
+
+}
+
+.route_title_night{
+  background: #15306b; /* Old browsers */
+  background: -moz-linear-gradient(top, #15306b 0%, #dddddd 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#15306b), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #15306b 0%,#dddddd 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #15306b 0%,#dddddd 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #15306b 0%,#dddddd 100%); /* IE10+ */
+  background: linear-gradient(top, #15306b 0%,#dddddd 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15306b', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
 }
 
 .schedule-table{

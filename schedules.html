@@ -83,8 +83,8 @@
         </div>
         <!--<div class="collapsible-set span8 offset2">-->
         <div class="collapsible-set span8">
-          <div class="route_title">
-            <h1><img class="day_night_img" src="img/day.png"></img>Daytime Routes (5:00am - 7:30pm)</h1>
+          <div class="route_title route_title_day">
+            <h1><img src="img/day.png"></img>Daytime Routes (5:00am - 7:30pm)</h1>
           </div>
           <section>
             <h3 class="collapsible"><div class="openclose"><i class="icon-minus"></i></div>1: Haywood Rd./NC DMV</h3>
@@ -293,29 +293,24 @@
               <table class='schedule-table table table-striped table-condensed'>
                 <tr>
                   <th><div>Leave Transit Center</div></th>
-                  <th><div>Avl High</div></th>
                   <th><div>Busbee Rd @ Ingles</div></th>
-                  <th><div>Mills Gap Rd @ Ingles</div></th>
                   <th><div>Long Shoals Rd </div></th>
-                  <th><div>H'ville Rd at Airport Rd </div></th>
                   <th><div>Wellington Park </div></th>
-                  <th><div>Lowes and Target </div></th>
                   <th><div>Asheville Airport Terminal</div></th>
-                  <th><div>H'ville Rd at Airport Rd </div></th>
                   <th><div>Mills Gap Rd @ Ingles</div></th>
                   <th><div>Busbee Rd @ Ingles</div></th>
                   <th><div>Avl High </div></th>
                   <th><div>Arrive Transit Center</div></th>
                 </tr>
-                <tr><td>6:30</td><td>6:35</td><td>6:40</td><td>6:45</td><td>6:47</td><td>6:52</td><td>*6:55</td><td>---</td><td>---</td><td>7:00</td><td>7:10</td><td>7:15</td><td>7:22</td><td>7:26</td></tr>
-                <tr><td>7:30</td><td>7:35</td><td>7:40</td><td>7:45</td><td>7:47</td><td>7:52</td><td>*7:55</td><td>---</td><td>---</td><td>8:00</td><td>8:10</td><td>8:15</td><td>8:22</td><td>8:26</td></tr>
-                <tr><td>8:30</td><td>8:37</td><td>8:45</td><td>8:50</td><td>8:55</td><td>9:00</td><td>9:03</td><td>9:10</td><td>9:25</td><td>9:30</td><td>9:40</td><td>9:45</td><td>9:50</td><td>9:55</td></tr>
-                <tr><td>10:00</td><td>10:07</td><td>10:15</td><td>10:20</td><td>10:25</td><td>10:30</td><td>10:33</td><td>10:40</td><td>10:55</td><td>11:00</td><td>11:10</td><td>11:15</td><td>11:20</td><td>11:25</td></tr>
-                <tr><td>11:30</td><td>11:37</td><td>11:45</td><td>11:50</td><td>11:55</td><td>12:00</td><td>12:03</td><td>12:10</td><td>12:25</td><td>12:30</td><td>12:40</td><td>12:45</td><td>12:50</td><td>12:55</td></tr>
-                <tr><td>1:00</td><td>1:07</td><td>1:15</td><td>1:20</td><td>1:25</td><td>1:30</td><td>1:33</td><td>1:40</td><td>1:55</td><td>2:00</td><td>2:10</td><td>2:15</td><td>2:20</td><td>2:25</td></tr>
-                <tr><td>2:30</td><td>2:37</td><td>2:45</td><td>2:50</td><td>2:55</td><td>3:00</td><td>3:03</td><td>3:10</td><td>3:25</td><td>3:30</td><td>3:40</td><td>3:45</td><td>3:50</td><td>3:55</td></tr>
-                <tr><td>4:00</td><td>4:07</td><td>4:15</td><td>4:20</td><td>4:25</td><td>4:30</td><td>4:33</td><td>4:40</td><td>4:55</td><td>5:00</td><td>5:10</td><td>5:15</td><td>5:20</td><td>5:25</td></tr>
-                <tr><td>5:30</td><td>5:37</td><td>5:45</td><td>5:50</td><td>5:55</td><td>6:00</td><td>6:03</td><td>6:10</td><td>6:25</td><td>6:30</td><td>6:40</td><td>6:45</td><td>6:50</td><td>6:55</td></tr>
+                <tr><td>6:30</td><td>6:40</td><td>6:47</td><td>*6:55</td><td>---</td><td>7:10</td><td>7:15</td><td>7:22</td><td>7:26</td></tr>
+                <tr><td>7:30</td><td>7:40</td><td>7:47</td><td>*7:55</td><td>---</td><td>8:10</td><td>8:15</td><td>8:22</td><td>8:26</td></tr>
+                <tr><td>8:30</td><td>8:45</td><td>8:55</td><td>9:03</td><td>9:25</td><td>9:40</td><td>9:45</td><td>9:50</td><td>9:55</td></tr>
+                <tr><td>10:00</td><td>10:15</td><td>10:25</td><td>10:33</td><td>10:55</td><td>11:10</td><td>11:15</td><td>11:20</td><td>11:25</td></tr>
+                <tr><td>11:30</td><td>11:45</td><td>11:55</td><td>12:03</td><td>12:25</td><td>12:40</td><td>12:45</td><td>12:50</td><td>12:55</td></tr>
+                <tr><td>1:00</td><td>1:15</td><td>1:25</td><td>1:33</td><td>1:55</td><td>2:10</td><td>2:15</td><td>2:20</td><td>2:25</td></tr>
+                <tr><td>2:30</td><td>2:45</td><td>2:55</td><td>3:03</td><td>3:25</td><td>3:40</td><td>3:45</td><td>3:50</td><td>3:55</td></tr>
+                <tr><td>4:00</td><td>4:15</td><td>4:25</td><td>4:33</td><td>4:55</td><td>5:10</td><td>5:15</td><td>5:20</td><td>5:25</td></tr>
+                <tr><td>5:30</td><td>5:45</td><td>5:55</td><td>6:03</td><td>6:25</td><td>6:40</td><td>6:45</td><td>6:50</td><td>6:55</td></tr>
               </table>
               <p>
                 <b>Route Traveled:</b><br>
@@ -601,7 +596,6 @@
                 <tr>
                   <th><div>Leave Transit Center</div></th>
                   <th><div>Regent Park</div></th>
-                  <th><div>Patton Ave at New Leicester Hwy</div></th>
                   <th><div>Meadows Apts</div></th>
                   <th><div>Deaverview Apts</div></th>
                   <th><div>Deaverview Rd at Pisgah View Rd</div></th>
@@ -610,20 +604,20 @@
                   <th><div>Westgate Shopping Center</div></th>
                   <th><div>Arrive Transit Center</div></th>
                 </tr>
-                <tr><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>**6:00</td><td>---</td><td>---</td><td>---</td><td>**6:26</td></tr>
-                <tr><td>**6:00</td><td>**6:08</td><td>**6:15</td><td>**6:20</td><td>**6:30</td><td>**6:35</td><td>**6:40</td><td>**6:45</td><td>**6:50</td><td>**6:56</td></tr>
-                <tr><td>7:00</td><td>7:08</td><td>7:15</td><td>7:20</td><td>7:30</td><td>7:35</td><td>7:40</td><td>7:45</td><td>7:50</td><td>7:56</td></tr>
-                <tr><td>8:00</td><td>8:08</td><td>8:15</td><td>*---*</td><td>8:30</td><td>8:35</td><td>8:40</td><td>8:45</td><td>8:50</td><td>8:56</td></tr>
-                <tr><td>9:00</td><td>9:08</td><td>9:15</td><td>9:20</td><td>9:30</td><td>9:35</td><td>9:40</td><td>9:45</td><td>9:50</td><td>9:56</td></tr>
-                <tr><td>10:00</td><td>10:08</td><td>10:15</td><td>10:20</td><td>10:30</td><td>10:35</td><td>10:40</td><td>10:45</td><td>10:50</td><td>10:56</td></tr>
-                <tr><td>11:00</td><td>11:08</td><td>11:15</td><td>11:20</td><td>11:30</td><td>11:35</td><td>11:40</td><td>11:45</td><td>11:50</td><td>11:56</td></tr>
-                <tr><td>12:00</td><td>12:08</td><td>12:15</td><td>*---*</td><td>12:30</td><td>12:35</td><td>12:40</td><td>12:45</td><td>12:50</td><td>12:56</td></tr>
-                <tr><td>1:00</td><td>1:08</td><td>1:15</td><td>1:20</td><td>1:30</td><td>1:35</td><td>1:40</td><td>1:45</td><td>1:50</td><td>1:56</td></tr>
-                <tr><td>2:00</td><td>2:08</td><td>2:15</td><td>2:20</td><td>2:30</td><td>2:35</td><td>2:40</td><td>2:45</td><td>2:50</td><td>2:56</td></tr>
-                <tr><td>3:00</td><td>3:08</td><td>3:15</td><td>3:20</td><td>3:30</td><td>3:35</td><td>3:40</td><td>3:45</td><td>3:50</td><td>3:56</td></tr>
-                <tr><td>4:00</td><td>4:08</td><td>4:15</td><td>4:20</td><td>4:30</td><td>4:35</td><td>4:40</td><td>4:45</td><td>4:50</td><td>4:56</td></tr>
-                <tr><td>5:00</td><td>5:08</td><td>5:15</td><td>*---*</td><td>5:30</td><td>5:35</td><td>5:40</td><td>5:45</td><td>5:50</td><td>5:56</td></tr>
-                <tr><td>6:00</td><td>6:08</td><td>6:15</td><td>6:20</td><td>6:30</td><td>6:35</td><td>6:40</td><td>6:45</td><td>6:50</td><td>6:56</td></tr>
+                <tr><td>---</td><td>---</td><td>---</td><td>---</td><td>**6:00</td><td>---</td><td>---</td><td>---</td><td>**6:26</td></tr>
+                <tr><td>**6:00</td><td>**6:08</td><td>**6:20</td><td>**6:30</td><td>**6:35</td><td>**6:40</td><td>**6:45</td><td>**6:50</td><td>**6:56</td></tr>
+                <tr><td>7:00</td><td>7:08</td><td>7:20</td><td>7:30</td><td>7:35</td><td>7:40</td><td>7:45</td><td>7:50</td><td>7:56</td></tr>
+                <tr><td>8:00</td><td>8:08</td><td>*---*</td><td>8:30</td><td>8:35</td><td>8:40</td><td>8:45</td><td>8:50</td><td>8:56</td></tr>
+                <tr><td>9:00</td><td>9:08</td><td>9:20</td><td>9:30</td><td>9:35</td><td>9:40</td><td>9:45</td><td>9:50</td><td>9:56</td></tr>
+                <tr><td>10:00</td><td>10:08</td><td>10:20</td><td>10:30</td><td>10:35</td><td>10:40</td><td>10:45</td><td>10:50</td><td>10:56</td></tr>
+                <tr><td>11:00</td><td>11:08</td><td>11:20</td><td>11:30</td><td>11:35</td><td>11:40</td><td>11:45</td><td>11:50</td><td>11:56</td></tr>
+                <tr><td>12:00</td><td>12:08</td><td>*---*</td><td>12:30</td><td>12:35</td><td>12:40</td><td>12:45</td><td>12:50</td><td>12:56</td></tr>
+                <tr><td>1:00</td><td>1:08</td><td>1:20</td><td>1:30</td><td>1:35</td><td>1:40</td><td>1:45</td><td>1:50</td><td>1:56</td></tr>
+                <tr><td>2:00</td><td>2:08</td><td>2:20</td><td>2:30</td><td>2:35</td><td>2:40</td><td>2:45</td><td>2:50</td><td>2:56</td></tr>
+                <tr><td>3:00</td><td>3:08</td><td>3:20</td><td>3:30</td><td>3:35</td><td>3:40</td><td>3:45</td><td>3:50</td><td>3:56</td></tr>
+                <tr><td>4:00</td><td>4:08</td><td>4:20</td><td>4:30</td><td>4:35</td><td>4:40</td><td>4:45</td><td>4:50</td><td>4:56</td></tr>
+                <tr><td>5:00</td><td>5:08</td><td>*---*</td><td>5:30</td><td>5:35</td><td>5:40</td><td>5:45</td><td>5:50</td><td>5:56</td></tr>
+                <tr><td>6:00</td><td>6:08</td><td>6:20</td><td>6:30</td><td>6:35</td><td>6:40</td><td>6:45</td><td>6:50</td><td>6:56</td></tr>
               </table>
               <p>
                 * = These buses service Eliada Home by way of Compton Drive and will not enter the Meadows 
@@ -704,24 +698,23 @@
                   <th><div>Erskine Street Aparts.</div></th>
                   <th><div>MLK/So. Charlotte Street</div></th>
                   <th><div>Haywood St at Civic Center</div></th>
-                  <th><div>Mount Clare Ave at Hillside St</div></th>
                   <th><div>UNCA</div></th>
                   <th><div>Flint St at Magnolia Ave</div></th>
                   <th><div>Arrive Transit Center</div></th>
                 </tr>
-                <tr><td>6:00</td><td>6:05</td><td>6:15</td><td>6:20</td><td>6:25</td><td>6:30</td><td>6:35</td><td>6:38</td><td>6:45</td><td>6:50</td><td>6:58</td></tr>
-                <tr><td>7:00</td><td>7:05</td><td>7:15</td><td>7:20</td><td>7:25</td><td>7:30</td><td>7:35</td><td>7:38</td><td>7:45</td><td>7:50</td><td>7:58</td></tr>
-                <tr><td>8:00</td><td>8:05</td><td>8:15</td><td>8:20</td><td>8:25</td><td>8:30</td><td>8:35</td><td>8:38</td><td>8:45</td><td>8:50</td><td>8:58</td></tr>
-                <tr><td>9:00</td><td>9:05</td><td>9:15</td><td>9:20</td><td>9:25</td><td>9:30</td><td>9:35</td><td>9:38</td><td>9:45</td><td>9:50</td><td>9:58</td></tr>
-                <tr><td>10:00</td><td>10:05</td><td>10:15</td><td>10:20</td><td>10:25</td><td>10:30</td><td>10:35</td><td>10:38</td><td>10:45</td><td>10:50</td><td>10:58</td></tr>
-                <tr><td>11:00</td><td>11:05</td><td>11:15</td><td>11:20</td><td>11:25</td><td>11:30</td><td>11:35</td><td>11:38</td><td>11:45</td><td>11:50</td><td>11:58</td></tr>
-                <tr><td>12:00</td><td>12:05</td><td>12:15</td><td>12:20</td><td>12:25</td><td>12:30</td><td>12:35</td><td>12:38</td><td>12:45</td><td>12:50</td><td>12:58</td></tr>
-                <tr><td>1:00</td><td>1:05</td><td>1:15</td><td>1:20</td><td>1:25</td><td>1:30</td><td>1:35</td><td>1:38</td><td>1:45</td><td>1:50</td><td>1:58</td></tr>
-                <tr><td>2:00</td><td>2:05</td><td>2:15</td><td>2:20</td><td>2:25</td><td>2:30</td><td>2:35</td><td>2:38</td><td>2:45</td><td>2:50</td><td>2:58</td></tr>
-                <tr><td>3:00</td><td>3:05</td><td>3:15</td><td>3:20</td><td>3:25</td><td>3:30</td><td>3:35</td><td>3:38</td><td>3:45</td><td>3:50</td><td>3:58</td></tr>
-                <tr><td>4:00</td><td>4:05</td><td>4:15</td><td>4:20</td><td>4:25</td><td>4:30</td><td>4:35</td><td>4:38</td><td>4:45</td><td>4:50</td><td>4:58</td></tr>
-                <tr><td>5:00</td><td>5:05</td><td>5:15</td><td>5:20</td><td>5:25</td><td>5:30</td><td>5:35</td><td>5:38</td><td>5:45</td><td>5:50</td><td>5:58</td></tr>
-                <tr><td>6:00</td><td>6:05</td><td>6:15</td><td>6:20</td><td>6:25</td><td>6:30</td><td>6:35</td><td>6:38</td><td>6:45</td><td>6:50</td><td>6:58</td></tr>
+                <tr><td>6:00</td><td>6:05</td><td>6:15</td><td>6:20</td><td>6:25</td><td>6:30</td><td>6:35</td><td>6:45</td><td>6:50</td><td>6:58</td></tr>
+                <tr><td>7:00</td><td>7:05</td><td>7:15</td><td>7:20</td><td>7:25</td><td>7:30</td><td>7:35</td><td>7:45</td><td>7:50</td><td>7:58</td></tr>
+                <tr><td>8:00</td><td>8:05</td><td>8:15</td><td>8:20</td><td>8:25</td><td>8:30</td><td>8:35</td><td>8:45</td><td>8:50</td><td>8:58</td></tr>
+                <tr><td>9:00</td><td>9:05</td><td>9:15</td><td>9:20</td><td>9:25</td><td>9:30</td><td>9:35</td><td>9:45</td><td>9:50</td><td>9:58</td></tr>
+                <tr><td>10:00</td><td>10:05</td><td>10:15</td><td>10:20</td><td>10:25</td><td>10:30</td><td>10:35</td><td>10:45</td><td>10:50</td><td>10:58</td></tr>
+                <tr><td>11:00</td><td>11:05</td><td>11:15</td><td>11:20</td><td>11:25</td><td>11:30</td><td>11:35</td><td>11:45</td><td>11:50</td><td>11:58</td></tr>
+                <tr><td>12:00</td><td>12:05</td><td>12:15</td><td>12:20</td><td>12:25</td><td>12:30</td><td>12:35</td><td>12:45</td><td>12:50</td><td>12:58</td></tr>
+                <tr><td>1:00</td><td>1:05</td><td>1:15</td><td>1:20</td><td>1:25</td><td>1:30</td><td>1:35</td><td>1:45</td><td>1:50</td><td>1:58</td></tr>
+                <tr><td>2:00</td><td>2:05</td><td>2:15</td><td>2:20</td><td>2:25</td><td>2:30</td><td>2:35</td><td>2:45</td><td>2:50</td><td>2:58</td></tr>
+                <tr><td>3:00</td><td>3:05</td><td>3:15</td><td>3:20</td><td>3:25</td><td>3:30</td><td>3:35</td><td>3:45</td><td>3:50</td><td>3:58</td></tr>
+                <tr><td>4:00</td><td>4:05</td><td>4:15</td><td>4:20</td><td>4:25</td><td>4:30</td><td>4:35</td><td>4:45</td><td>4:50</td><td>4:58</td></tr>
+                <tr><td>5:00</td><td>5:05</td><td>5:15</td><td>5:20</td><td>5:25</td><td>5:30</td><td>5:35</td><td>5:45</td><td>5:50</td><td>5:58</td></tr>
+                <tr><td>6:00</td><td>6:05</td><td>6:15</td><td>6:20</td><td>6:25</td><td>6:30</td><td>6:35</td><td>6:45</td><td>6:50</td><td>6:58</td></tr>
               </table>
               <p>
                 <b>Route Traveled:</b><br>
@@ -795,52 +788,85 @@
           <section>
             <h3 class="collapsible"><div class="openclose"><i class="icon-minus"></i></div>170: Warren Wilson/Black Mountain</h3>
             <div class='schedule'>
+              <h4>Eastbound</h4>
               <div class='table_spacer'>&nbsp;</div>
               <table class='schedule-table table table-striped table-condensed'>
                 <tr>
-                  <th><div>Stop</div></th>
-                  <th colspan="2">Mon-Fri</div></th>
-                  <th><div>Sat Only</div></th>
-                  <th><div>Mon-Sat</div></th>
-                  <th><div>Sat Only</div></th>
-                  <th colspan="5">Mon-Sat</div></th>
-                  <th colspan="3">Fri-Sat</div></th>
+                  <th><div>Patton Ave at Pritchard Park</div></th>
+                  <th><div>Tunnel Rd at White Pine Dr</div></th>
+                  <th><div>Tunnel Rd at Riceville Rd</div></th>
+                  <th><div>US Hwy 70 at Porter Cove Rd</div></th>
+                  <th><div>Warren Wilson College Library</div></th>
+                  <th><div>US Hwy 70 at Riverwood Rd</div></th>
+                  <th><div>US Hwy 70 at Grovestone Rd</div></th>
+                  <th><div>W State St at Old US 70</div></th>
+                  <th><div>NC Hwy 9 at Sutton Ave</div></th>
                 </tr>
-                <tr><td>Patton Ave at Pritchard Park</td><td>6:01</td><td>7:01</td><td>7:01</td><td>12:01</td><td>2:01</td><td>4:01</td><td>5:01</td><td>6:01</td><td>7:01</td><td>9:01</td><td>10:01</td><td>11:01</td><td>12:01</td></tr>
-                <tr><td>College St at Court Plaza</td><td>6:02</td><td>7:02</td><td>7:02</td><td>12:02</td><td>2:02</td><td>4:02</td><td>5:02</td><td>6:02</td><td>7:02</td><td>9:02</td><td>10:02</td><td>11:02</td><td>12:02</td></tr>
-                <tr><td>Tunnel Rd at Ingles</td><td>6:06</td><td>7:06</td><td>7:06</td><td>12:06</td><td>2:06</td><td>4:06</td><td>5:06</td><td>6:06</td><td>7:06</td><td>9:06</td><td>10:06</td><td>11:06</td><td>12:06</td></tr>
-                <tr><td>Tunnel Rd at White Pine Dr</td><td>6:09</td><td>7:09</td><td>7:09</td><td>12:09</td><td>2:09</td><td>4:09</td><td>5:09</td><td>6:09</td><td>7:09</td><td>9:09</td><td>10:09</td><td>11:09</td><td>12:09</td></tr>
-                <tr><td>Tunnel Rd at Crockett Ave</td><td>6:10</td><td>7:10</td><td>7:10</td><td>12:10</td><td>2:10</td><td>4:10</td><td>5:10</td><td>6:10</td><td>7:10</td><td>9:10</td><td>10:10</td><td>11:10</td><td>12:10</td></tr>
-                <tr><td>Tunnel Rd at Governors View Rd</td><td>6:12</td><td>7:12</td><td>7:12</td><td>12:12</td><td>2:12</td><td>4:12</td><td>5:12</td><td>6:12</td><td>7:12</td><td>9:12</td><td>10:12</td><td>11:12</td><td>12:12</td></tr>
-                <tr><td>Tunnel Rd at Riceville Rd</td><td>6:14</td><td>7:14</td><td>7:14</td><td>12:14</td><td>2:14</td><td>4:14</td><td>5:14</td><td>6:14</td><td>7:14</td><td>9:14</td><td>10:14</td><td>11:14</td><td>12:14</td></tr>
-                <tr><td>Tunnel Rd at Reddick Rd</td><td>6:15</td><td>7:15</td><td>7:15</td><td>12:15</td><td>2:15</td><td>4:15</td><td>5:15</td><td>6:15</td><td>7:15</td><td>9:15</td><td>10:15</td><td>11:15</td><td>12:15</td></tr>
-                <tr><td>US Hwy 70 at ABCCM</td><td>6:16</td><td>7:16</td><td>7:16</td><td>12:16</td><td>2:16</td><td>4:16</td><td>5:16</td><td>6:16</td><td>7:16</td><td>9:16</td><td>10:16</td><td>11:16</td><td>12:16</td></tr>
-                <tr><td>US Hwy 70 at Porter Cove Rd</td><td>6:17</td><td>7:17</td><td>7:17</td><td>12:17</td><td>2:17</td><td>4:17</td><td>5:17</td><td>6:17</td><td>7:17</td><td>9:17</td><td>10:17</td><td>11:17</td><td>12:17</td></tr>
-                <tr><td>US Hwy 70 at Jims Branch Rd</td><td>6:18</td><td>7:18</td><td>7:18</td><td>12:18</td><td>2:18</td><td>4:18</td><td>5:18</td><td>6:18</td><td>7:18</td><td>9:18</td><td>10:18</td><td>11:18</td><td>12:18</td></tr>
-                <tr><td>Warren Wilson Rd at US Hwy 70</td><td>---</td><td>7:20</td><td>---</td><td>12:20</td><td>2:20</td><td>4:20</td><td>5:20</td><td>6:20</td><td>7:20</td><td>9:20</td><td>10:20</td><td>11:20</td><td>12:20</td></tr>
-                <tr><td>Warren Wilson College Library</td><td>---</td><td>7:26</td><td>---</td><td>12:26</td><td>2:26</td><td>4:26</td><td>5:26</td><td>6:26</td><td>7:26</td><td>9:26</td><td>10:26</td><td>11:26</td><td>12:26</td></tr>
-                <tr><td>US Hwy 70 at Warren Wilson Rd</td><td>6:18</td><td>7:29</td><td>7:18</td><td>12:29</td><td>2:29</td><td>---</td><td>---</td><td>---</td><td>7:29</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
-                <tr><td>US Hwy 70 at Buckeye Cove Rd</td><td>6:18</td><td>7:29</td><td>7:18</td><td>12:29</td><td>2:29</td><td>---</td><td>---</td><td>---</td><td>7:29</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
-                <tr><td>US Hwy 70 at New Salem Rd</td><td>6:19</td><td>7:30</td><td>7:19</td><td>12:30</td><td>2:30</td><td>---</td><td>---</td><td>---</td><td>7:30</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
-                <tr><td>US Hwy 70 at Riverwood Rd</td><td>6:20</td><td>7:31</td><td>7:20</td><td>12:31</td><td>2:31</td><td>---</td><td>---</td><td>---</td><td>7:31</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
-                <tr><td>US Hwy 70 at Patton Cove Rd</td><td>6:20</td><td>7:31</td><td>7:20</td><td>12:31</td><td>2:31</td><td>---</td><td>---</td><td>---</td><td>7:31</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
-                <tr><td>US Hwy 70 at Whitson Ave</td><td>6:21</td><td>7:32</td><td>7:21</td><td>12:32</td><td>2:32</td><td>---</td><td>---</td><td>---</td><td>7:32</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
-                <tr><td>US Hwy 70 at Lytle Cove Rd</td><td>6:23</td><td>7:34</td><td>7:23</td><td>12:34</td><td>2:34</td><td>---</td><td>---</td><td>---</td><td>7:34</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
-                <tr><td>US Hwy 70 at Grovestone Rd</td><td>6:24</td><td>7:35</td><td>7:24</td><td>12:35</td><td>2:35</td><td>---</td><td>---</td><td>---</td><td>7:35</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
-                <tr><td>US Hwy 70 at Ingles Warehouse</td><td>6:24</td><td>7:35</td><td>7:24</td><td>12:35</td><td>2:35</td><td>---</td><td>---</td><td>---</td><td>7:35</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
-                <tr><td>US Hwy 70 at Amazing Savings</td><td>6:25</td><td>7:36</td><td>7:25</td><td>12:36</td><td>2:36</td><td>---</td><td>---</td><td>---</td><td>7:36</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
-                <tr><td>US Hwy 70 at Blue Ridge Rd</td><td>6:26</td><td>7:37</td><td>7:26</td><td>12:37</td><td>2:37</td><td>---</td><td>---</td><td>---</td><td>7:37</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
-                <tr><td>W State St at Old US 70</td><td>6:27</td><td>7:38</td><td>7:27</td><td>12:38</td><td>2:38</td><td>---</td><td>---</td><td>---</td><td>7:38</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
-                <tr><td>W State St at Cragmont Rd</td><td>6:27</td><td>7:38</td><td>7:27</td><td>12:38</td><td>2:38</td><td>---</td><td>---</td><td>---</td><td>7:38</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
-                <tr><td>W State St at S Dougherty St</td><td>6:28</td><td>7:39</td><td>7:28</td><td>12:39</td><td>2:39</td><td>---</td><td>---</td><td>---</td><td>7:39</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
-                <tr><td>NC Hwy 9 at Sutton Ave</td><td>6:29</td><td>7:40</td><td>7:29</td><td>12:40</td><td>2:40</td><td>---</td><td>---</td><td>---</td><td>7:40</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
+                <tr>
+                  <tr><td colspan=9>Mon-Fri</td></tr>
+                  <tr><td>6:01</td><td>6:09</td><td>6:14</td><td>6:17</td><td>---</td><td>6:20</td><td>6:24</td><td>6:27</td><td>6:29</td></tr>
+                  <tr><td>7:01</td><td>7:09</td><td>7:14</td><td>7:17</td><td>7:26</td><td>7:31</td><td>7:35</td><td>7:38</td><td>7:40</td></tr>
+                  <tr><td colspan=9>Sat Only</td></tr>
+                  <tr><td>7:01</td><td>7:09</td><td>7:14</td><td>7:17</td><td>---</td><td>7:20</td><td>7:24</td><td>7:27</td><td>7:29</td></tr>
+                  <tr><td colspan=9>Mon-Sat</td></tr>
+                  <tr><td>12:01</td><td>12:09</td><td>12:14</td><td>12:17</td><td>12:16</td><td>12:31</td><td>12:35</td><td>12:38</td><td>12:40</td></tr>
+                  <tr><td colspan=9>Sat Only</td></tr>
+                  <tr><td>2:01</td><td>2:09</td><td>2:14</td><td>2:17</td><td>2:26</td><td>2:31</td><td>2:35</td><td>2:38</td><td>2:40</td></tr>
+                  <tr><td colspan=9>Mon-Sat</td></tr>
+                  <tr><td>4:01</td><td>4:09</td><td>4:14</td><td>4:17</td><td>4:26</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
+                  <tr><td>5:01</td><td>5:09</td><td>5:14</td><td>5:17</td><td>5:26</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
+                  <tr><td>6:01</td><td>6:09</td><td>6:14</td><td>6:17</td><td>6:26</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
+                  <tr><td>7:01</td><td>7:09</td><td>7:14</td><td>7:17</td><td>7:26</td><td>7:31</td><td>7:35</td><td>7:38</td><td>7:40</td></tr>
+                  <tr><td>9:01</td><td>9:09</td><td>9:14</td><td>9:17</td><td>9:26</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
+                  <tr><td colspan=9>Fri-Sat</td></tr>
+                  <tr><td>10:01</td><td>10:09</td><td>10:14</td><td>10:17</td><td>10:26</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
+                  <tr><td>11:01</td><td>11:09</td><td>11:14</td><td>11:17</td><td>11:26</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
+                  <tr><td>12:01</td><td>12:09</td><td>12:14</td><td>12:17</td><td>12:26</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
+                </tr>
+              </table>
+              <h4>Westbound</h4>
+              <div class='table_spacer'>&nbsp;</div>
+              <table class='schedule-table table table-striped table-condensed'>
+                <tr>
+                  <th><div>W State St at N Dougherty St</div></th>
+                  <th><div>US Hwy 70 at Blue Ridge Rd</div></th>
+                  <th><div>US Hwy 70 at Lytle Cove Rd</div></th>
+                  <th><div>US Hwy 70 at Riverwood Rd</div></th>
+                  <th><div>Warren Wilson College Library</div></th>
+                  <th><div>US Hwy 70 at Porter Cove Rd</div></th>
+                  <th><div>Tunnel Rd at Riceville Rd</div></th>
+                  <th><div>Tunnel Rd at Buckstone Pl</div></th>
+                  <th><div>College St at Pritchard Park</div></th>
+                </tr>
+                <tr>
+                  <tr><td colspan=9>Mon-Fri</td></tr>
+                  <tr><td>6:41</td><td>6:43</td><td>6:45</td><td>6:49</td><td>---</td><td>6:54</td><td>6:57</td><td>7:03</td><td>7:13</td></tr>
+                  <tr><td>7:52</td><td>7:54</td><td>7:56</td><td>8:00</td><td>8:15</td><td>8:20</td><td>8:23</td><td>8:29</td><td>8:39</td></tr>
+                  <tr><td colspan=9>Sat Only</td></tr>
+                  <tr><td>7:41</td><td>7:43</td><td>7:45</td><td>7:49</td><td>---</td><td>7:54</td><td>7:57</td><td>8:03</td><td>8:13</td></tr>
+                  <tr><td colspan=9>Mon-Sat</td></tr>
+                  <tr><td>12:52</td><td>12:54</td><td>12:56</td><td>1:00</td><td>1:15</td><td>1:20</td><td>1:23</td><td>1:29</td><td>1:39</td></tr>
+                  <tr><td colspan=9>Sat Only</td></tr>
+                  <tr><td>2:52</td><td>2:54</td><td>2:56</td><td>3:00</td><td>3:15</td><td>3:20</td><td>3:23</td><td>3:29</td><td>3:39</td></tr>
+                  <tr><td colspan=9>Mon-Sat</td></tr>
+                  <tr><td>---</td><td>---</td><td>---</td><td>---</td><td>4:26</td><td>4:31</td><td>4:34</td><td>4:40</td><td>4:50</td></tr>
+                  <tr><td>---</td><td>---</td><td>---</td><td>---</td><td>5:26</td><td>5:31</td><td>5:34</td><td>5:40</td><td>5:50</td></tr>
+                  <tr><td>---</td><td>---</td><td>---</td><td>---</td><td>6:26</td><td>6:31</td><td>6:34</td><td>6:40</td><td>6:50</td></tr>
+                  <tr><td>7:52</td><td>7:54</td><td>7:56</td><td>8:00</td><td>8:15</td><td>8:20</td><td>8:23</td><td>8:29</td><td>8:39</td></tr>
+                  <tr><td>---</td><td>---</td><td>---</td><td>---</td><td>9:26</td><td>9:31</td><td>9:34</td><td>9:40</td><td>9:50</td></tr>
+                  <tr><td colspan=9>Fri-Sat</td></tr>
+                  <tr><td>---</td><td>---</td><td>---</td><td>---</td><td>10:26</td><td>10:31</td><td>10:34</td><td>10:40</td><td>10:50</td></tr>
+                  <tr><td>---</td><td>---</td><td>---</td><td>---</td><td>11:26</td><td>11:31</td><td>11:34</td><td>11:40</td><td>11:50</td></tr>
+                  <tr><td>---</td><td>---</td><td>---</td><td>---</td><td>12:26</td><td>12:31</td><td>12:34</td><td>12:40</td><td>12:50 </td></tr>
+                </tr>
               </table>
               <p>
                 <b>Route Traveled:</b><br>
+                From transit center downtown to College St, to US-70/Tunnel Rd. Follow US-70 to Warren Wilson College Rd, and Warren Wilson library. On some routes, continue on US-70 to Sutton Ave Park and Ride in Black Mountain. Return to transit center via US-70 to College St.
               </p>
             </div>
           </section>
-          <div class="route_title">
+          <div class="route_title route_title_night">
             <h1><img class="day_night_img" src="img/night.png"></img>Nighttime Routes (7:00pm - 1:00am)</h1>
           </div>
           <section>
