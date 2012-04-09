@@ -20,10 +20,12 @@ h4{
   text-align: center;
 }
 html { 
-  background-color: #216794;
+  /*height:100%;*/
+  background-color: #222;
 }
 
 body { 
+  height:100%;
   background: url(../img/bg.jpg) no-repeat;
   background-color: #216794;
   font: 18px/27px 'LeagueGothicRegular', Helvetica, Arial, sans-serif;
@@ -59,10 +61,21 @@ body {
 }
 
 #map_canvas {
-  min-height: 600px;
+  min-height:100px;
   height:100%;
   width:100%;
   padding:0;
+}
+
+#map_container{
+  padding:0; 
+}
+
+#map_selects { 
+  float:right;
+  position:absolute;
+  top:.3em;
+  right:.5em;
 }
 
 #title_1{
@@ -135,6 +148,8 @@ body {
   -moz-box-shadow: 10px 10px 5px #333;
   -webkit-box-shadow: 10px 10px 5px #333;
   box-shadow: 10px 10px 5px #333;
+
+  text-align:center;
 }
 
 .lnav a{
@@ -222,9 +237,6 @@ body {
 
 .route_title{
   width: 100%;
-  font: 18px/27px 'LeagueGothicRegular', Helvetica, Arial, sans-serif;
-  font-size: 1.2em;
-  font-weight: normal;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -236,11 +248,14 @@ body {
 }
 
 .route_title h1{
+  font-size:2.0em;
+  margin-top: .4em;
   margin-right: 2em;
 }
 
 .route_title img{
-  margin: 0em 1em 0em 0em;
+  float:left;
+  margin: 0em 0em 0em .5em;
 }
 
 .route_title_day{
@@ -283,6 +298,28 @@ body {
 }
 
 @media (max-width: 767px) {
+  #map_selects{
+    float:none;
+    text-align: center;
+    position:relative;
+  }
+
+  #map_selects select{
+    width:49%;
+  }
+
+  .route_title{
+    font-size:.75em;
+  }
+
+  .route_title h1{
+    margin-top: 0em;
+  }
+
+  .route_title img{
+    margin-top: .3em;
+  }
+
   .schedule-table{
     width: 100%;
   }

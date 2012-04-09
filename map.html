@@ -11,8 +11,8 @@
     <!-- this has to go between the bootstrap and the bootstrap-responsive, for correct failover -->
     <style type="text/css">
       body{
-        padding-top: 60px;
-        padding-bottom: 40px;
+        padding-top: 40px;
+        /*padding-bottom: 40px;*/
       }
     </style>
     <link rel="stylesheet" href="css/bootstrap-responsive.css" />
@@ -27,7 +27,7 @@
   </head>
 
   <body onload="initialize()">
-    <div class="navbar navbar-fixed-top">
+    <div class="navbar navbar-fixed-top" id="header">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -45,33 +45,31 @@
               <li class="active"><a href="#">Map</a></li>
             </ul>
           </div>
+        <div id="map_selects">
+          <select name="select-routes" id="routes" data-native-menu="true" data-icon="gear" onchange="addRoutes(this.value);">
+            <option value="">all routes</option>
+          </select>
+          <select name="select-times" id="times" data-native-menu="true" data-icon="gear" onChange="setRoutes(this.value)">
+            <option value="week-day">daytime</option>
+            <option value="week-ngt">nighttime</option>
+          </select>
+        </div>
         </div>
       </div>
     </div>
--
-          <ul>
-            <li>
-              <select name="select-routes" id="routes" data-native-menu="true" data-icon="gear" onchange="addRoutes(this.value);">
-                <option value="">all routes</option>
-              </select>
-            </li>
-            <li>
-              <select name="select-times" id="times" data-native-menu="true" data-icon="gear" onChange="setRoutes(this.value)">
-                <option value="week-day">daytime</option>
-                <option value="week-ngt">nighttime</option>
-              </select>
-            </li>
-          </ul>
+
       
-    <div class="container-fluid">
+    <div class="container-fluid" id="map_container">
       <div class="row-fluid">
         <div id="content">
           <div id="map_canvas"></div>
         </div>
-      </div><!-- /row -->
-    </div><!-- /container-fluid -->
+      </div>
+    </div>
       
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>-->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script type="text/javascript" src="js/script.js"></script>
   </body>
