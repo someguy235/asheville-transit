@@ -68,6 +68,7 @@ function newMap(lat,lng){
 };
 
 function addRoutes(routes){
+  //alert('add routes');
   // remove all route placemarks from the map
   $.each(kml_dict, function(index, route){
     route.setMap(null);
@@ -156,7 +157,7 @@ function setRoutes(times){
 
       //set the selected route to whatever was selected last time 'daytime' was shown
       document.getElementById("routes").value = selDay
-      $('#routes').selectmenu("refresh", true);
+      //$('#routes').selectmenu("refresh", true);
 
       addRoutes(selDay);
       
@@ -174,7 +175,7 @@ function setRoutes(times){
       
       //set the selected route to whatever was selected last time 'nighttime' was shown
       document.getElementById("routes").value = selNgt
-      $('#routes').selectmenu("refresh", true);
+      //$('#routes').selectmenu("refresh", true);
       
       addRoutes(selNgt);
       
