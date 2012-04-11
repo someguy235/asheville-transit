@@ -26,7 +26,7 @@ html {
 
 body { 
   height:100%;
-  background: url(../img/bg.jpg) no-repeat;
+  /*background: url(../img/bg.jpg) no-repeat;*/
   background-color: #216794;
   font: 18px/27px 'LeagueGothicRegular', Helvetica, Arial, sans-serif;
 }
@@ -236,6 +236,7 @@ body {
 }
 
 .route_title{
+  display: table;
   width: 100%;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -243,19 +244,18 @@ body {
   text-align: center;
   padding: .5em 0em .5em 0;
   margin-bottom: .5em;
-  /*background-color: #ccc;*/
   letter-spacing: 1px;
 }
 
 .route_title h1{
   font-size:2.0em;
-  margin-top: .4em;
   margin-right: 2em;
 }
 
-.route_title img{
-  float:left;
-  margin: 0em 0em 0em .5em;
+.route_title span{
+  display:table-cell;
+  vertical-align:middle;
+  margin-left: .5em;
 }
 
 .route_title_day{
@@ -297,27 +297,39 @@ body {
   font-size:1em;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 969px){
+  #map_canvas{
+    margin-top: -18px;
+  }
+
   #map_selects{
-    float:none;
+    top: .5em;
+    right: 8em;
+  }
+}
+
+@media (max-width: 767px) {
+  #map_canvas{
+    margin-top: -18px;
+  }
+
+  #map_selects{
+    left:0;
+    float: none;
     text-align: center;
-    position:relative;
+    position: relative;
   }
 
   #map_selects select{
-    width:49%;
+    width: 49%;
   }
 
   .route_title{
-    font-size:.75em;
-  }
-
-  .route_title h1{
-    margin-top: 0em;
+    font-size: .75em;
   }
 
   .route_title img{
-    margin-top: .3em;
+    width: 40px; 
   }
 
   .schedule-table{
