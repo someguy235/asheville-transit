@@ -419,7 +419,7 @@
   .navbar .nav > li > a,
   .navbar .dropdown-menu a {
     padding: 6px 15px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: #999999;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;

@@ -2486,11 +2486,11 @@ input[type="submit"].btn.btn-mini {
 .nav .nav-header {
   display: block;
   padding: 3px 15px;
-  font-size: 11px;
-  font-weight: bold;
+  font-size: 16px;
+  /*font-weight: bold;*/
   line-height: 18px;
   color: #999999;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  /*text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);*/
   text-transform: uppercase;
 }
 .nav li + .nav-header {
@@ -2505,7 +2505,7 @@ input[type="submit"].btn.btn-mini {
 .nav-list .nav-header {
   margin-left: -15px;
   margin-right: -15px;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  /*text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);*/
 }
 .nav-list > li > a {
   padding: 3px 15px;
@@ -3004,7 +3004,7 @@ input[type="submit"].btn.btn-mini {
   line-height: 19px;
   color: #999999;
   text-decoration: none;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  /*text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);*/
 }
 .navbar .nav > li > a:hover {
   background-color: transparent;
