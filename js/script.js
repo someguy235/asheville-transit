@@ -32,6 +32,10 @@ tc_day_depart_map = new google.maps.KmlLayer('http://www.ethanshepherd.com/trans
 tc_ngt_arrive_map = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/tc.ngt.arrive.kml');
 tc_ngt_depart_map = new google.maps.KmlLayer('http://www.ethanshepherd.com/transit/kml/tc.ngt.depart.kml');
 
+$(window).resize(function(){
+  resizeMap();
+});
+
 function initialize(){
   resizeMap();
   if(navigator.geolocation){
@@ -68,7 +72,6 @@ function newMap(lat,lng){
 };
 
 function addRoutes(routes){
-  //alert('add routes');
   // remove all route placemarks from the map
   $.each(kml_dict, function(index, route){
     route.setMap(null);
@@ -128,7 +131,6 @@ function addRoutes(routes){
   //TODO: this is still a little flaky
   //when switching from day<->night?
   //only on first switch?
-  //alert(center +","+ zoom)
   map.setCenter(center);
   map.setZoom(zoom);
 };
@@ -157,7 +159,6 @@ function setRoutes(times){
 
       //set the selected route to whatever was selected last time 'daytime' was shown
       document.getElementById("routes").value = selDay
-      //$('#routes').selectmenu("refresh", true);
 
       addRoutes(selDay);
       
@@ -175,7 +176,6 @@ function setRoutes(times){
       
       //set the selected route to whatever was selected last time 'nighttime' was shown
       document.getElementById("routes").value = selNgt
-      //$('#routes').selectmenu("refresh", true);
       
       addRoutes(selNgt);
       
@@ -184,7 +184,7 @@ function setRoutes(times){
 };
 
 function resizeMap(){
-  $('#map_canvas').height($(document).height()-($('#header').height() + 0 ));
+  $('#map_canvas').height($(window).height()-($('#header').height() + 0 ));
 };
 
 function detectBrowser(){
