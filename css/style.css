@@ -279,6 +279,10 @@ body {
   /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2bfef', endColorstr='#dddddd',GradientType=0 );*/ /* IE6-9 */
 }
 
+.schedule{
+  overflow:hidden;
+}
+
 .schedule-table{
   width: 50%;
   max-width: 500px;
