@@ -61,12 +61,12 @@
           </div>
         <div id="map_selects">
 
-          <select name="select-routes" id="routes" data-native-menu="true" data-icon="gear" onchange="addRoutes(this.value);">
+          <select name="select-routes" id="routes" onchange="addRoutes(this.value);">
             <option value="">all routes</option>
           </select>
-          <select name="select-times" id="times" data-native-menu="true" data-icon="gear" onChange="setRoutes(this.value)">
-            <option value="week-day">daytime</option>
-            <option value="week-ngt">nighttime</option>
+          <select name="select-times" id="times" onChange="setRoutes(this.value)">
+            <option value="week-day">day</option>
+            <option value="week-ngt">night</option>
           </select>
         </div>
         </div>
@@ -82,12 +82,9 @@
       </div>
     </div>
       
-    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>              
     <script src="js/bootstrap.js"></script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    <script type="text/javascript">
-      $('#times').slider();
-    </script>
   </body>
 </html>
