@@ -60,13 +60,12 @@
             </ul>
           </div>
         <div id="map_selects">
-
+          <span name="select-times" id="times" class="btn-group" data-toggle="buttons-radio">
+            <button value="week-day"class="btn active" onclick="setRoutes('week-day');">Day</button>
+            <button value="week-ngt"class="btn" onclick="setRoutes('week-ngt');">Night</button>
+          </span>
           <select name="select-routes" id="routes" onchange="addRoutes(this.value);">
             <option value="">all routes</option>
-          </select>
-          <select name="select-times" id="times" onChange="setRoutes(this.value)">
-            <option value="week-day">day</option>
-            <option value="week-ngt">night</option>
           </select>
         </div>
         </div>

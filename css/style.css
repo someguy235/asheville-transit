@@ -77,6 +77,11 @@ body {
   right:.5em;
 }
 
+#times{
+  float:left;
+  margin: -.05em 1em 0 0;
+}
+
 #title_1{
   font-size: 3em;
   font-weight: bold;
@@ -330,14 +335,19 @@ body {
   }
 
   #map_selects{
+    width: 100%;
     left:0;
     float: none;
     text-align: center;
     position: relative;
   }
 
-  #map_selects select{
-    width: 49%;
+  #map_selects select, #map_selects span{
+    width: 47%;
+  }
+
+  #map_selects span .btn{
+    width: 50%;
   }
 
   .info_box, .info_box_title{
