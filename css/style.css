@@ -350,7 +350,7 @@ body {
     width: 50%;
   }
 
-  .info_box, .info_box_title{
+  .info_box, .info_box_title, .info_box_row{
     display:none;
   }
 
