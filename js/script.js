@@ -6,7 +6,7 @@ selNgt = "week-ngt-all-routes";
 prvSel = "";
 
 var url = (document.URL + "");
-var kmlRoot = (url.substring(0,(url.length-8))) + "kml/";
+var kmlRoot = (url.substring(0,url.lastIndexOf("/"))) + "/kml/";
 
 var kml_dict = {};
 kml_dict["week-day-route-1"] = new google.maps.KmlLayer(kmlRoot + 'r1.week.day.kml');
